@@ -29,7 +29,7 @@ export const headerData = {
     {
       text: 'Tools',
       href: getPermalink('/tools'),
-    }
+    },
   ],
   socialLinks: [
     {
@@ -50,9 +50,9 @@ export const headerData = {
       className: 'fab fa-instagram fa-lg',
       label: 'Instagram page',
     },
-  ]
+  ],
 };
-  
+
 export const footerData = {
   links: [],
   socialLinks: [],

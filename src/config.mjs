@@ -8,8 +8,7 @@ const CONFIG = {
   trailingSlash: false,
 
   title: 'Aadit Kamat',
-  description:
-    'Hello world, this is Aadit. Welcome to my 🏠 on the internet.',
+  description: 'Hello world, this is Aadit. Welcome to my 🏠 on the internet.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"

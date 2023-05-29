@@ -20,7 +20,13 @@ export interface Props {
   theme?: string;
 }
 
-const { socialLinks = [], secondaryLinks = [], links = [], footNote = 'Copyright © 2023 Aadit Kamat. Built with Astrowind.', theme = 'light' } = Astro.props;
+const {
+  socialLinks = [],
+  secondaryLinks = [],
+  links = [],
+  footNote = 'Copyright © 2023 Aadit Kamat. Built with Astrowind.',
+  theme = 'light',
+} = Astro.props;
 ---
 
 <footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-slate-800']}>

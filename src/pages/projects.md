@@ -12,7 +12,7 @@ title: Projects
 <ul class="ml-10"style="list-style: disc;">
     <li> A web application that generates trip itineraries of upto 5 days. </li>
     <li> Tech stack: Node.js, Express, jQuery </li>
-</ul> 
+</ul>
 
 <br>
 
@@ -29,7 +29,7 @@ title: Projects
 <ul class="ml-10"style="list-style: disc;">
     <li> The Bollywood version of the awesome [Hollywood Hangman](https://hollywoodhangman.com/) </li>
     <li> Tech Stack: React, Python </li> 
-</ul> 
+</ul>
 
 <br>
 
