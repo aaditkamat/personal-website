@@ -33,7 +33,7 @@ export const headerData = {
   ],
   socialLinks: [
     {
-      href: 'https://github.com/aaditkamat/aaditkamat.com',
+      href: 'https://github.com/aaditkamat',
       position: 'right',
       className: 'fab fa-github fa-lg',
       label: 'GitHub repository',
