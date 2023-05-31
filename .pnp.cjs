@@ -52,7 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier-plugin-astro", "npm:0.9.1"],\
             ["reading-time", "npm:1.5.0"],\
             ["sharp", "npm:0.32.1"],\
-            ["svgo", "npm:2.8.0"],\
+            ["svgo", "npm:3.0.2"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
           ],\
@@ -7592,7 +7592,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier-plugin-astro", "npm:0.9.1"],\
             ["reading-time", "npm:1.5.0"],\
             ["sharp", "npm:0.32.1"],\
-            ["svgo", "npm:2.8.0"],\
+            ["svgo", "npm:3.0.2"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
           ],\
