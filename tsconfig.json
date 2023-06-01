@@ -3,9 +3,16 @@
   "compilerOptions": {
     "strictNullChecks": true,
     "allowJs": true,
+    "jsx": "react-jsx",
+    "types": [
+      "vite-plugin-pwa/info"
+    ],
     "baseUrl": ".",
     "paths": {
-      "~/*": ["src/*"]
-    }
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "jsxImportSource": "react"
   }
 }

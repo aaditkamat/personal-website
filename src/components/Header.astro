@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon';
 import Logo from '~/components/Logo.astro';
+import SearchBar from '~/components/SearchBar';
 import ToggleTheme from '~/components/ToggleTheme.astro';
 import ToggleMenu from '~/components/ToggleMenu.astro';
 
@@ -31,6 +32,7 @@ export interface Props {
   socialLinks?: Array<SocialLink>;
   actions?: Array<ActionLink>;
   isSticky?: boolean;
+  showSearchBar?: boolean;
   showToggleTheme?: boolean;
   showRssFeed?: boolean;
   position?: string;
@@ -41,6 +43,7 @@ const {
   socialLinks = [],
   actions = [],
   isSticky = false,
+  showSearchBar = true,
   showToggleTheme = false,
   showRssFeed = false,
   position = 'center',
@@ -117,6 +120,7 @@ const {
     </nav>
     <div class:list={[{ 'ml-auto': position === 'left' }, 'md:self-center flex items-center md:mb-0']}>
       <div class="hidden items-center md:flex">
+        {showSearchBar && <SearchBar />}
         {showToggleTheme && <ToggleTheme iconClass="w-5 h-5" />}
 
         {
