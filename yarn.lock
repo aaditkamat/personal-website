@@ -102,7 +102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/client-search@npm:4.17.1, @algolia/client-search@npm:^4.14.2":
+"@algolia/client-search@npm:4.17.1, @algolia/client-search@npm:^4.17.1":
   version: 4.17.1
   resolution: "@algolia/client-search@npm:4.17.1"
   dependencies:
@@ -189,13 +189,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:0.27.0 - 0.32.0 || ^0.32.0":
-  version: 0.32.0
-  resolution: "@astrojs/compiler@npm:0.32.0"
-  checksum: 586363da38a0e1522ad4ab3808a32e82d6e09448fe4b42e83bdb198d1be40100dcce17021eccfd295aedaef8894a1a001d7fb9f9f1b13f98537498f215fcf0a8
-  languageName: node
-  linkType: hard
-
 "@astrojs/compiler@npm:^1.0.0, @astrojs/compiler@npm:^1.0.1, @astrojs/compiler@npm:^1.4.0, @astrojs/compiler@npm:^1.4.1":
   version: 1.4.2
   resolution: "@astrojs/compiler@npm:1.4.2"
@@ -253,7 +246,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:^2.2.1":
+"@astrojs/markdown-remark@npm:^2.1.3, @astrojs/markdown-remark@npm:^2.2.1":
   version: 2.2.1
   resolution: "@astrojs/markdown-remark@npm:2.2.1"
   dependencies:
@@ -276,29 +269,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/mdx@npm:^0.19.4":
-  version: 0.19.6
-  resolution: "@astrojs/mdx@npm:0.19.6"
+"@astrojs/mdx@npm:^0.18.2":
+  version: 0.18.4
+  resolution: "@astrojs/mdx@npm:0.18.4"
   dependencies:
-    "@astrojs/markdown-remark": ^2.2.1
-    "@astrojs/prism": ^2.1.2
+    "@astrojs/markdown-remark": ^2.1.3
+    "@astrojs/prism": ^2.1.1
     "@mdx-js/mdx": ^2.3.0
+    "@mdx-js/rollup": ^2.3.0
     acorn: ^8.8.0
     es-module-lexer: ^1.1.1
     estree-util-visit: ^1.2.0
     github-slugger: ^1.4.0
     gray-matter: ^4.0.3
-    hast-util-to-html: ^8.0.4
     kleur: ^4.1.4
     rehype-raw: ^6.1.1
     remark-frontmatter: ^4.0.1
     remark-gfm: ^3.0.1
     remark-smartypants: ^2.0.0
-    shiki: ^0.14.1
+    shiki: ^0.11.1
     source-map: ^0.7.4
     unist-util-visit: ^4.1.0
     vfile: ^5.3.2
-  checksum: bbf8cfd767013c4130037f4cabe10d5ba91d4860778e5ed5a4a8d52955edf95a2508bd99020f64f458a428d562111f0a268882a616b6b37f3ec49614f0c12e5f
+  checksum: 4bd88ce578553aceec7937432d64500d610f06d29bffc92499ad6eaefdd429cd9162025016e01b007bd31c21d48ed76af21dd788fc2489e0afc24190c347d7ff
   languageName: node
   linkType: hard
 
@@ -312,7 +305,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/preact@npm:^2.0.3":
+"@astrojs/preact@npm:^2.2.1":
   version: 2.2.1
   resolution: "@astrojs/preact@npm:2.2.1"
   dependencies:
@@ -327,7 +320,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/prism@npm:^2.1.2":
+"@astrojs/prism@npm:^2.1.1, @astrojs/prism@npm:^2.1.2":
   version: 2.1.2
   resolution: "@astrojs/prism@npm:2.1.2"
   dependencies:
@@ -701,14 +694,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docsearch/css@npm:3.4.0, @docsearch/css@npm:^3.2.2":
+"@docsearch/css@npm:3.4.0, @docsearch/css@npm:^3.4.0":
   version: 3.4.0
   resolution: "@docsearch/css@npm:3.4.0"
   checksum: 25984a01ef9d68ab04ce9639e96d3bb3065f360334290be60986fa92414bfa4ac5474503bd6d4c543d5c46b67a4cba1cb9a0a950c13689a773c865160c91ba3f
   languageName: node
   linkType: hard
 
-"@docsearch/react@npm:^3.2.0":
+"@docsearch/react@npm:^3.4.0":
   version: 3.4.0
   resolution: "@docsearch/react@npm:3.4.0"
   dependencies:
@@ -1057,7 +1050,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/mdx@npm:^2.3.0":
+"@mdx-js/mdx@npm:^2.0.0, @mdx-js/mdx@npm:^2.3.0":
   version: 2.3.0
   resolution: "@mdx-js/mdx@npm:2.3.0"
   dependencies:
@@ -1079,6 +1072,20 @@ __metadata:
     unist-util-visit: ^4.0.0
     vfile: ^5.0.0
   checksum: d918766a326502ec0b54adee61dc2930daf5b748acb9107f9bfd1ab0dbc4d7b1a4d0dbb9e21da9dd2a9fc2f9950b2973a43c6ba62d3a72eb67a30f6c953e5be8
+  languageName: node
+  linkType: hard
+
+"@mdx-js/rollup@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@mdx-js/rollup@npm:2.3.0"
+  dependencies:
+    "@mdx-js/mdx": ^2.0.0
+    "@rollup/pluginutils": ^5.0.0
+    source-map: ^0.7.0
+    vfile: ^5.0.0
+  peerDependencies:
+    rollup: ">=2"
+  checksum: a15f8d83572b94c16d77d9b3ee348a5c0ced52d1b4249e449b8199b0ddf36b15ea7e61389cdde2d2f65f800d277bc5d6b8f8fdbda4cde72571965df28320c6d6
   languageName: node
   linkType: hard
 
@@ -1168,6 +1175,22 @@ __metadata:
     deepmerge: ^4.2.2
     escalade: ^3.1.1
   checksum: bf1483f21928eabbf632b3d34bb53b0d86d0c44d22c2bf798151351c0179db4fdefa6801176bff6a6318e01caa3bc486d600d3b1afd963a57cf227168639bc7f
+  languageName: node
+  linkType: hard
+
+"@rollup/pluginutils@npm:^5.0.0":
+  version: 5.0.2
+  resolution: "@rollup/pluginutils@npm:5.0.2"
+  dependencies:
+    "@types/estree": ^1.0.0
+    estree-walker: ^2.0.2
+    picomatch: ^2.3.1
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0||^3.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: edea15e543bebc7dcac3b0ac8bc7b8e8e6dbd46e2864dbe5dd28072de1fbd5b0e10d545a610c0edaa178e8a7ac432e2a2a52e547ece1308471412caba47db8ce
   languageName: node
   linkType: hard
 
@@ -1889,21 +1912,6 @@ __metadata:
     espree: ^9.0.0
     semver: ^7.3.8
   checksum: 04f07255801d812c5b2605c937e27eb71bb78b105403dff65c31d499d9c640f80f5032f65f9459d24b47db9461e31ba695d275ba6b3f118f6c5b7a3821a29f70
-  languageName: node
-  linkType: hard
-
-"astro-eslint-parser@npm:^0.9.2":
-  version: 0.9.5
-  resolution: "astro-eslint-parser@npm:0.9.5"
-  dependencies:
-    "@astrojs/compiler": 0.27.0 - 0.32.0 || ^0.32.0
-    "@typescript-eslint/types": ^5.25.0
-    astrojs-compiler-sync: ^0.3.0
-    debug: ^4.3.4
-    eslint-scope: ^7.1.1
-    eslint-visitor-keys: ^3.0.0
-    espree: ^9.0.0
-  checksum: 3223c35f17d0d5fc83fa6b529485b0fc6ed3259bd0ecdf57f1aa3217be8878faa178a751c6e216a522c22b8e8b852b0033aebd3053ce4aab220e6dfdbc8274c9
   languageName: node
   linkType: hard
 
@@ -3343,7 +3351,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-scope@npm:^7.1.1, eslint-scope@npm:^7.2.0":
+"eslint-scope@npm:^7.2.0":
   version: 7.2.0
   resolution: "eslint-scope@npm:7.2.0"
   dependencies:
@@ -3514,6 +3522,13 @@ __metadata:
   version: 3.0.0
   resolution: "estree-walker@npm:3.0.0"
   checksum: 3b6b5fd5e37df9e2f472fe6b39eecee9f6ae395676c1535a9bca70ed6bf4a7233747c2f56b8cfa47bdb47411589b87e4ef108875d18415d7e3d2b2225b752e75
+  languageName: node
+  linkType: hard
+
+"estree-walker@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "estree-walker@npm:2.0.2"
+  checksum: 6151e6f9828abe2259e57f5fd3761335bb0d2ebd76dc1a01048ccee22fabcfef3c0859300f6d83ff0d1927849368775ec5a6d265dde2f6de5a1be1721cd94efc
   languageName: node
   linkType: hard
 
@@ -4238,7 +4253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hast-util-to-html@npm:^8.0.0, hast-util-to-html@npm:^8.0.4":
+"hast-util-to-html@npm:^8.0.0":
   version: 8.0.4
   resolution: "hast-util-to-html@npm:8.0.4"
   dependencies:
@@ -4960,7 +4975,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-parser@npm:^3.2.0":
+"jsonc-parser@npm:^3.0.0, jsonc-parser@npm:^3.2.0":
   version: 3.2.0
   resolution: "jsonc-parser@npm:3.2.0"
   checksum: 946dd9a5f326b745aa326d48a7257e3f4a4b62c5e98ec8e49fa2bdd8d96cef7e6febf1399f5c7016114fd1f68a1c62c6138826d5d90bc650448e3cf0951c53c7
@@ -6658,32 +6673,32 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "personal-website@workspace:."
   dependencies:
-    "@algolia/client-search": ^4.14.2
+    "@algolia/client-search": ^4.17.1
     "@astrojs/image": ^0.16.9
-    "@astrojs/mdx": ^0.19.4
+    "@astrojs/mdx": ^0.18.2
     "@astrojs/partytown": ^1.2.2
-    "@astrojs/preact": ^2.0.3
+    "@astrojs/preact": ^2.2.1
     "@astrojs/rss": ^2.4.3
     "@astrojs/sitemap": ^1.3.1
     "@astrojs/tailwind": ^3.1.3
     "@astrolib/analytics": ^0.3.0
     "@astrolib/seo": ^0.3.0
-    "@docsearch/css": ^3.2.2
-    "@docsearch/react": ^3.2.0
+    "@docsearch/css": ^3.4.0
+    "@docsearch/react": ^3.4.0
     "@fontsource/inter": ^4.5.15
     "@tailwindcss/typography": ^0.5.9
     "@typescript-eslint/eslint-plugin": ^5.59.7
     "@typescript-eslint/parser": ^5.59.7
     astro: ^2.5.5
     astro-compress: ^1.1.44
-    astro-eslint-parser: ^0.9.2
+    astro-eslint-parser: ^0.14.0
     astro-icon: ^0.8.0
     eslint: ^8.41.0
     eslint-plugin-astro: ^0.27.0
     eslint-plugin-jsx-a11y: ^6.7.1
     limax: 4.1.0
     mdast-util-to-string: ^3.2.0
-    preact: ^10.10.1
+    preact: ^10.15.1
     prettier: ^2.8.8
     prettier-plugin-astro: ^0.10.0
     reading-time: ^1.5.0
@@ -6856,7 +6871,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"preact@npm:^10.10.1":
+"preact@npm:^10.15.1":
   version: 10.15.1
   resolution: "preact@npm:10.15.1"
   checksum: dabad11843b19b40b11846a25ff0b1fc4bc58268909e01a7faddb341a40983d24fbe7d44ad6e2c5d35e43091963af616800552fec9af44dd0a2f0f698d1bba1f
@@ -7507,6 +7522,17 @@ __metadata:
   version: 3.0.0
   resolution: "shebang-regex@npm:3.0.0"
   checksum: 1a2bcae50de99034fcd92ad4212d8e01eedf52c7ec7830eedcf886622804fe36884278f2be8be0ea5fde3fd1c23911643a4e0f726c8685b61871c8908af01222
+  languageName: node
+  linkType: hard
+
+"shiki@npm:^0.11.1":
+  version: 0.11.1
+  resolution: "shiki@npm:0.11.1"
+  dependencies:
+    jsonc-parser: ^3.0.0
+    vscode-oniguruma: ^1.6.1
+    vscode-textmate: ^6.0.0
+  checksum: 2a4ebc3b466816263fc244ae4f67a4ff96aa74d863b9c5e7e4affc50f37fd6d1a781405de0dbf763b777bc33e49a0d441de7ff3fededb8b01e3b8dbb37e2927d
   languageName: node
   linkType: hard
 
@@ -8601,10 +8627,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vscode-oniguruma@npm:^1.7.0":
+"vscode-oniguruma@npm:^1.6.1, vscode-oniguruma@npm:^1.7.0":
   version: 1.7.0
   resolution: "vscode-oniguruma@npm:1.7.0"
   checksum: 53519d91d90593e6fb080260892e87d447e9b200c4964d766772b5053f5699066539d92100f77f1302c91e8fc5d9c772fbe40fe4c90f3d411a96d5a9b1e63f42
+  languageName: node
+  linkType: hard
+
+"vscode-textmate@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "vscode-textmate@npm:6.0.0"
+  checksum: ff6f17a406c2906586afc14ef01cb122e33acd35312e815abb5c924347a777c6783ce3fe7db8b83f1760ebf843c669843b9390f905b69c433b3395af28e4b483
   languageName: node
   linkType: hard
 
