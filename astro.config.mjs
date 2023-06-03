@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
 
 import tailwind from '@astrojs/tailwind';
+import preact from '@astrojs/preact';
 import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
 import mdx from '@astrojs/mdx';
@@ -35,6 +36,7 @@ export default defineConfig({
         applyBaseStyles: false,
       },
     }),
+    preact({ compat: true }),
     sitemap(),
     image({
       serviceEntryPoint: '@astrojs/image/sharp',
