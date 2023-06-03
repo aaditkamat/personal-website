@@ -8,8 +8,11 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
+      
       - run: yarn install
+      
       - run: yarn build
+      
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.0
         with:
@@ -24,3 +27,29 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         timeout-minutes: 1
+      
+      # For PRs
+      - name: Netlify-PR => Algolia crawler creation and recrawl on preview (Pull Request)
+        if: github.ref != 'refs/heads/main'
+        uses: algolia/algoliasearch-crawler-github-actions@v1
+        id: crawler_pr
+        with:
+          crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
+          crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
+          algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
+          algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
+          site-url: 'https://deploy-preview-${{ github.event.pull_request.number }}--algolia-ga-actions-netlify.netlify.app/'
+          override-config: true
+
+      # For main branch
+      - name: Netlify-MAIN => Algolia crawler creation and recrawl (Push on Main branch)
+        if: github.ref == 'refs/heads/main'
+        uses: algolia/algoliasearch-crawler-github-actions@v1
+        id: crawler_push
+        with:
+          crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
+          crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
+          algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
+          algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
+          site-url: 'https://aaditkamat.com/'
+          override-config: true
