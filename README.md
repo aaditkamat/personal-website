@@ -3,7 +3,7 @@
 [![Astro](https://img.shields.io/badge/built%20with-astro-000000.svg?style=flat-square&color=000000&labelColor=000000&logo=astro)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/built%20with-tailwind%20css-38b2ac.svg?style=flat-square&color=38b2ac&labelColor=38b2ac&logo=tailwind-css)](https://tailwindcss.com)
 [![License](https://img.shields.io/github/license/onwidget/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/astrowind/blob/main/LICENSE.md)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3c36968e-e94f-44df-8738-07d71850ba64/deploy-status)](https://app.netlify.com/sites/fastidious-donut-484954/deploys)
+[![Netlify Status](https://github.com/nwtgck/actions-netlify/workflows/build-test/badge.svg)](https://app.netlify.com/sites/fastidious-donut-484954/deploys)
 
 
 This website is built using [Astro Wind](https://github.com/onwidget/astrowind), an open-source template using **[Astro 2.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/)**.
