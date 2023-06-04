@@ -1009,7 +1009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/source-map@npm:^0.3.2":
+"@jridgewell/source-map@npm:^0.3.2, @jridgewell/source-map@npm:^0.3.3":
   version: 0.3.3
   resolution: "@jridgewell/source-map@npm:0.3.3"
   dependencies:
@@ -1836,18 +1836,18 @@ __metadata:
   linkType: hard
 
 "astro-compress@npm:^1.1.44":
-  version: 1.1.46
-  resolution: "astro-compress@npm:1.1.46"
+  version: 1.1.47
+  resolution: "astro-compress@npm:1.1.47"
   dependencies:
     "@types/csso": 5.0.0
     "@types/html-minifier-terser": 7.0.0
     csso: 5.0.5
-    files-pipe: 0.0.6
+    files-pipe: 0.0.7
     html-minifier-terser: 7.2.0
     sharp: 0.32.1
     svgo: 3.0.2
-    terser: 5.17.6
-  checksum: b82745fb1a39bc6c17110065ed71430d87d8feed0853fce331bd5c7e18a1afec07c26502bf34f7a1363a9aae558a6d017d44e1dc1e246527c9ee54ef45a4d022
+    terser: 5.17.7
+  checksum: 61720e0cf1e5bf6a9b34839ce5c4d80f029eef19704a45b1189338a8839f7c29daee7d43ad60ad7dd586ec78bbab0acbb821866458699c940e335274071ac989
   languageName: node
   linkType: hard
 
@@ -3643,13 +3643,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"files-pipe@npm:0.0.6":
-  version: 0.0.6
-  resolution: "files-pipe@npm:0.0.6"
+"files-pipe@npm:0.0.7":
+  version: 0.0.7
+  resolution: "files-pipe@npm:0.0.7"
   dependencies:
     deepmerge-ts: 5.1.0
     fast-glob: 3.2.12
-  checksum: e42acf98fde51e042133de07baad6ef30c570ebff1e5c25ae19883624f43ccf30863d7b107ffdd4c44a71f07f7c0cc533248e540011524b75619b617442bf154
+  checksum: be12f3f39402b567ce2e016f00e51a6c786adf0d28011cca1300a78d30825ee4bcef4409bf4413a35ae360f5364fead5b4c29e3a7bd42dc1313791dbe319a811
   languageName: node
   linkType: hard
 
@@ -7960,7 +7960,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:5.17.6, terser@npm:^5.15.1":
+"terser@npm:5.17.7":
+  version: 5.17.7
+  resolution: "terser@npm:5.17.7"
+  dependencies:
+    "@jridgewell/source-map": ^0.3.3
+    acorn: ^8.8.2
+    commander: ^2.20.0
+    source-map-support: ~0.5.20
+  bin:
+    terser: bin/terser
+  checksum: b7b17b281febadf3bea9b9412d699fa24edf9b3e20fc7ad4e1a9cec276bdb65ddaa291c9663d5ab66b58834e433377477f73328574ccab2da1637a15b095811d
+  languageName: node
+  linkType: hard
+
+"terser@npm:^5.15.1":
   version: 5.17.6
   resolution: "terser@npm:5.17.6"
   dependencies:
