@@ -45,7 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:5.59.8"],\
             ["@typescript-eslint/parser", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:5.59.8"],\
             ["astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.5.7"],\
-            ["astro-compress", "npm:1.1.46"],\
+            ["astro-compress", "npm:1.1.47"],\
             ["astro-eslint-parser", "npm:0.14.0"],\
             ["astro-icon", "npm:0.8.0"],\
             ["eslint", "npm:8.42.0"],\
@@ -2515,18 +2515,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["astro-compress", [\
-        ["npm:1.1.46", {\
-          "packageLocation": "./.yarn/cache/astro-compress-npm-1.1.46-abc8c2e5fe-b82745fb1a.zip/node_modules/astro-compress/",\
+        ["npm:1.1.47", {\
+          "packageLocation": "./.yarn/cache/astro-compress-npm-1.1.47-d45e8f2189-61720e0cf1.zip/node_modules/astro-compress/",\
           "packageDependencies": [\
-            ["astro-compress", "npm:1.1.46"],\
+            ["astro-compress", "npm:1.1.47"],\
             ["@types/csso", "npm:5.0.0"],\
             ["@types/html-minifier-terser", "npm:7.0.0"],\
             ["csso", "npm:5.0.5"],\
-            ["files-pipe", "npm:0.0.6"],\
+            ["files-pipe", "npm:0.0.7"],\
             ["html-minifier-terser", "npm:7.2.0"],\
             ["sharp", "npm:0.32.1"],\
             ["svgo", "npm:3.0.2"],\
-            ["terser", "npm:5.17.6"]\
+            ["terser", "npm:5.17.7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4444,10 +4444,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["files-pipe", [\
-        ["npm:0.0.6", {\
-          "packageLocation": "./.yarn/cache/files-pipe-npm-0.0.6-8eec9afef2-e42acf98fd.zip/node_modules/files-pipe/",\
+        ["npm:0.0.7", {\
+          "packageLocation": "./.yarn/cache/files-pipe-npm-0.0.7-cc9b1d6c50-be12f3f394.zip/node_modules/files-pipe/",\
           "packageDependencies": [\
-            ["files-pipe", "npm:0.0.6"],\
+            ["files-pipe", "npm:0.0.7"],\
             ["deepmerge-ts", "npm:5.1.0"],\
             ["fast-glob", "npm:3.2.12"]\
           ],\
@@ -7719,7 +7719,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:5.59.8"],\
             ["@typescript-eslint/parser", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:5.59.8"],\
             ["astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.5.7"],\
-            ["astro-compress", "npm:1.1.46"],\
+            ["astro-compress", "npm:1.1.47"],\
             ["astro-eslint-parser", "npm:0.14.0"],\
             ["astro-icon", "npm:0.8.0"],\
             ["eslint", "npm:8.42.0"],\
@@ -9280,6 +9280,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/terser-npm-5.17.6-8931b8d439-9c0ab0261a.zip/node_modules/terser/",\
           "packageDependencies": [\
             ["terser", "npm:5.17.6"],\
+            ["@jridgewell/source-map", "npm:0.3.3"],\
+            ["acorn", "npm:8.8.2"],\
+            ["commander", "npm:2.20.3"],\
+            ["source-map-support", "npm:0.5.21"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.17.7", {\
+          "packageLocation": "./.yarn/cache/terser-npm-5.17.7-4e970c1cf7-b7b17b281f.zip/node_modules/terser/",\
+          "packageDependencies": [\
+            ["terser", "npm:5.17.7"],\
             ["@jridgewell/source-map", "npm:0.3.3"],\
             ["acorn", "npm:8.8.2"],\
             ["commander", "npm:2.20.3"],\
