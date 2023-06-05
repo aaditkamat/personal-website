@@ -10,23 +10,34 @@ title: Podcasts
 Here you can find embed links that will take you to my favourite podcasts on Spotify.
 
 <br>
-
+  
 <iframe 
     style="border-radius:12px" 
-    alt="No Stupid Questions"
-    src="https://open.spotify.com/embed/show/6Z49m4VQ4TfQ28Cnl42yiT?utm_source=generator" 
+    alt="Work Life With Adam Grant"
+    src="https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA?utm_source=generator" 
     width="100%" 
     height="232" 
     frameBorder="0" 
     allowfullscreen="" 
     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
+<br>
+  
+<iframe 
+    style="border-radius:12px" 
+    alt="Deep Questions With Cal Newport"
+    src="https://open.spotify.com/embed/show/0e9lFr3AdJByoBpM6tAbxD?utm_source=generator" 
+    width="100%" 
+    height="232" 
+    frameBorder="0" 
+    allowfullscreen="" 
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+    loading="lazy"></iframe>
 <br>
 
 <iframe 
     style="border-radius:12px" 
-    alt="Work Life With Adam Grant"
-    src="https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA?utm_source=generator" 
+    alt="No Stupid Questions"
+    src="https://open.spotify.com/embed/show/6Z49m4VQ4TfQ28Cnl42yiT?utm_source=generator" 
     width="100%" 
     height="232" 
     frameBorder="0" 
