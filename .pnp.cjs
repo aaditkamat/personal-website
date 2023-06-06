@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.5.7"],\
             ["astro-compress", "npm:1.1.47"],\
             ["astro-eslint-parser", "npm:0.14.0"],\
-            ["astro-icon", "npm:0.8.0"],\
+            ["astro-icon", "npm:0.8.1"],\
             ["eslint", "npm:8.42.0"],\
             ["eslint-plugin-astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.27.1"],\
             ["eslint-plugin-jsx-a11y", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.7.1"],\
@@ -2549,10 +2549,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["astro-icon", [\
-        ["npm:0.8.0", {\
-          "packageLocation": "./.yarn/cache/astro-icon-npm-0.8.0-8d25359d1a-0e5a46e88a.zip/node_modules/astro-icon/",\
+        ["npm:0.8.1", {\
+          "packageLocation": "./.yarn/cache/astro-icon-npm-0.8.1-5e26280280-52a68de4e8.zip/node_modules/astro-icon/",\
           "packageDependencies": [\
-            ["astro-icon", "npm:0.8.0"],\
+            ["astro-icon", "npm:0.8.1"],\
             ["node-fetch", "npm:3.3.1"],\
             ["resolve-pkg", "npm:2.0.0"],\
             ["svgo", "npm:2.8.0"]\
@@ -7721,7 +7721,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.5.7"],\
             ["astro-compress", "npm:1.1.47"],\
             ["astro-eslint-parser", "npm:0.14.0"],\
-            ["astro-icon", "npm:0.8.0"],\
+            ["astro-icon", "npm:0.8.1"],\
             ["eslint", "npm:8.42.0"],\
             ["eslint-plugin-astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.27.1"],\
             ["eslint-plugin-jsx-a11y", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.7.1"],\
