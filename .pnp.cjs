@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@algolia/client-search", "npm:4.17.1"],\
             ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.16.9"],\
-            ["@astrojs/mdx", "npm:0.19.6"],\
+            ["@astrojs/mdx", "npm:0.19.7"],\
             ["@astrojs/partytown", "npm:1.2.3"],\
             ["@astrojs/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.2.1"],\
             ["@astrojs/rss", "npm:2.4.3"],\
@@ -377,6 +377,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["virtual:31cbf975e8fcc0382f3cc05ddd9e6b825dedaa801c0602a51a44fe438f65b6150c4894e892e0efd34ba95f3ca0f04dd4f64442d2455793ae0f8e5b016c8c49a3#npm:2.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@astrojs-markdown-remark-virtual-3be176cb6d/0/cache/@astrojs-markdown-remark-npm-2.2.1-175a5c5b0c-4ccbd4f3cb.zip/node_modules/@astrojs/markdown-remark/",\
+          "packageDependencies": [\
+            ["@astrojs/markdown-remark", "virtual:31cbf975e8fcc0382f3cc05ddd9e6b825dedaa801c0602a51a44fe438f65b6150c4894e892e0efd34ba95f3ca0f04dd4f64442d2455793ae0f8e5b016c8c49a3#npm:2.2.1"],\
+            ["@astrojs/prism", "npm:2.1.2"],\
+            ["@types/astro", null],\
+            ["astro", null],\
+            ["github-slugger", "npm:1.5.0"],\
+            ["import-meta-resolve", "npm:2.2.2"],\
+            ["rehype-raw", "npm:6.1.1"],\
+            ["rehype-stringify", "npm:9.0.3"],\
+            ["remark-gfm", "npm:3.0.1"],\
+            ["remark-parse", "npm:10.0.2"],\
+            ["remark-rehype", "npm:10.1.0"],\
+            ["remark-smartypants", "npm:2.0.0"],\
+            ["shiki", "npm:0.14.2"],\
+            ["unified", "npm:10.1.2"],\
+            ["unist-util-visit", "npm:4.1.2"],\
+            ["vfile", "npm:5.3.7"]\
+          ],\
+          "packagePeers": [\
+            "@types/astro",\
+            "astro"\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["virtual:896cc4f1407180ef73153e9dee3ffac5c130b48884ada0983c4f7f03592a320faded78c875a4080307a370e5221d40154c382fdcbb3849baa263bb43dc03dd13#npm:2.2.1", {\
           "packageLocation": "./.yarn/__virtual__/@astrojs-markdown-remark-virtual-0093ffa0a5/0/cache/@astrojs-markdown-remark-npm-2.2.1-175a5c5b0c-4ccbd4f3cb.zip/node_modules/@astrojs/markdown-remark/",\
           "packageDependencies": [\
@@ -402,40 +428,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "astro"\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["virtual:dbb060d57f60b387ae03b4e7977227d7e83eea345f2c16be2197ba62ceb01a339aba4ce1f40fc340136a32802d20f3dce01edd5d161052775e06c98049f5d49b#npm:2.2.1", {\
-          "packageLocation": "./.yarn/__virtual__/@astrojs-markdown-remark-virtual-69de27cbdf/0/cache/@astrojs-markdown-remark-npm-2.2.1-175a5c5b0c-4ccbd4f3cb.zip/node_modules/@astrojs/markdown-remark/",\
-          "packageDependencies": [\
-            ["@astrojs/markdown-remark", "virtual:dbb060d57f60b387ae03b4e7977227d7e83eea345f2c16be2197ba62ceb01a339aba4ce1f40fc340136a32802d20f3dce01edd5d161052775e06c98049f5d49b#npm:2.2.1"],\
-            ["@astrojs/prism", "npm:2.1.2"],\
-            ["@types/astro", null],\
-            ["astro", null],\
-            ["github-slugger", "npm:1.5.0"],\
-            ["import-meta-resolve", "npm:2.2.2"],\
-            ["rehype-raw", "npm:6.1.1"],\
-            ["rehype-stringify", "npm:9.0.3"],\
-            ["remark-gfm", "npm:3.0.1"],\
-            ["remark-parse", "npm:10.0.2"],\
-            ["remark-rehype", "npm:10.1.0"],\
-            ["remark-smartypants", "npm:2.0.0"],\
-            ["shiki", "npm:0.14.2"],\
-            ["unified", "npm:10.1.2"],\
-            ["unist-util-visit", "npm:4.1.2"],\
-            ["vfile", "npm:5.3.7"]\
-          ],\
-          "packagePeers": [\
-            "@types/astro",\
-            "astro"\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["@astrojs/mdx", [\
-        ["npm:0.19.6", {\
-          "packageLocation": "./.yarn/cache/@astrojs-mdx-npm-0.19.6-dbb060d57f-bbf8cfd767.zip/node_modules/@astrojs/mdx/",\
+        ["npm:0.19.7", {\
+          "packageLocation": "./.yarn/cache/@astrojs-mdx-npm-0.19.7-31cbf975e8-366a865ba0.zip/node_modules/@astrojs/mdx/",\
           "packageDependencies": [\
-            ["@astrojs/mdx", "npm:0.19.6"],\
-            ["@astrojs/markdown-remark", "virtual:dbb060d57f60b387ae03b4e7977227d7e83eea345f2c16be2197ba62ceb01a339aba4ce1f40fc340136a32802d20f3dce01edd5d161052775e06c98049f5d49b#npm:2.2.1"],\
+            ["@astrojs/mdx", "npm:0.19.7"],\
+            ["@astrojs/markdown-remark", "virtual:31cbf975e8fcc0382f3cc05ddd9e6b825dedaa801c0602a51a44fe438f65b6150c4894e892e0efd34ba95f3ca0f04dd4f64442d2455793ae0f8e5b016c8c49a3#npm:2.2.1"],\
             ["@astrojs/prism", "npm:2.1.2"],\
             ["@mdx-js/mdx", "npm:2.3.0"],\
             ["acorn", "npm:8.8.2"],\
@@ -7714,7 +7714,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["personal-website", "workspace:."],\
             ["@algolia/client-search", "npm:4.17.1"],\
             ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.16.9"],\
-            ["@astrojs/mdx", "npm:0.19.6"],\
+            ["@astrojs/mdx", "npm:0.19.7"],\
             ["@astrojs/partytown", "npm:1.2.3"],\
             ["@astrojs/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.2.1"],\
             ["@astrojs/rss", "npm:2.4.3"],\
