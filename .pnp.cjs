@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@astrolib/analytics", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.3.0"],\
             ["@astrolib/seo", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.3.0"],\
             ["@docsearch/css", "npm:3.4.0"],\
-            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.4.0"],\
+            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.5.0"],\
             ["@fontsource/inter", "npm:4.5.15"],\
             ["@tailwindcss/typography", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.5.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:5.59.11"],\
@@ -67,28 +67,52 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@algolia/autocomplete-core", [\
-        ["npm:1.8.2", {\
-          "packageLocation": "./.yarn/cache/@algolia-autocomplete-core-npm-1.8.2-3baeffa20c-03c164d8ce.zip/node_modules/@algolia/autocomplete-core/",\
+        ["npm:1.9.2", {\
+          "packageLocation": "./.yarn/cache/@algolia-autocomplete-core-npm-1.9.2-aac587f11f-aa0b9db9f3.zip/node_modules/@algolia/autocomplete-core/",\
           "packageDependencies": [\
-            ["@algolia/autocomplete-core", "npm:1.8.2"],\
-            ["@algolia/autocomplete-shared", "npm:1.8.2"]\
+            ["@algolia/autocomplete-core", "npm:1.9.2"],\
+            ["@algolia/autocomplete-plugin-algolia-insights", "virtual:aac587f11f81da5596211b864ae64cf4022827643e83031db64a52f8710cd8fee324ded6da4a617aeebd4f2e9e9e3dd6c4f50054cde65ea5c820baec36126a2a#npm:1.9.2"],\
+            ["@algolia/autocomplete-shared", "virtual:aac587f11f81da5596211b864ae64cf4022827643e83031db64a52f8710cd8fee324ded6da4a617aeebd4f2e9e9e3dd6c4f50054cde65ea5c820baec36126a2a#npm:1.9.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@algolia/autocomplete-plugin-algolia-insights", [\
+        ["npm:1.9.2", {\
+          "packageLocation": "./.yarn/cache/@algolia-autocomplete-plugin-algolia-insights-npm-1.9.2-36c3c0c3c5-e67370d44a.zip/node_modules/@algolia/autocomplete-plugin-algolia-insights/",\
+          "packageDependencies": [\
+            ["@algolia/autocomplete-plugin-algolia-insights", "npm:1.9.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:aac587f11f81da5596211b864ae64cf4022827643e83031db64a52f8710cd8fee324ded6da4a617aeebd4f2e9e9e3dd6c4f50054cde65ea5c820baec36126a2a#npm:1.9.2", {\
+          "packageLocation": "./.yarn/__virtual__/@algolia-autocomplete-plugin-algolia-insights-virtual-439fc517ef/0/cache/@algolia-autocomplete-plugin-algolia-insights-npm-1.9.2-36c3c0c3c5-e67370d44a.zip/node_modules/@algolia/autocomplete-plugin-algolia-insights/",\
+          "packageDependencies": [\
+            ["@algolia/autocomplete-plugin-algolia-insights", "virtual:aac587f11f81da5596211b864ae64cf4022827643e83031db64a52f8710cd8fee324ded6da4a617aeebd4f2e9e9e3dd6c4f50054cde65ea5c820baec36126a2a#npm:1.9.2"],\
+            ["@algolia/autocomplete-shared", "virtual:aac587f11f81da5596211b864ae64cf4022827643e83031db64a52f8710cd8fee324ded6da4a617aeebd4f2e9e9e3dd6c4f50054cde65ea5c820baec36126a2a#npm:1.9.2"],\
+            ["@types/search-insights", null],\
+            ["search-insights", null]\
+          ],\
+          "packagePeers": [\
+            "@types/search-insights",\
+            "search-insights"\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@algolia/autocomplete-preset-algolia", [\
-        ["npm:1.8.2", {\
-          "packageLocation": "./.yarn/cache/@algolia-autocomplete-preset-algolia-npm-1.8.2-c4e38b1691-f968b0f9d0.zip/node_modules/@algolia/autocomplete-preset-algolia/",\
+        ["npm:1.9.2", {\
+          "packageLocation": "./.yarn/cache/@algolia-autocomplete-preset-algolia-npm-1.9.2-c762caf140-0dac7d4d28.zip/node_modules/@algolia/autocomplete-preset-algolia/",\
           "packageDependencies": [\
-            ["@algolia/autocomplete-preset-algolia", "npm:1.8.2"]\
+            ["@algolia/autocomplete-preset-algolia", "npm:1.9.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b9f23a74a0eb41633ab02cf3f103b8e13063aec242586651c511759e3d4dee5b9a98da8b484b1fcc8add6674c63275f7a23d725389db3d95d9a4f6ed07abeb16#npm:1.8.2", {\
-          "packageLocation": "./.yarn/__virtual__/@algolia-autocomplete-preset-algolia-virtual-dd04ef0137/0/cache/@algolia-autocomplete-preset-algolia-npm-1.8.2-c4e38b1691-f968b0f9d0.zip/node_modules/@algolia/autocomplete-preset-algolia/",\
+        ["virtual:19f0f1edf56cd0b71e770ede0c1e5f39b44e9386f4056a302fa9fac3a4ca1395f7a4607c027ceac2b5e1cc34b579c69b9c3908f63792d755c6cf5142008e3593#npm:1.9.2", {\
+          "packageLocation": "./.yarn/__virtual__/@algolia-autocomplete-preset-algolia-virtual-a4c3815312/0/cache/@algolia-autocomplete-preset-algolia-npm-1.9.2-c762caf140-0dac7d4d28.zip/node_modules/@algolia/autocomplete-preset-algolia/",\
           "packageDependencies": [\
-            ["@algolia/autocomplete-preset-algolia", "virtual:b9f23a74a0eb41633ab02cf3f103b8e13063aec242586651c511759e3d4dee5b9a98da8b484b1fcc8add6674c63275f7a23d725389db3d95d9a4f6ed07abeb16#npm:1.8.2"],\
-            ["@algolia/autocomplete-shared", "npm:1.8.2"],\
+            ["@algolia/autocomplete-preset-algolia", "virtual:19f0f1edf56cd0b71e770ede0c1e5f39b44e9386f4056a302fa9fac3a4ca1395f7a4607c027ceac2b5e1cc34b579c69b9c3908f63792d755c6cf5142008e3593#npm:1.9.2"],\
+            ["@algolia/autocomplete-shared", "virtual:a4c3815312fba4f07484a793835ebcf2864f1e896fbecf314c5654278fb4c4d7106ae3ed3d5fba346882e14efe54f3df9c7f60641ae9a9bffbe4e1ea22aa553e#npm:1.9.2"],\
             ["@algolia/client-search", null],\
             ["@types/algolia__client-search", null],\
             ["@types/algoliasearch", null],\
@@ -104,10 +128,44 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@algolia/autocomplete-shared", [\
-        ["npm:1.8.2", {\
-          "packageLocation": "./.yarn/cache/@algolia-autocomplete-shared-npm-1.8.2-206d208ceb-1ec17deb59.zip/node_modules/@algolia/autocomplete-shared/",\
+        ["npm:1.9.2", {\
+          "packageLocation": "./.yarn/cache/@algolia-autocomplete-shared-npm-1.9.2-56ec29b40d-663ba554d6.zip/node_modules/@algolia/autocomplete-shared/",\
           "packageDependencies": [\
-            ["@algolia/autocomplete-shared", "npm:1.8.2"]\
+            ["@algolia/autocomplete-shared", "npm:1.9.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:a4c3815312fba4f07484a793835ebcf2864f1e896fbecf314c5654278fb4c4d7106ae3ed3d5fba346882e14efe54f3df9c7f60641ae9a9bffbe4e1ea22aa553e#npm:1.9.2", {\
+          "packageLocation": "./.yarn/__virtual__/@algolia-autocomplete-shared-virtual-51f71c6382/0/cache/@algolia-autocomplete-shared-npm-1.9.2-56ec29b40d-663ba554d6.zip/node_modules/@algolia/autocomplete-shared/",\
+          "packageDependencies": [\
+            ["@algolia/autocomplete-shared", "virtual:a4c3815312fba4f07484a793835ebcf2864f1e896fbecf314c5654278fb4c4d7106ae3ed3d5fba346882e14efe54f3df9c7f60641ae9a9bffbe4e1ea22aa553e#npm:1.9.2"],\
+            ["@algolia/client-search", null],\
+            ["@types/algolia__client-search", null],\
+            ["@types/algoliasearch", null],\
+            ["algoliasearch", "npm:4.17.1"]\
+          ],\
+          "packagePeers": [\
+            "@algolia/client-search",\
+            "@types/algolia__client-search",\
+            "@types/algoliasearch",\
+            "algoliasearch"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:aac587f11f81da5596211b864ae64cf4022827643e83031db64a52f8710cd8fee324ded6da4a617aeebd4f2e9e9e3dd6c4f50054cde65ea5c820baec36126a2a#npm:1.9.2", {\
+          "packageLocation": "./.yarn/__virtual__/@algolia-autocomplete-shared-virtual-e451cba930/0/cache/@algolia-autocomplete-shared-npm-1.9.2-56ec29b40d-663ba554d6.zip/node_modules/@algolia/autocomplete-shared/",\
+          "packageDependencies": [\
+            ["@algolia/autocomplete-shared", "virtual:aac587f11f81da5596211b864ae64cf4022827643e83031db64a52f8710cd8fee324ded6da4a617aeebd4f2e9e9e3dd6c4f50054cde65ea5c820baec36126a2a#npm:1.9.2"],\
+            ["@algolia/client-search", null],\
+            ["@types/algolia__client-search", null],\
+            ["@types/algoliasearch", null],\
+            ["algoliasearch", null]\
+          ],\
+          "packagePeers": [\
+            "@algolia/client-search",\
+            "@types/algolia__client-search",\
+            "@types/algoliasearch",\
+            "algoliasearch"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1070,23 +1128,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@docsearch/css", "npm:3.4.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:3.5.0", {\
+          "packageLocation": "./.yarn/cache/@docsearch-css-npm-3.5.0-2d45a38bca-07e4b207f1.zip/node_modules/@docsearch/css/",\
+          "packageDependencies": [\
+            ["@docsearch/css", "npm:3.5.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@docsearch/react", [\
-        ["npm:3.4.0", {\
-          "packageLocation": "./.yarn/cache/@docsearch-react-npm-3.4.0-16a953eefc-a64d42298d.zip/node_modules/@docsearch/react/",\
+        ["npm:3.5.0", {\
+          "packageLocation": "./.yarn/cache/@docsearch-react-npm-3.5.0-2558ccceb2-33cb27c2b5.zip/node_modules/@docsearch/react/",\
           "packageDependencies": [\
-            ["@docsearch/react", "npm:3.4.0"]\
+            ["@docsearch/react", "npm:3.5.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.4.0", {\
-          "packageLocation": "./.yarn/__virtual__/@docsearch-react-virtual-b9f23a74a0/0/cache/@docsearch-react-npm-3.4.0-16a953eefc-a64d42298d.zip/node_modules/@docsearch/react/",\
+        ["virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.5.0", {\
+          "packageLocation": "./.yarn/__virtual__/@docsearch-react-virtual-19f0f1edf5/0/cache/@docsearch-react-npm-3.5.0-2558ccceb2-33cb27c2b5.zip/node_modules/@docsearch/react/",\
           "packageDependencies": [\
-            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.4.0"],\
-            ["@algolia/autocomplete-core", "npm:1.8.2"],\
-            ["@algolia/autocomplete-preset-algolia", "virtual:b9f23a74a0eb41633ab02cf3f103b8e13063aec242586651c511759e3d4dee5b9a98da8b484b1fcc8add6674c63275f7a23d725389db3d95d9a4f6ed07abeb16#npm:1.8.2"],\
-            ["@docsearch/css", "npm:3.4.0"],\
+            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.5.0"],\
+            ["@algolia/autocomplete-core", "npm:1.9.2"],\
+            ["@algolia/autocomplete-preset-algolia", "virtual:19f0f1edf56cd0b71e770ede0c1e5f39b44e9386f4056a302fa9fac3a4ca1395f7a4607c027ceac2b5e1cc34b579c69b9c3908f63792d755c6cf5142008e3593#npm:1.9.2"],\
+            ["@docsearch/css", "npm:3.5.0"],\
             ["@types/react", null],\
             ["@types/react-dom", null],\
             ["algoliasearch", "npm:4.17.1"],\
@@ -7773,7 +7838,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@astrolib/analytics", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.3.0"],\
             ["@astrolib/seo", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.3.0"],\
             ["@docsearch/css", "npm:3.4.0"],\
-            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.4.0"],\
+            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.5.0"],\
             ["@fontsource/inter", "npm:4.5.15"],\
             ["@tailwindcss/typography", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.5.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:5.59.11"],\
