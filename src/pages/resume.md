@@ -8,8 +8,8 @@ title: Résumé
     <iframe 
         src="/resume.pdf"
         style="margin: 0 auto;"
-        width="100%"
-        height="100%"
+        width="800"
+        height="600"
         frameborder="0"
     >
     </iframe>
