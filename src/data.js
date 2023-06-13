@@ -7,12 +7,12 @@ export const headerData = {
       href: getPermalink('/about'),
     },
     {
-      text: 'Bookmarks',
-      href: getPermalink('/bookmarks'),
-    },
-    {
       text: 'Calendar',
       href: getPermalink('/calendar'),
+    },
+    {
+      text: 'Music',
+      href: getPermalink('/music'),
     },
     {
       text: 'Podcasts',
