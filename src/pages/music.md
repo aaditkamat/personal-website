@@ -6,6 +6,8 @@ title: Music
 <h1 class="font-bold text-3xl text-center mb-4">My Favourite Music</h1>
 
 <p class="text-center"> Here's my <a href="https://stats.fm/21w5qrmgsdsccbhg24a2x3fhi"> stats.fm profile </a></p>
+
+<br>
   
 <div class="row">
 <iframe 
