@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@algolia/client-search", "npm:4.17.2"],\
+            ["@algolia/client-search", "npm:4.18.0"],\
             ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.17.0"],\
             ["@astrojs/mdx", "npm:0.19.7"],\
             ["@astrojs/partytown", "npm:1.2.3"],\
@@ -197,10 +197,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.17.2", {\
-          "packageLocation": "./.yarn/cache/@algolia-cache-common-npm-4.17.2-4ef9492566-7f9ac69ac9.zip/node_modules/@algolia/cache-common/",\
+        ["npm:4.18.0", {\
+          "packageLocation": "./.yarn/cache/@algolia-cache-common-npm-4.18.0-70a79d7e40-96ec793dac.zip/node_modules/@algolia/cache-common/",\
           "packageDependencies": [\
-            ["@algolia/cache-common", "npm:4.17.2"]\
+            ["@algolia/cache-common", "npm:4.18.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -250,12 +250,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.17.2", {\
-          "packageLocation": "./.yarn/cache/@algolia-client-common-npm-4.17.2-66b1e3c240-41350fdb88.zip/node_modules/@algolia/client-common/",\
+        ["npm:4.18.0", {\
+          "packageLocation": "./.yarn/cache/@algolia-client-common-npm-4.18.0-bc4691de94-993b23636e.zip/node_modules/@algolia/client-common/",\
           "packageDependencies": [\
-            ["@algolia/client-common", "npm:4.17.2"],\
-            ["@algolia/requester-common", "npm:4.17.2"],\
-            ["@algolia/transporter", "npm:4.17.2"]\
+            ["@algolia/client-common", "npm:4.18.0"],\
+            ["@algolia/requester-common", "npm:4.18.0"],\
+            ["@algolia/transporter", "npm:4.18.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -283,13 +283,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.17.2", {\
-          "packageLocation": "./.yarn/cache/@algolia-client-search-npm-4.17.2-bae23c9ba8-2eb330d679.zip/node_modules/@algolia/client-search/",\
+        ["npm:4.18.0", {\
+          "packageLocation": "./.yarn/cache/@algolia-client-search-npm-4.18.0-e89c9ad7d1-86bfce7c2e.zip/node_modules/@algolia/client-search/",\
           "packageDependencies": [\
-            ["@algolia/client-search", "npm:4.17.2"],\
-            ["@algolia/client-common", "npm:4.17.2"],\
-            ["@algolia/requester-common", "npm:4.17.2"],\
-            ["@algolia/transporter", "npm:4.17.2"]\
+            ["@algolia/client-search", "npm:4.18.0"],\
+            ["@algolia/client-common", "npm:4.18.0"],\
+            ["@algolia/requester-common", "npm:4.18.0"],\
+            ["@algolia/transporter", "npm:4.18.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -302,10 +302,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.17.2", {\
-          "packageLocation": "./.yarn/cache/@algolia-logger-common-npm-4.17.2-b5de49b8b8-f0493062da.zip/node_modules/@algolia/logger-common/",\
+        ["npm:4.18.0", {\
+          "packageLocation": "./.yarn/cache/@algolia-logger-common-npm-4.18.0-dac5942ba5-562e85124b.zip/node_modules/@algolia/logger-common/",\
           "packageDependencies": [\
-            ["@algolia/logger-common", "npm:4.17.2"]\
+            ["@algolia/logger-common", "npm:4.18.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -338,10 +338,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.17.2", {\
-          "packageLocation": "./.yarn/cache/@algolia-requester-common-npm-4.17.2-9a80773de3-fa3e830569.zip/node_modules/@algolia/requester-common/",\
+        ["npm:4.18.0", {\
+          "packageLocation": "./.yarn/cache/@algolia-requester-common-npm-4.18.0-2adbf9cb2c-b7bbbba0dd.zip/node_modules/@algolia/requester-common/",\
           "packageDependencies": [\
-            ["@algolia/requester-common", "npm:4.17.2"]\
+            ["@algolia/requester-common", "npm:4.18.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -367,13 +367,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.17.2", {\
-          "packageLocation": "./.yarn/cache/@algolia-transporter-npm-4.17.2-1efebcae61-d52e9b2330.zip/node_modules/@algolia/transporter/",\
+        ["npm:4.18.0", {\
+          "packageLocation": "./.yarn/cache/@algolia-transporter-npm-4.18.0-b55aa063c1-252b0cafe1.zip/node_modules/@algolia/transporter/",\
           "packageDependencies": [\
-            ["@algolia/transporter", "npm:4.17.2"],\
-            ["@algolia/cache-common", "npm:4.17.2"],\
-            ["@algolia/logger-common", "npm:4.17.2"],\
-            ["@algolia/requester-common", "npm:4.17.2"]\
+            ["@algolia/transporter", "npm:4.18.0"],\
+            ["@algolia/cache-common", "npm:4.18.0"],\
+            ["@algolia/logger-common", "npm:4.18.0"],\
+            ["@algolia/requester-common", "npm:4.18.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7859,7 +7859,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["personal-website", "workspace:."],\
-            ["@algolia/client-search", "npm:4.17.2"],\
+            ["@algolia/client-search", "npm:4.18.0"],\
             ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.17.0"],\
             ["@astrojs/mdx", "npm:0.19.7"],\
             ["@astrojs/partytown", "npm:1.2.3"],\
