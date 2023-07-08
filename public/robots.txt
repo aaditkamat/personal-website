@@ -1,5 +1,5 @@
-User-agent: Algolia Crawler
-Disallow: 
+# Algolia-Crawler-Verif: A5B55D832A501564
 
 User-agent: *
-Disallow: /*
+Allow: /
+Sitemap: https://aaditkamat.com/sitemap-0.xml
