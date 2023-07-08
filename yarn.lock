@@ -2228,8 +2228,8 @@ __metadata:
   linkType: hard
 
 "astro@npm:^2.5.5":
-  version: 2.7.3
-  resolution: "astro@npm:2.7.3"
+  version: 2.8.0
+  resolution: "astro@npm:2.8.0"
   dependencies:
     "@astrojs/compiler": ^1.5.3
     "@astrojs/internal-helpers": ^0.1.1
@@ -2284,6 +2284,7 @@ __metadata:
     vfile: ^5.3.7
     vite: ^4.3.9
     vitefu: ^0.2.4
+    which-pm: ^2.0.0
     yargs-parser: ^21.1.1
     zod: ^3.20.6
   peerDependencies:
@@ -2293,7 +2294,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 0bd7ae0ec32855e4e09a9ff7c2eb1dd033b1e50a86c26a02c5e6bacfab2d9d3628e71a3d038c2eb3efee0c566f90b74c2358ec90a2a668f2106110b9edf0ca6b
+  checksum: e075a1aef5e93ac70eeaddb0b1b30dbd4d3ef620e305af786beb4edbf06bd75e81d2107a948bf7c5270ec3e5591e45b778c196eee52ae67d5ce29a4d88bbf854
   languageName: node
   linkType: hard
 
@@ -8939,7 +8940,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"which-pm@npm:2.0.0":
+"which-pm@npm:2.0.0, which-pm@npm:^2.0.0":
   version: 2.0.0
   resolution: "which-pm@npm:2.0.0"
   dependencies:
