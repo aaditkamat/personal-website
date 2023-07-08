@@ -8114,6 +8114,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jsx-a11y", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.7.1"],\
             ["limax", "npm:4.1.0"],\
             ["mdast-util-to-string", "npm:4.0.0"],\
+            ["mdast-util-to-string", "npm:3.2.0"],\
             ["prettier", "npm:3.0.0"],\
             ["prettier-plugin-astro", "npm:0.10.0"],\
             ["react", "npm:18.2.0"],\
