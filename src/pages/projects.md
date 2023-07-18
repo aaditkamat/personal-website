@@ -27,7 +27,7 @@ title: Projects
 <h3 class="font-bold text-xl text-left mb-4"> Bollywood Hangman </h3>
 
 <ul class="ml-10"style="list-style: disc;">
-    <li> The Bollywood version of the awesome [Hollywood Hangman](https://hollywoodhangman.com/) </li>
+    <li> The Bollywood version of the awesome <a href="https://hollywoodhangman.com/"> Hollywood Hangman </a> </li>
     <li> Tech Stack: React, Python </li> 
 </ul>
 
