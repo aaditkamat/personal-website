@@ -428,13 +428,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/sitemap@npm:^1.3.1":
-  version: 1.3.3
-  resolution: "@astrojs/sitemap@npm:1.3.3"
+"@astrojs/sitemap@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@astrojs/sitemap@npm:2.0.0"
   dependencies:
     sitemap: ^7.1.1
     zod: ^3.17.3
-  checksum: 791a21935a806bdb2b4660e0ddc944514d6caaa6199e155a565753a7509f368df7e306e54c16bc554a865b1e62bcfa7bf2d88e44b8eb43dedfbf5117a5e01d76
+  checksum: 734d83c804d4b987fb8e0a9c05740ef9148c1217f7bbb516e6a764c04d836d8c49fe41e8f16213bc432dbbcdef981d6fc923946a81abaf0c090a17417b8022c8
   languageName: node
   linkType: hard
 
@@ -6964,7 +6964,7 @@ __metadata:
     "@astrojs/partytown": ^1.2.2
     "@astrojs/react": ^2.2.1
     "@astrojs/rss": ^2.4.3
-    "@astrojs/sitemap": ^1.3.1
+    "@astrojs/sitemap": ^2.0.0
     "@astrojs/tailwind": ^4.0.0
     "@astrolib/analytics": ^0.3.0
     "@astrolib/seo": ^0.3.0
