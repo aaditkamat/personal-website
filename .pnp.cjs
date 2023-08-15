@@ -45,7 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.2.0"],\
             ["@typescript-eslint/parser", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.2.0"],\
             ["astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.9.6"],\
-            ["astro-compress", "npm:1.1.50"],\
+            ["astro-compress", "npm:2.0.8"],\
             ["astro-eslint-parser", "npm:0.14.0"],\
             ["astro-icon", "npm:0.8.1"],\
             ["eslint", "npm:8.47.0"],\
@@ -2336,6 +2336,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:20.2.5"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:20.5.0", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-20.5.0-ea170d5dd7-659bc5fc93.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:20.5.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@types/parse5", [\
@@ -3080,14 +3087,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["astro-compress", [\
-        ["npm:1.1.50", {\
-          "packageLocation": "./.yarn/cache/astro-compress-npm-1.1.50-20f4b521ad-2ce926825a.zip/node_modules/astro-compress/",\
+        ["npm:2.0.8", {\
+          "packageLocation": "./.yarn/cache/astro-compress-npm-2.0.8-1aa16dd2fb-e025285d17.zip/node_modules/astro-compress/",\
           "packageDependencies": [\
-            ["astro-compress", "npm:1.1.50"],\
+            ["astro-compress", "npm:2.0.8"],\
             ["@types/csso", "npm:5.0.0"],\
             ["@types/html-minifier-terser", "npm:7.0.0"],\
             ["csso", "npm:5.0.5"],\
-            ["files-pipe", "npm:0.0.8"],\
+            ["files-pipe", "npm:2.0.12"],\
             ["html-minifier-terser", "npm:7.2.0"],\
             ["sharp", "npm:0.32.4"],\
             ["svgo", "npm:3.0.2"],\
@@ -5082,10 +5089,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["files-pipe", [\
-        ["npm:0.0.8", {\
-          "packageLocation": "./.yarn/cache/files-pipe-npm-0.0.8-c59e8c3eb9-0989e2f985.zip/node_modules/files-pipe/",\
+        ["npm:2.0.12", {\
+          "packageLocation": "./.yarn/cache/files-pipe-npm-2.0.12-c2f5ea033b-ee7822233a.zip/node_modules/files-pipe/",\
           "packageDependencies": [\
-            ["files-pipe", "npm:0.0.8"],\
+            ["files-pipe", "npm:2.0.12"],\
+            ["@types/node", "npm:20.5.0"],\
             ["deepmerge-ts", "npm:5.1.0"],\
             ["fast-glob", "npm:3.3.1"]\
           ],\
@@ -8368,7 +8376,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.2.0"],\
             ["@typescript-eslint/parser", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.2.0"],\
             ["astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.9.6"],\
-            ["astro-compress", "npm:1.1.50"],\
+            ["astro-compress", "npm:2.0.8"],\
             ["astro-eslint-parser", "npm:0.14.0"],\
             ["astro-icon", "npm:0.8.1"],\
             ["eslint", "npm:8.47.0"],\
