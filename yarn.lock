@@ -1851,6 +1851,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:20.5.0":
+  version: 20.5.0
+  resolution: "@types/node@npm:20.5.0"
+  checksum: 659bc5fc93b5c02bd88ca4bfae4f6b9dc307d45884d1dd9d69df85819a9943cdc00cd3c87eec3048866df6a67f52297f74d170e47a44f61edb3e8f770d94e85e
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^17.0.5":
   version: 17.0.45
   resolution: "@types/node@npm:17.0.45"
@@ -2363,19 +2370,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-compress@npm:^1.1.44":
-  version: 1.1.50
-  resolution: "astro-compress@npm:1.1.50"
+"astro-compress@npm:^2.0.0":
+  version: 2.0.8
+  resolution: "astro-compress@npm:2.0.8"
   dependencies:
     "@types/csso": 5.0.0
     "@types/html-minifier-terser": 7.0.0
     csso: 5.0.5
-    files-pipe: 0.0.8
+    files-pipe: 2.0.12
     html-minifier-terser: 7.2.0
     sharp: 0.32.4
     svgo: 3.0.2
     terser: 5.19.2
-  checksum: 2ce926825a213b694b70c3b473b04573226b8cb5294e5ee4fe9c74e9009b0c12ed6788cdc4f4abce0ab8799cde9f6875cda69a11d8f54c08236fa411f5c5a956
+  checksum: e025285d17e731a583784a708e20db0ee6ee0b5952475b49b5ec3d2c5f35de2c49970b6da09313a5cd9ffa19d059345cc9226178349dd3a41ace8059e51e7d67
   languageName: node
   linkType: hard
 
@@ -4294,13 +4301,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"files-pipe@npm:0.0.8":
-  version: 0.0.8
-  resolution: "files-pipe@npm:0.0.8"
+"files-pipe@npm:2.0.12":
+  version: 2.0.12
+  resolution: "files-pipe@npm:2.0.12"
   dependencies:
+    "@types/node": 20.5.0
     deepmerge-ts: 5.1.0
     fast-glob: 3.3.1
-  checksum: 0989e2f9859671639b587a62f2f3e39df7af371a531891d320830a885603c1e5573792e62ee1fa83b2a7f690b2b7b0a9f851b909962e8a5112ca5254832fe4d3
+  checksum: ee7822233ad8797e2d713a72f556b0b5d796fb7f68309d9c726deefdb809dd2da60437386bfd27f461648bb1474e156ffa72b191c2b7d12058ad10fd528904ba
   languageName: node
   linkType: hard
 
@@ -7241,7 +7249,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^6.0.0
     "@typescript-eslint/parser": ^6.0.0
     astro: ^2.5.5
-    astro-compress: ^1.1.44
+    astro-compress: ^2.0.0
     astro-eslint-parser: ^0.14.0
     astro-icon: ^0.8.0
     eslint: ^8.41.0
