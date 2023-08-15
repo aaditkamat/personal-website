@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jsx-a11y", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.7.1"],\
             ["limax", "npm:4.1.0"],\
             ["mdast-util-to-string", "npm:4.0.0"],\
-            ["prettier", "npm:3.0.0"],\
+            ["prettier", "npm:3.0.1"],\
             ["prettier-plugin-astro", "npm:0.11.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:18.2.0"],\
@@ -8392,7 +8392,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jsx-a11y", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.7.1"],\
             ["limax", "npm:4.1.0"],\
             ["mdast-util-to-string", "npm:4.0.0"],\
-            ["prettier", "npm:3.0.0"],\
+            ["prettier", "npm:3.0.1"],\
             ["prettier-plugin-astro", "npm:0.11.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:18.2.0"],\
@@ -8668,10 +8668,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:3.0.0", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-3.0.0-7ffbcce680-6a832876a1.zip/node_modules/prettier/",\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-3.0.1-d00deab00c-e1f3f16c7f.zip/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:3.0.0"]\
+            ["prettier", "npm:3.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8682,7 +8682,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["prettier-plugin-astro", "npm:0.11.0"],\
             ["@astrojs/compiler", "npm:1.5.6"],\
-            ["prettier", "npm:3.0.0"],\
+            ["prettier", "npm:3.0.1"],\
             ["sass-formatter", "npm:0.7.6"]\
           ],\
           "linkType": "HARD"\
