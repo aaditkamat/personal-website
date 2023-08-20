@@ -3,9 +3,9 @@ layout: '../layouts/PageLayout.astro'
 title: Projects
 ---
 
-<main class="container mt-8 ml-32">
+<h1 class="font-bold text-3xl text-center p-4">Projects</h1>
 
-<h1 class="font-bold text-3xl text-left mb-4">Projects</h1>
+<main class="container mt-8 ml-32">
 
 <h3 class="font-bold text-xl text-left mb-4"> Plan It Right </h3>
 
@@ -72,5 +72,6 @@ title: Projects
 [Source Code](https://github.com/pay-n/test-protect)
 
 </div>
+</main>
 
 <br> <br>
