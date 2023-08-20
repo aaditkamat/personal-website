@@ -3,6 +3,8 @@ layout: '../layouts/PageLayout.astro'
 title: Tools
 ---
 
+<h1 class="font-bold text-3xl text-center mb-4"> Tools </h1>
+
 <main class="container mt-8 ml-32">
 
 I was checking out <a href="https://www.alfredworkflows.store/workflows/unsplash">an Alfred Unsplash workflow</a>. One thing led to another, and I came upon the <a href="https://www.adamdehaven.com/uses/">section on the author's website</a> which lists the tools he uses for development. I've been meaning to do the same for a while now, but I wasn't sure where I would put it. His page gave me just the kind of inspiration I needed to do so.
