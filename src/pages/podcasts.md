@@ -3,13 +3,13 @@ layout: '../layouts/PageLayout.astro'
 title: Podcasts
 ---
 
-<main class="container mt-8 ml-32">
+<h1 class="font-bold text-3xl text-center p-4">Podcasts</h1>
 
-<h1 class="font-bold text-3xl text-left mb-4">Podcasts</h1>
+<main class="container mt-8 ml-32">
 
 Here you can find embed links that will take you to my favourite podcasts on Spotify.
 
-<br>
+<br><br>
   
 <iframe 
     style="border-radius:12px" 
