@@ -22,7 +22,7 @@
     "@astrojs/sitemap": "^2.0.0",
     "@astrojs/tailwind": "^4.0.0",
     "@astrolib/analytics": "^0.4.0",
-    "@astrolib/seo": "^0.3.0",
+    "@astrolib/seo": "^0.6.0",
     "@docsearch/css": "^3.4.0",
     "@docsearch/react": "^3.4.0",
     "@fontsource/inter": "^4.5.15",
