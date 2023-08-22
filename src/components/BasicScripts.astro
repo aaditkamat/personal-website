@@ -119,13 +119,16 @@ import { SITE } from '~/config.mjs';
 </script>
 <script>
   window.chatbaseConfig = {
-    chatbotId: "1UAHhOJ1Cqa9Ux_4Qj6gW",
+    chatbotId: import.meta.env.PUBLIC_CHATBOT_ID,
   }
 </script>
 <script
+  async
   src="https://www.chatbase.co/embed.min.js"
-  id="1UAHhOJ1Cqa9Ux_4Qj6gW"
-  defer>
+  id=`${import.meta.env.PUBLIC_CHATBOT_ID}`>
 </script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+<script
+  src="//instant.page/5.2.0"
+  type="module"
+  integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
