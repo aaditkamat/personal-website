@@ -45,7 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.4.0"],\
             ["@typescript-eslint/parser", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.4.0"],\
             ["astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.10.12"],\
-            ["astro-compress", "npm:2.0.8"],\
+            ["astro-compress", "npm:2.0.14"],\
             ["astro-eslint-parser", "npm:0.14.0"],\
             ["astro-icon", "npm:0.8.1"],\
             ["eslint", "npm:8.47.0"],\
@@ -2829,16 +2829,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["astro-compress", [\
-        ["npm:2.0.8", {\
-          "packageLocation": "./.yarn/cache/astro-compress-npm-2.0.8-1aa16dd2fb-e025285d17.zip/node_modules/astro-compress/",\
+        ["npm:2.0.14", {\
+          "packageLocation": "./.yarn/cache/astro-compress-npm-2.0.14-640563b997-88722dee22.zip/node_modules/astro-compress/",\
           "packageDependencies": [\
-            ["astro-compress", "npm:2.0.8"],\
+            ["astro-compress", "npm:2.0.14"],\
             ["@types/csso", "npm:5.0.0"],\
             ["@types/html-minifier-terser", "npm:7.0.0"],\
             ["csso", "npm:5.0.5"],\
-            ["files-pipe", "npm:2.0.12"],\
+            ["files-pipe", "npm:2.0.16"],\
             ["html-minifier-terser", "npm:7.2.0"],\
-            ["sharp", "npm:0.32.4"],\
+            ["sharp", "npm:0.32.5"],\
             ["svgo", "npm:3.0.2"],\
             ["terser", "npm:5.19.2"]\
           ],\
@@ -4824,10 +4824,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["files-pipe", [\
-        ["npm:2.0.12", {\
-          "packageLocation": "./.yarn/cache/files-pipe-npm-2.0.12-c2f5ea033b-ee7822233a.zip/node_modules/files-pipe/",\
+        ["npm:2.0.16", {\
+          "packageLocation": "./.yarn/cache/files-pipe-npm-2.0.16-d4d5cffef6-a2682dd1b5.zip/node_modules/files-pipe/",\
           "packageDependencies": [\
-            ["files-pipe", "npm:2.0.12"],\
+            ["files-pipe", "npm:2.0.16"],\
             ["@types/node", "npm:20.5.0"],\
             ["deepmerge-ts", "npm:5.1.0"],\
             ["fast-glob", "npm:3.3.1"]\
@@ -8102,7 +8102,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.4.0"],\
             ["@typescript-eslint/parser", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.4.0"],\
             ["astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.10.12"],\
-            ["astro-compress", "npm:2.0.8"],\
+            ["astro-compress", "npm:2.0.14"],\
             ["astro-eslint-parser", "npm:0.14.0"],\
             ["astro-icon", "npm:0.8.1"],\
             ["eslint", "npm:8.47.0"],\
@@ -9060,22 +9060,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sharp", [\
-        ["npm:0.32.4", {\
-          "packageLocation": "./.yarn/unplugged/sharp-npm-0.32.4-5e8bfafca7/node_modules/sharp/",\
-          "packageDependencies": [\
-            ["sharp", "npm:0.32.4"],\
-            ["color", "npm:4.2.3"],\
-            ["detect-libc", "npm:2.0.2"],\
-            ["node-addon-api", "npm:6.1.0"],\
-            ["node-gyp", "npm:9.3.1"],\
-            ["prebuild-install", "npm:7.1.1"],\
-            ["semver", "npm:7.5.4"],\
-            ["simple-get", "npm:4.0.1"],\
-            ["tar-fs", "npm:3.0.4"],\
-            ["tunnel-agent", "npm:0.6.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:0.32.5", {\
           "packageLocation": "./.yarn/unplugged/sharp-npm-0.32.5-f82a9875e0/node_modules/sharp/",\
           "packageDependencies": [\
