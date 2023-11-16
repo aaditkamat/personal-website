@@ -58,7 +58,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:18.2.0"],\
             ["reading-time", "npm:1.5.0"],\
-            ["sharp", "npm:0.32.5"],\
+            ["sharp", "npm:0.32.6"],\
             ["svgo", "npm:2.8.0"],\
             ["tailwindcss", "npm:3.3.3"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
@@ -408,7 +408,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["kleur", "npm:4.1.5"],\
             ["magic-string", "npm:0.30.2"],\
             ["mime", "npm:3.0.0"],\
-            ["sharp", "npm:0.32.5"]\
+            ["sharp", "npm:0.32.6"]\
           ],\
           "packagePeers": [\
             "@types/astro",\
@@ -2814,7 +2814,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rehype", "npm:12.0.1"],\
             ["semver", "npm:7.5.3"],\
             ["server-destroy", "npm:1.0.1"],\
-            ["sharp", "npm:0.32.5"],\
+            ["sharp", "npm:0.32.6"],\
             ["shiki", "npm:0.14.2"],\
             ["string-width", "npm:5.1.2"],\
             ["strip-ansi", "npm:7.1.0"],\
@@ -8122,7 +8122,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:18.2.0"],\
             ["reading-time", "npm:1.5.0"],\
-            ["sharp", "npm:0.32.5"],\
+            ["sharp", "npm:0.32.6"],\
             ["svgo", "npm:2.8.0"],\
             ["tailwindcss", "npm:3.3.3"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
@@ -9071,6 +9071,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/unplugged/sharp-npm-0.32.5-f82a9875e0/node_modules/sharp/",\
           "packageDependencies": [\
             ["sharp", "npm:0.32.5"],\
+            ["color", "npm:4.2.3"],\
+            ["detect-libc", "npm:2.0.2"],\
+            ["node-addon-api", "npm:6.1.0"],\
+            ["node-gyp", "npm:9.3.1"],\
+            ["prebuild-install", "npm:7.1.1"],\
+            ["semver", "npm:7.5.4"],\
+            ["simple-get", "npm:4.0.1"],\
+            ["tar-fs", "npm:3.0.4"],\
+            ["tunnel-agent", "npm:0.6.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.32.6", {\
+          "packageLocation": "./.yarn/unplugged/sharp-npm-0.32.6-6b3822c437/node_modules/sharp/",\
+          "packageDependencies": [\
+            ["sharp", "npm:0.32.6"],\
             ["color", "npm:4.2.3"],\
             ["detect-libc", "npm:2.0.2"],\
             ["node-addon-api", "npm:6.1.0"],\
