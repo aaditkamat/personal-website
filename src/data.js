@@ -23,10 +23,6 @@ export const headerData = {
       href: getPermalink('/projects'),
     },
     {
-      text: 'Résumé',
-      href: getPermalink('/resume'),
-    },
-    {
       text: 'Tools',
       href: getPermalink('/tools'),
     },
