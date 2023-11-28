@@ -605,7 +605,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@astrojs/sitemap", "npm:2.0.2"],\
             ["sitemap", "npm:7.1.1"],\
-            ["zod", "npm:3.21.4"]\
+            ["zod", "npm:3.22.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2826,7 +2826,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vitefu", "virtual:cd466795bee9da510633403e9a29396a9a98f531ba46822a000dd91bf9aa42255d9c4142551775f890cb7cb4061f951acf16e3c7eafa6747e19bb14a7e12fe64#npm:0.2.4"],\
             ["which-pm", "npm:2.0.0"],\
             ["yargs-parser", "npm:21.1.1"],\
-            ["zod", "npm:3.21.4"]\
+            ["zod", "npm:3.22.4"]\
           ],\
           "packagePeers": [\
             "@types/sharp",\
@@ -10594,10 +10594,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["zod", [\
-        ["npm:3.21.4", {\
-          "packageLocation": "./.yarn/cache/zod-npm-3.21.4-9f570b215c-f185ba8734.zip/node_modules/zod/",\
+        ["npm:3.22.4", {\
+          "packageLocation": "./.yarn/cache/zod-npm-3.22.4-2bccbc41b4-80bfd7f803.zip/node_modules/zod/",\
           "packageDependencies": [\
-            ["zod", "npm:3.21.4"]\
+            ["zod", "npm:3.22.4"]\
           ],\
           "linkType": "HARD"\
         }]\
