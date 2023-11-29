@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@algolia/client-search", "npm:4.19.1"],\
-            ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.17.3"],\
+            ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.18.0"],\
             ["@astrojs/mdx", "npm:0.19.7"],\
             ["@astrojs/partytown", "npm:1.2.3"],\
             ["@astrojs/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.3.2"],\
@@ -388,17 +388,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@astrojs/image", [\
-        ["npm:0.17.3", {\
-          "packageLocation": "./.yarn/cache/@astrojs-image-npm-0.17.3-0a5ee445c5-b65e53505e.zip/node_modules/@astrojs/image/",\
+        ["npm:0.18.0", {\
+          "packageLocation": "./.yarn/cache/@astrojs-image-npm-0.18.0-25dcf22b8b-e7822401f1.zip/node_modules/@astrojs/image/",\
           "packageDependencies": [\
-            ["@astrojs/image", "npm:0.17.3"]\
+            ["@astrojs/image", "npm:0.18.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.17.3", {\
-          "packageLocation": "./.yarn/__virtual__/@astrojs-image-virtual-00844b2bc5/0/cache/@astrojs-image-npm-0.17.3-0a5ee445c5-b65e53505e.zip/node_modules/@astrojs/image/",\
+        ["virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.18.0", {\
+          "packageLocation": "./.yarn/__virtual__/@astrojs-image-virtual-6b09b5660d/0/cache/@astrojs-image-npm-0.18.0-25dcf22b8b-e7822401f1.zip/node_modules/@astrojs/image/",\
           "packageDependencies": [\
-            ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.17.3"],\
+            ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.18.0"],\
             ["@altano/tiny-async-pool", "npm:1.0.2"],\
             ["@types/astro", null],\
             ["@types/sharp", null],\
@@ -8093,7 +8093,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["personal-website", "workspace:."],\
             ["@algolia/client-search", "npm:4.19.1"],\
-            ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.17.3"],\
+            ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.18.0"],\
             ["@astrojs/mdx", "npm:0.19.7"],\
             ["@astrojs/partytown", "npm:1.2.3"],\
             ["@astrojs/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.3.2"],\
