@@ -16,7 +16,7 @@
     "@algolia/client-search": "^4.17.1",
     "@astrojs/image": "^0.17.0",
     "@astrojs/mdx": "^0.19.0",
-    "@astrojs/partytown": "^1.2.2",
+    "@astrojs/partytown": "^2.0.0",
     "@astrojs/react": "^2.2.1",
     "@astrojs/rss": "^2.4.3",
     "@astrojs/sitemap": "^2.0.0",
