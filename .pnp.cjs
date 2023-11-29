@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@algolia/client-search", "npm:4.19.1"],\
             ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.17.3"],\
             ["@astrojs/mdx", "npm:0.19.7"],\
-            ["@astrojs/partytown", "npm:1.2.3"],\
+            ["@astrojs/partytown", "npm:2.0.2"],\
             ["@astrojs/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.3.2"],\
             ["@astrojs/rss", "npm:2.4.4"],\
             ["@astrojs/sitemap", "npm:2.0.2"],\
@@ -539,11 +539,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@astrojs/partytown", [\
-        ["npm:1.2.3", {\
-          "packageLocation": "./.yarn/cache/@astrojs-partytown-npm-1.2.3-6c7453cb2f-e17c279043.zip/node_modules/@astrojs/partytown/",\
+        ["npm:2.0.2", {\
+          "packageLocation": "./.yarn/cache/@astrojs-partytown-npm-2.0.2-8384cab7b2-528f122fb5.zip/node_modules/@astrojs/partytown/",\
           "packageDependencies": [\
-            ["@astrojs/partytown", "npm:1.2.3"],\
-            ["@builder.io/partytown", "npm:0.7.6"],\
+            ["@astrojs/partytown", "npm:2.0.2"],\
+            ["@builder.io/partytown", "npm:0.8.1"],\
             ["mrmime", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
@@ -1118,10 +1118,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@builder.io/partytown", [\
-        ["npm:0.7.6", {\
-          "packageLocation": "./.yarn/cache/@builder.io-partytown-npm-0.7.6-0406641e3a-c469575e0f.zip/node_modules/@builder.io/partytown/",\
+        ["npm:0.8.1", {\
+          "packageLocation": "./.yarn/cache/@builder.io-partytown-npm-0.8.1-90e093a9ed-acf94e657b.zip/node_modules/@builder.io/partytown/",\
           "packageDependencies": [\
-            ["@builder.io/partytown", "npm:0.7.6"]\
+            ["@builder.io/partytown", "npm:0.8.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8095,7 +8095,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@algolia/client-search", "npm:4.19.1"],\
             ["@astrojs/image", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.17.3"],\
             ["@astrojs/mdx", "npm:0.19.7"],\
-            ["@astrojs/partytown", "npm:1.2.3"],\
+            ["@astrojs/partytown", "npm:2.0.2"],\
             ["@astrojs/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.3.2"],\
             ["@astrojs/rss", "npm:2.4.4"],\
             ["@astrojs/sitemap", "npm:2.0.2"],\
