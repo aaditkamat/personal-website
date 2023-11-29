@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@astrojs/mdx", "npm:0.19.7"],\
             ["@astrojs/partytown", "npm:1.2.3"],\
             ["@astrojs/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.3.2"],\
-            ["@astrojs/rss", "npm:2.4.4"],\
+            ["@astrojs/rss", "npm:3.0.0"],\
             ["@astrojs/sitemap", "npm:2.0.2"],\
             ["@astrojs/tailwind", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:4.0.0"],\
             ["@astrolib/analytics", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.4.2"],\
@@ -589,11 +589,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@astrojs/rss", [\
-        ["npm:2.4.4", {\
-          "packageLocation": "./.yarn/cache/@astrojs-rss-npm-2.4.4-f066af0bad-e71b6145a4.zip/node_modules/@astrojs/rss/",\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/@astrojs-rss-npm-3.0.0-3949592242-b930bd63e8.zip/node_modules/@astrojs/rss/",\
           "packageDependencies": [\
-            ["@astrojs/rss", "npm:2.4.4"],\
-            ["fast-xml-parser", "npm:4.2.7"],\
+            ["@astrojs/rss", "npm:3.0.0"],\
+            ["fast-xml-parser", "npm:4.3.2"],\
             ["kleur", "npm:4.1.5"]\
           ],\
           "linkType": "HARD"\
@@ -4780,10 +4780,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["fast-xml-parser", [\
-        ["npm:4.2.7", {\
-          "packageLocation": "./.yarn/cache/fast-xml-parser-npm-4.2.7-c57a954c1f-d8b0c9e047.zip/node_modules/fast-xml-parser/",\
+        ["npm:4.3.2", {\
+          "packageLocation": "./.yarn/cache/fast-xml-parser-npm-4.3.2-ccbd0655a8-d507ce2efa.zip/node_modules/fast-xml-parser/",\
           "packageDependencies": [\
-            ["fast-xml-parser", "npm:4.2.7"],\
+            ["fast-xml-parser", "npm:4.3.2"],\
             ["strnum", "npm:1.0.5"]\
           ],\
           "linkType": "HARD"\
@@ -8097,7 +8097,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@astrojs/mdx", "npm:0.19.7"],\
             ["@astrojs/partytown", "npm:1.2.3"],\
             ["@astrojs/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:2.3.2"],\
-            ["@astrojs/rss", "npm:2.4.4"],\
+            ["@astrojs/rss", "npm:3.0.0"],\
             ["@astrojs/sitemap", "npm:2.0.2"],\
             ["@astrojs/tailwind", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:4.0.0"],\
             ["@astrolib/analytics", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.4.2"],\
