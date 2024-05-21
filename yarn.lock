@@ -1758,6 +1758,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/typescript-estree@npm:^5.0.0":
+  version: 5.62.0
+  resolution: "@typescript-eslint/typescript-estree@npm:5.62.0"
+  dependencies:
+    "@typescript-eslint/types": 5.62.0
+    "@typescript-eslint/visitor-keys": 5.62.0
+    debug: ^4.3.4
+    globby: ^11.1.0
+    is-glob: ^4.0.3
+    semver: ^7.3.7
+    tsutils: ^3.21.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 3624520abb5807ed8f57b1197e61c7b1ed770c56dfcaca66372d584ff50175225798bccb701f7ef129d62c5989070e1ee3a0aa2d84e56d9524dcf011a2bb1a52
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/utils@npm:6.5.0":
   version: 6.5.0
   resolution: "@typescript-eslint/utils@npm:6.5.0"
@@ -2135,6 +2153,26 @@ __metadata:
     espree: ^9.0.0
     semver: ^7.3.8
   checksum: 0745d8d581968cba04ec9a34e3f98a6b43af3815208ec98228efe91f74fbdcdb6e40005d808926df831f7cf2f70c58bd572ee53bbe63babd24df6f9b9202c50a
+  languageName: node
+  linkType: hard
+
+"astro-eslint-parser@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "astro-eslint-parser@npm:0.17.0"
+  dependencies:
+    "@astrojs/compiler": ^2.0.0
+    "@typescript-eslint/scope-manager": ^5.0.0
+    "@typescript-eslint/types": ^5.0.0
+    "@typescript-eslint/typescript-estree": ^5.0.0
+    astrojs-compiler-sync: ^0.3.0
+    debug: ^4.3.4
+    entities: ^4.5.0
+    eslint-visitor-keys: ^3.0.0
+    espree: ^9.0.0
+    globby: ^11.1.0
+    is-glob: ^4.0.3
+    semver: ^7.3.8
+  checksum: d39eef6689d4165b17e299ceb2312ef45c7a895f5a7613c109aaa9dd3850223a9282641f9bc13e6783286b83e881f5843ef345ed7aec92e16c4c65b196595ff1
   languageName: node
   linkType: hard
 
@@ -3279,7 +3317,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:^4.2.0, entities@npm:^4.4.0":
+"entities@npm:^4.2.0, entities@npm:^4.4.0, entities@npm:^4.5.0":
   version: 4.5.0
   resolution: "entities@npm:4.5.0"
   checksum: 853f8ebd5b425d350bffa97dd6958143179a5938352ccae092c62d1267c4e392a039be1bae7d51b6e4ffad25f51f9617531fedf5237f15df302ccfb452cbf2d7
@@ -6972,7 +7010,7 @@ __metadata:
     "@typescript-eslint/parser": ^6.0.0
     astro: ^2.5.5
     astro-compress: ^2.0.0
-    astro-eslint-parser: ^0.15.0
+    astro-eslint-parser: ^0.17.0
     astro-icon: ^0.8.0
     eslint: ^8.41.0
     eslint-plugin-astro: ^0.29.0
@@ -7776,6 +7814,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:^7.3.7":
+  version: 7.6.2
+  resolution: "semver@npm:7.6.2"
+  bin:
+    semver: bin/semver.js
+  checksum: 40f6a95101e8d854357a644da1b8dd9d93ce786d5c6a77227bc69dbb17bea83d0d1d1d7c4cd5920a6df909f48e8bd8a5909869535007f90278289f2451d0292d
+  languageName: node
+  linkType: hard
+
 "semver@npm:^7.5.4":
   version: 7.5.4
   resolution: "semver@npm:7.5.4"
@@ -8526,10 +8573,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:^1.8.1":
+  version: 1.14.1
+  resolution: "tslib@npm:1.14.1"
+  checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^2.0.3, tslib@npm:^2.5.0":
   version: 2.5.2
   resolution: "tslib@npm:2.5.2"
   checksum: 4d3c1e238b94127ed0e88aa0380db3c2ddae581dc0f4bae5a982345e9f50ee5eda90835b8bfba99b02df10a5734470be197158c36f9129ac49fdc14a6a9da222
+  languageName: node
+  linkType: hard
+
+"tsutils@npm:^3.21.0":
+  version: 3.21.0
+  resolution: "tsutils@npm:3.21.0"
+  dependencies:
+    tslib: ^1.8.1
+  peerDependencies:
+    typescript: ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
+  checksum: 1843f4c1b2e0f975e08c4c21caa4af4f7f65a12ac1b81b3b8489366826259323feb3fc7a243123453d2d1a02314205a7634e048d4a8009921da19f99755cdc48
   languageName: node
   linkType: hard
 
