@@ -650,7 +650,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dset", "npm:3.1.2"],\
             ["is-docker", "npm:3.0.0"],\
             ["is-wsl", "npm:2.2.0"],\
-            ["undici", "npm:5.26.3"],\
+            ["undici", "npm:5.28.4"],\
             ["which-pm-runs", "npm:1.1.0"]\
           ],\
           "linkType": "HARD"\
@@ -661,7 +661,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@astrojs-webapi-npm-2.2.0-bae65b49bd-2e6bbf1306.zip/node_modules/@astrojs/webapi/",\
           "packageDependencies": [\
             ["@astrojs/webapi", "npm:2.2.0"],\
-            ["undici", "npm:5.26.3"]\
+            ["undici", "npm:5.28.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9979,10 +9979,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["undici", [\
-        ["npm:5.26.3", {\
-          "packageLocation": "./.yarn/cache/undici-npm-5.26.3-bdeea4fdde-aaa9aadb71.zip/node_modules/undici/",\
+        ["npm:5.28.4", {\
+          "packageLocation": "./.yarn/cache/undici-npm-5.28.4-63fa65e206-a8193132d8.zip/node_modules/undici/",\
           "packageDependencies": [\
-            ["undici", "npm:5.26.3"],\
+            ["undici", "npm:5.28.4"],\
             ["@fastify/busboy", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
