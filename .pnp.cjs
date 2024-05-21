@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@astrolib/analytics", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.5.0"],\
             ["@astrolib/seo", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.3.0"],\
             ["@docsearch/css", "npm:3.6.0"],\
-            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.5.2"],\
+            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.6.0"],\
             ["@fontsource/inter", "npm:4.5.15"],\
             ["@tailwindcss/typography", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.5.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.5.0"],\
@@ -117,11 +117,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:308c8e7f36c9ce84216692b7049fbdbe4b21a0ee2f5d4396f912bf458e4ef6175b8d7489435a7128ee282bd3435684f49eb1cce229b35032069d0a3a1f2a4636#npm:1.9.3", {\
-          "packageLocation": "./.yarn/__virtual__/@algolia-autocomplete-preset-algolia-virtual-44ae506570/0/cache/@algolia-autocomplete-preset-algolia-npm-1.9.3-ac8ef6572f-1ab3273d30.zip/node_modules/@algolia/autocomplete-preset-algolia/",\
+        ["virtual:26600db9928595d9578ce59a3b5f58654db88cf4c1272b93a7d9c6abc9edbd05bbef1890c1bd67e341e99aea728db62f31dba89a5a3e358ccca8920cda9739cd#npm:1.9.3", {\
+          "packageLocation": "./.yarn/__virtual__/@algolia-autocomplete-preset-algolia-virtual-7cbbe73ab4/0/cache/@algolia-autocomplete-preset-algolia-npm-1.9.3-ac8ef6572f-1ab3273d30.zip/node_modules/@algolia/autocomplete-preset-algolia/",\
           "packageDependencies": [\
-            ["@algolia/autocomplete-preset-algolia", "virtual:308c8e7f36c9ce84216692b7049fbdbe4b21a0ee2f5d4396f912bf458e4ef6175b8d7489435a7128ee282bd3435684f49eb1cce229b35032069d0a3a1f2a4636#npm:1.9.3"],\
-            ["@algolia/autocomplete-shared", "virtual:44ae5065704e14d4002f2195062c4dfa82f71f590ec77837c12714f1a2e828c61df5361047a6fcd69f7f977817301b39779f8af9dd35c0a6b7bd977ebf5b0c98#npm:1.9.3"],\
+            ["@algolia/autocomplete-preset-algolia", "virtual:26600db9928595d9578ce59a3b5f58654db88cf4c1272b93a7d9c6abc9edbd05bbef1890c1bd67e341e99aea728db62f31dba89a5a3e358ccca8920cda9739cd#npm:1.9.3"],\
+            ["@algolia/autocomplete-shared", "virtual:7cbbe73ab45806357d410abad4db65771ef8bc201928abad791f0e362e4dce44f9951aab42de0f96726fa922798d7181fae583d5d13aeabcd69d650e813166f3#npm:1.9.3"],\
             ["@algolia/client-search", null],\
             ["@types/algolia__client-search", null],\
             ["@types/algoliasearch", null],\
@@ -144,10 +144,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:44ae5065704e14d4002f2195062c4dfa82f71f590ec77837c12714f1a2e828c61df5361047a6fcd69f7f977817301b39779f8af9dd35c0a6b7bd977ebf5b0c98#npm:1.9.3", {\
-          "packageLocation": "./.yarn/__virtual__/@algolia-autocomplete-shared-virtual-6d59f6ce70/0/cache/@algolia-autocomplete-shared-npm-1.9.3-e918a6f29f-06014c8b08.zip/node_modules/@algolia/autocomplete-shared/",\
+        ["virtual:7cbbe73ab45806357d410abad4db65771ef8bc201928abad791f0e362e4dce44f9951aab42de0f96726fa922798d7181fae583d5d13aeabcd69d650e813166f3#npm:1.9.3", {\
+          "packageLocation": "./.yarn/__virtual__/@algolia-autocomplete-shared-virtual-e3b1f16621/0/cache/@algolia-autocomplete-shared-npm-1.9.3-e918a6f29f-06014c8b08.zip/node_modules/@algolia/autocomplete-shared/",\
           "packageDependencies": [\
-            ["@algolia/autocomplete-shared", "virtual:44ae5065704e14d4002f2195062c4dfa82f71f590ec77837c12714f1a2e828c61df5361047a6fcd69f7f977817301b39779f8af9dd35c0a6b7bd977ebf5b0c98#npm:1.9.3"],\
+            ["@algolia/autocomplete-shared", "virtual:7cbbe73ab45806357d410abad4db65771ef8bc201928abad791f0e362e4dce44f9951aab42de0f96726fa922798d7181fae583d5d13aeabcd69d650e813166f3#npm:1.9.3"],\
             ["@algolia/client-search", null],\
             ["@types/algolia__client-search", null],\
             ["@types/algoliasearch", null],\
@@ -1127,13 +1127,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@docsearch/css", [\
-        ["npm:3.5.2", {\
-          "packageLocation": "./.yarn/cache/@docsearch-css-npm-3.5.2-f2e6573831-d1d60dd230.zip/node_modules/@docsearch/css/",\
-          "packageDependencies": [\
-            ["@docsearch/css", "npm:3.5.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.6.0", {\
           "packageLocation": "./.yarn/cache/@docsearch-css-npm-3.6.0-8ee3099569-6fa5d7a386.zip/node_modules/@docsearch/css/",\
           "packageDependencies": [\
@@ -1143,20 +1136,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@docsearch/react", [\
-        ["npm:3.5.2", {\
-          "packageLocation": "./.yarn/cache/@docsearch-react-npm-3.5.2-158b26333e-4b4584c2c7.zip/node_modules/@docsearch/react/",\
+        ["npm:3.6.0", {\
+          "packageLocation": "./.yarn/cache/@docsearch-react-npm-3.6.0-cc34aa98ff-1025c60726.zip/node_modules/@docsearch/react/",\
           "packageDependencies": [\
-            ["@docsearch/react", "npm:3.5.2"]\
+            ["@docsearch/react", "npm:3.6.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.5.2", {\
-          "packageLocation": "./.yarn/__virtual__/@docsearch-react-virtual-308c8e7f36/0/cache/@docsearch-react-npm-3.5.2-158b26333e-4b4584c2c7.zip/node_modules/@docsearch/react/",\
+        ["virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.6.0", {\
+          "packageLocation": "./.yarn/__virtual__/@docsearch-react-virtual-26600db992/0/cache/@docsearch-react-npm-3.6.0-cc34aa98ff-1025c60726.zip/node_modules/@docsearch/react/",\
           "packageDependencies": [\
-            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.5.2"],\
+            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.6.0"],\
             ["@algolia/autocomplete-core", "npm:1.9.3"],\
-            ["@algolia/autocomplete-preset-algolia", "virtual:308c8e7f36c9ce84216692b7049fbdbe4b21a0ee2f5d4396f912bf458e4ef6175b8d7489435a7128ee282bd3435684f49eb1cce229b35032069d0a3a1f2a4636#npm:1.9.3"],\
-            ["@docsearch/css", "npm:3.5.2"],\
+            ["@algolia/autocomplete-preset-algolia", "virtual:26600db9928595d9578ce59a3b5f58654db88cf4c1272b93a7d9c6abc9edbd05bbef1890c1bd67e341e99aea728db62f31dba89a5a3e358ccca8920cda9739cd#npm:1.9.3"],\
+            ["@docsearch/css", "npm:3.6.0"],\
             ["@types/react", null],\
             ["@types/react-dom", null],\
             ["@types/search-insights", null],\
@@ -8110,7 +8103,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@astrolib/analytics", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.5.0"],\
             ["@astrolib/seo", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.3.0"],\
             ["@docsearch/css", "npm:3.6.0"],\
-            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.5.2"],\
+            ["@docsearch/react", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:3.6.0"],\
             ["@fontsource/inter", "npm:4.5.15"],\
             ["@tailwindcss/typography", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.5.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.5.0"],\
@@ -12422,7 +12415,8 @@ class ZipFS extends BasePortableFakeFS {
           stream$1.destroy();
         },
         bytesRead: 0,
-        path: p
+        path: p,
+        pending: false
       }
     );
     const immediate = setImmediate(async () => {
@@ -12463,11 +12457,12 @@ class ZipFS extends BasePortableFakeFS {
         }
       }),
       {
-        bytesWritten: 0,
-        path: p,
         close() {
           stream$1.destroy();
-        }
+        },
+        bytesWritten: 0,
+        path: p,
+        pending: false
       }
     );
     stream$1.on(`data`, (chunk) => {
@@ -13407,18 +13402,10 @@ class ProxiedFS extends FakeFS {
     return this.baseFs.symlinkSync(mappedTarget, mappedP, type);
   }
   async readFilePromise(p, encoding) {
-    if (encoding === `utf8`) {
-      return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
-    } else {
-      return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
-    }
+    return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
   }
   readFileSync(p, encoding) {
-    if (encoding === `utf8`) {
-      return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
-    } else {
-      return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
-    }
+    return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
   }
   async readdirPromise(p, opts) {
     return this.baseFs.readdirPromise(this.mapToBase(p), opts);
@@ -14144,24 +14131,14 @@ class ZipOpenFS extends BasePortableFakeFS {
   }
   async readFilePromise(p, encoding) {
     return this.makeCallPromise(p, async () => {
-      switch (encoding) {
-        case `utf8`:
-          return await this.baseFs.readFilePromise(p, encoding);
-        default:
-          return await this.baseFs.readFilePromise(p, encoding);
-      }
+      return await this.baseFs.readFilePromise(p, encoding);
     }, async (zipFs, { subPath }) => {
       return await zipFs.readFilePromise(subPath, encoding);
     });
   }
   readFileSync(p, encoding) {
     return this.makeCallSync(p, () => {
-      switch (encoding) {
-        case `utf8`:
-          return this.baseFs.readFileSync(p, encoding);
-        default:
-          return this.baseFs.readFileSync(p, encoding);
-      }
+      return this.baseFs.readFileSync(p, encoding);
     }, (zipFs, { subPath }) => {
       return zipFs.readFileSync(subPath, encoding);
     });
@@ -14853,38 +14830,28 @@ function patchFs(patchedFs, fakeFs) {
     patchedFs.realpathSync.native = patchedFs.realpathSync;
   }
   {
-    const origEmitWarning = process.emitWarning;
-    process.emitWarning = () => {
-    };
-    let patchedFsPromises;
-    try {
-      patchedFsPromises = patchedFs.promises;
-    } finally {
-      process.emitWarning = origEmitWarning;
-    }
-    if (typeof patchedFsPromises !== `undefined`) {
-      for (const fnName of ASYNC_IMPLEMENTATIONS) {
-        const origName = fnName.replace(/Promise$/, ``);
-        if (typeof patchedFsPromises[origName] === `undefined`)
-          continue;
-        const fakeImpl = fakeFs[fnName];
-        if (typeof fakeImpl === `undefined`)
-          continue;
-        if (fnName === `open`)
-          continue;
-        setupFn(patchedFsPromises, origName, (pathLike, ...args) => {
-          if (pathLike instanceof FileHandle) {
-            return pathLike[origName].apply(pathLike, args);
-          } else {
-            return fakeImpl.call(fakeFs, pathLike, ...args);
-          }
-        });
-      }
-      setupFn(patchedFsPromises, `open`, async (...args) => {
-        const fd = await fakeFs.openPromise(...args);
-        return new FileHandle(fd, fakeFs);
+    const patchedFsPromises = patchedFs.promises;
+    for (const fnName of ASYNC_IMPLEMENTATIONS) {
+      const origName = fnName.replace(/Promise$/, ``);
+      if (typeof patchedFsPromises[origName] === `undefined`)
+        continue;
+      const fakeImpl = fakeFs[fnName];
+      if (typeof fakeImpl === `undefined`)
+        continue;
+      if (fnName === `open`)
+        continue;
+      setupFn(patchedFsPromises, origName, (pathLike, ...args) => {
+        if (pathLike instanceof FileHandle) {
+          return pathLike[origName].apply(pathLike, args);
+        } else {
+          return fakeImpl.call(fakeFs, pathLike, ...args);
+        }
       });
     }
+    setupFn(patchedFsPromises, `open`, async (...args) => {
+      const fd = await fakeFs.openPromise(...args);
+      return new FileHandle(fd, fakeFs);
+    });
   }
   {
     patchedFs.read[nodeUtils.promisify.custom] = async (fd, buffer, ...args) => {
@@ -21131,7 +21098,7 @@ function makeManager(pnpapi, opts) {
     apiEntry.lastRefreshCheck = timeNow;
     const stats = opts.fakeFs.statSync(pnpApiPath);
     if (stats.mtime > apiEntry.stats.mtime) {
-      process.emitWarning(`[Warning] The runtime detected new informations in a PnP file; reloading the API instance (${npath.fromPortablePath(pnpApiPath)})`);
+      process.emitWarning(`[Warning] The runtime detected new information in a PnP file; reloading the API instance (${npath.fromPortablePath(pnpApiPath)})`);
       apiEntry.stats = stats;
       apiEntry.instance = loadApiInstance(pnpApiPath);
     }
