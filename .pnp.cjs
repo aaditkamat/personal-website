@@ -2838,8 +2838,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["unist-util-visit", "npm:4.1.2"],\
             ["vfile", "npm:5.3.7"],\
-            ["vite", "virtual:cd466795bee9da510633403e9a29396a9a98f531ba46822a000dd91bf9aa42255d9c4142551775f890cb7cb4061f951acf16e3c7eafa6747e19bb14a7e12fe64#npm:4.5.1"],\
-            ["vitefu", "virtual:cd466795bee9da510633403e9a29396a9a98f531ba46822a000dd91bf9aa42255d9c4142551775f890cb7cb4061f951acf16e3c7eafa6747e19bb14a7e12fe64#npm:0.2.4"],\
+            ["vite", "virtual:d379189abe60586ea8dcafba03d0f7c36718ecee3d8aacfc1bad63c122f9e46e17a2be9d69e9b2a6a6b5cc7ecd15e1413ea010b66c0e52c2fae5fdb44cf734d6#npm:4.5.3"],\
+            ["vitefu", "virtual:d379189abe60586ea8dcafba03d0f7c36718ecee3d8aacfc1bad63c122f9e46e17a2be9d69e9b2a6a6b5cc7ecd15e1413ea010b66c0e52c2fae5fdb44cf734d6#npm:0.2.4"],\
             ["which-pm", "npm:2.0.0"],\
             ["yargs-parser", "npm:21.1.1"],\
             ["zod", "npm:3.21.4"]\
@@ -10229,17 +10229,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["vite", [\
-        ["npm:4.5.1", {\
-          "packageLocation": "./.yarn/cache/vite-npm-4.5.1-567bbcf9ff-72b3584b3d.zip/node_modules/vite/",\
+        ["npm:4.5.3", {\
+          "packageLocation": "./.yarn/cache/vite-npm-4.5.3-5cedc7cb8f-fd3f512ce4.zip/node_modules/vite/",\
           "packageDependencies": [\
-            ["vite", "npm:4.5.1"]\
+            ["vite", "npm:4.5.3"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:cd466795bee9da510633403e9a29396a9a98f531ba46822a000dd91bf9aa42255d9c4142551775f890cb7cb4061f951acf16e3c7eafa6747e19bb14a7e12fe64#npm:4.5.1", {\
-          "packageLocation": "./.yarn/__virtual__/vite-virtual-045f8cf6fb/0/cache/vite-npm-4.5.1-567bbcf9ff-72b3584b3d.zip/node_modules/vite/",\
+        ["virtual:d379189abe60586ea8dcafba03d0f7c36718ecee3d8aacfc1bad63c122f9e46e17a2be9d69e9b2a6a6b5cc7ecd15e1413ea010b66c0e52c2fae5fdb44cf734d6#npm:4.5.3", {\
+          "packageLocation": "./.yarn/__virtual__/vite-virtual-cc3320d0a1/0/cache/vite-npm-4.5.3-5cedc7cb8f-fd3f512ce4.zip/node_modules/vite/",\
           "packageDependencies": [\
-            ["vite", "virtual:cd466795bee9da510633403e9a29396a9a98f531ba46822a000dd91bf9aa42255d9c4142551775f890cb7cb4061f951acf16e3c7eafa6747e19bb14a7e12fe64#npm:4.5.1"],\
+            ["vite", "virtual:d379189abe60586ea8dcafba03d0f7c36718ecee3d8aacfc1bad63c122f9e46e17a2be9d69e9b2a6a6b5cc7ecd15e1413ea010b66c0e52c2fae5fdb44cf734d6#npm:4.5.3"],\
             ["@types/less", null],\
             ["@types/lightningcss", null],\
             ["@types/node", null],\
@@ -10289,7 +10289,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["vitefu", "virtual:d379189abe60586ea8dcafba03d0f7c36718ecee3d8aacfc1bad63c122f9e46e17a2be9d69e9b2a6a6b5cc7ecd15e1413ea010b66c0e52c2fae5fdb44cf734d6#npm:0.2.4"],\
             ["@types/vite", null],\
-            ["vite", "virtual:cd466795bee9da510633403e9a29396a9a98f531ba46822a000dd91bf9aa42255d9c4142551775f890cb7cb4061f951acf16e3c7eafa6747e19bb14a7e12fe64#npm:4.5.1"]\
+            ["vite", "virtual:d379189abe60586ea8dcafba03d0f7c36718ecee3d8aacfc1bad63c122f9e46e17a2be9d69e9b2a6a6b5cc7ecd15e1413ea010b66c0e52c2fae5fdb44cf734d6#npm:4.5.3"]\
           ],\
           "packagePeers": [\
             "@types/vite",\
@@ -12419,7 +12419,8 @@ class ZipFS extends BasePortableFakeFS {
           stream$1.destroy();
         },
         bytesRead: 0,
-        path: p
+        path: p,
+        pending: false
       }
     );
     const immediate = setImmediate(async () => {
@@ -12460,11 +12461,12 @@ class ZipFS extends BasePortableFakeFS {
         }
       }),
       {
-        bytesWritten: 0,
-        path: p,
         close() {
           stream$1.destroy();
-        }
+        },
+        bytesWritten: 0,
+        path: p,
+        pending: false
       }
     );
     stream$1.on(`data`, (chunk) => {
@@ -13404,18 +13406,10 @@ class ProxiedFS extends FakeFS {
     return this.baseFs.symlinkSync(mappedTarget, mappedP, type);
   }
   async readFilePromise(p, encoding) {
-    if (encoding === `utf8`) {
-      return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
-    } else {
-      return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
-    }
+    return this.baseFs.readFilePromise(this.fsMapToBase(p), encoding);
   }
   readFileSync(p, encoding) {
-    if (encoding === `utf8`) {
-      return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
-    } else {
-      return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
-    }
+    return this.baseFs.readFileSync(this.fsMapToBase(p), encoding);
   }
   async readdirPromise(p, opts) {
     return this.baseFs.readdirPromise(this.mapToBase(p), opts);
@@ -14141,24 +14135,14 @@ class ZipOpenFS extends BasePortableFakeFS {
   }
   async readFilePromise(p, encoding) {
     return this.makeCallPromise(p, async () => {
-      switch (encoding) {
-        case `utf8`:
-          return await this.baseFs.readFilePromise(p, encoding);
-        default:
-          return await this.baseFs.readFilePromise(p, encoding);
-      }
+      return await this.baseFs.readFilePromise(p, encoding);
     }, async (zipFs, { subPath }) => {
       return await zipFs.readFilePromise(subPath, encoding);
     });
   }
   readFileSync(p, encoding) {
     return this.makeCallSync(p, () => {
-      switch (encoding) {
-        case `utf8`:
-          return this.baseFs.readFileSync(p, encoding);
-        default:
-          return this.baseFs.readFileSync(p, encoding);
-      }
+      return this.baseFs.readFileSync(p, encoding);
     }, (zipFs, { subPath }) => {
       return zipFs.readFileSync(subPath, encoding);
     });
@@ -14850,38 +14834,28 @@ function patchFs(patchedFs, fakeFs) {
     patchedFs.realpathSync.native = patchedFs.realpathSync;
   }
   {
-    const origEmitWarning = process.emitWarning;
-    process.emitWarning = () => {
-    };
-    let patchedFsPromises;
-    try {
-      patchedFsPromises = patchedFs.promises;
-    } finally {
-      process.emitWarning = origEmitWarning;
-    }
-    if (typeof patchedFsPromises !== `undefined`) {
-      for (const fnName of ASYNC_IMPLEMENTATIONS) {
-        const origName = fnName.replace(/Promise$/, ``);
-        if (typeof patchedFsPromises[origName] === `undefined`)
-          continue;
-        const fakeImpl = fakeFs[fnName];
-        if (typeof fakeImpl === `undefined`)
-          continue;
-        if (fnName === `open`)
-          continue;
-        setupFn(patchedFsPromises, origName, (pathLike, ...args) => {
-          if (pathLike instanceof FileHandle) {
-            return pathLike[origName].apply(pathLike, args);
-          } else {
-            return fakeImpl.call(fakeFs, pathLike, ...args);
-          }
-        });
-      }
-      setupFn(patchedFsPromises, `open`, async (...args) => {
-        const fd = await fakeFs.openPromise(...args);
-        return new FileHandle(fd, fakeFs);
+    const patchedFsPromises = patchedFs.promises;
+    for (const fnName of ASYNC_IMPLEMENTATIONS) {
+      const origName = fnName.replace(/Promise$/, ``);
+      if (typeof patchedFsPromises[origName] === `undefined`)
+        continue;
+      const fakeImpl = fakeFs[fnName];
+      if (typeof fakeImpl === `undefined`)
+        continue;
+      if (fnName === `open`)
+        continue;
+      setupFn(patchedFsPromises, origName, (pathLike, ...args) => {
+        if (pathLike instanceof FileHandle) {
+          return pathLike[origName].apply(pathLike, args);
+        } else {
+          return fakeImpl.call(fakeFs, pathLike, ...args);
+        }
       });
     }
+    setupFn(patchedFsPromises, `open`, async (...args) => {
+      const fd = await fakeFs.openPromise(...args);
+      return new FileHandle(fd, fakeFs);
+    });
   }
   {
     patchedFs.read[nodeUtils.promisify.custom] = async (fd, buffer, ...args) => {
@@ -21128,7 +21102,7 @@ function makeManager(pnpapi, opts) {
     apiEntry.lastRefreshCheck = timeNow;
     const stats = opts.fakeFs.statSync(pnpApiPath);
     if (stats.mtime > apiEntry.stats.mtime) {
-      process.emitWarning(`[Warning] The runtime detected new informations in a PnP file; reloading the API instance (${npath.fromPortablePath(pnpApiPath)})`);
+      process.emitWarning(`[Warning] The runtime detected new information in a PnP file; reloading the API instance (${npath.fromPortablePath(pnpApiPath)})`);
       apiEntry.stats = stats;
       apiEntry.instance = loadApiInstance(pnpApiPath);
     }
