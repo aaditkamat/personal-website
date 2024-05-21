@@ -432,12 +432,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrolib/analytics@npm:^0.4.0":
-  version: 0.4.2
-  resolution: "@astrolib/analytics@npm:0.4.2"
+"@astrolib/analytics@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@astrolib/analytics@npm:0.5.0"
   peerDependencies:
-    astro: ^1.2.1 || ^2.0.0 || ^3.0.0-beta.0 || ^3.0.0
-  checksum: 73cd1fcfa86d825ace90cbd49d35c8977c5c7f64ac77c9c7ff3bb9f36ef469867eb222b0a51f034d88b4e1b98db5cb59ad0ad85498808805de868018664d1fa4
+    astro: ^1.2.1 || ^2.0.0 || ^3.0.0-beta.0 || ^3.0.0 || ^4.0.0
+  checksum: fdc9c9549e28e8dc68138a809b616dcb70eefb809fedac70720eec53a55140c55fda80cb3b2eed345ed7535aacea4a66b724aa7dfdadbf306f92eebfd6a33909
   languageName: node
   linkType: hard
 
@@ -6962,7 +6962,7 @@ __metadata:
     "@astrojs/rss": ^2.4.3
     "@astrojs/sitemap": ^2.0.0
     "@astrojs/tailwind": ^4.0.0
-    "@astrolib/analytics": ^0.4.0
+    "@astrolib/analytics": ^0.5.0
     "@astrolib/seo": ^0.3.0
     "@docsearch/css": ^3.4.0
     "@docsearch/react": ^3.4.0
