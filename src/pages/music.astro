@@ -1,0 +1,26 @@
+---
+import { SITE } from '~/config.mjs';
+import Layout from '~/layouts/PageLayout.astro';
+
+const meta = {
+  title: 'Music',
+  description: SITE.description,
+  dontUseTitleTemplate: true,
+};
+---
+<Layout {meta}>
+  <section id="music">
+    <div class="container-fluid">
+      <div class="flex mt-16 mb-16">
+          <iframe 
+            alt="Aadit Kamat stats.fm profile"
+            src="https://stats.fm/21w5qrmgsdsccbhg24a2x3fhi" 
+            style="border:solid 1px #777;margin: 0 0 0 25.5em"
+            width="800"
+            height="600"
+          ></iframe>
+      </div>
+    </div>
+  </section>
+</Layout>
+<br><br>
