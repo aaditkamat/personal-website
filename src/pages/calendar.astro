@@ -10,13 +10,16 @@ const meta = {
 ---
 
 <Layout {meta}>
-  <section id="about">
-    <div class="container-fluid" style={{ padding: '2em' }}>
-      <h1 class="font-bold text-3xl text-left" style={{ marginLeft: '23em' }}>Calendar</h1>
-      <main>
-        <div class="row" style={{ marginLeft: '23em' }}>
-          <iframe src="https://calendar.google.com/calendar/embed?src=mmqs13nciq5tgq7sbglftfgv8l03jgus%40import.calendar.google.com&ctz=Asia%2FSingapore" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        </div>
-      </main>
+  <section id="calendar">
+    <div class="container-fluid">
+      <div class="flex mt-16 mb-16">
+          <iframe 
+            src="https://calendar.google.com/calendar/embed?src=mmqs13nciq5tgq7sbglftfgv8l03jgus%40import.calendar.google.com&ctz=Asia%2FSingapore" 
+            style="border: 0;margin: 0 0 0 25.5em;" 
+            width="800" 
+            height="600">
+          </iframe>
+      </div>
+    </div>
   </section>
 </Layout>
