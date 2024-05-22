@@ -48,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["astro-compress", "npm:2.2.23"],\
             ["astro-eslint-parser", "npm:0.17.0"],\
             ["astro-icon", "npm:0.8.2"],\
+            ["deepmerge-ts", "npm:7.0.1"],\
             ["eslint", "npm:8.57.0"],\
             ["eslint-plugin-astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.34.0"],\
             ["eslint-plugin-jsx-a11y", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.7.1"],\
@@ -5252,6 +5253,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/deepmerge-ts-npm-5.1.0-f2ee394fd9-6b57db93c2.zip/node_modules/deepmerge-ts/",\
           "packageDependencies": [\
             ["deepmerge-ts", "npm:5.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:7.0.1", {\
+          "packageLocation": "./.yarn/cache/deepmerge-ts-npm-7.0.1-3b367acc8a-c770ce45a5.zip/node_modules/deepmerge-ts/",\
+          "packageDependencies": [\
+            ["deepmerge-ts", "npm:7.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10602,6 +10610,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["astro-compress", "npm:2.2.23"],\
             ["astro-eslint-parser", "npm:0.17.0"],\
             ["astro-icon", "npm:0.8.2"],\
+            ["deepmerge-ts", "npm:7.0.1"],\
             ["eslint", "npm:8.57.0"],\
             ["eslint-plugin-astro", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:0.34.0"],\
             ["eslint-plugin-jsx-a11y", "virtual:f1d86ea066bb88e07a0da6dc39316eae3af8dc8a3f786066821cf9e12fa219f7dca0d1403fe8b03bc00d8b9d5a7434b74ead72b5b605f92eeacee77ed25642c5#npm:6.7.1"],\

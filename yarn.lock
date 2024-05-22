@@ -4452,6 +4452,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"deepmerge-ts@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "deepmerge-ts@npm:7.0.1"
+  checksum: c770ce45a56960c8d2a4138208e64a87ce7a5921c9725e5f19169c09942dabdd4e8fca4f491dbf3d1adff00c748ab2bf8889e50b525ba2e44a4a1d9b925addbe
+  languageName: node
+  linkType: hard
+
 "default-browser-id@npm:^3.0.0":
   version: 3.0.0
   resolution: "default-browser-id@npm:3.0.0"
@@ -9591,6 +9598,7 @@ __metadata:
     astro-compress: ^2.0.0
     astro-eslint-parser: ^0.17.0
     astro-icon: ^0.8.0
+    deepmerge-ts: ^7.0.1
     eslint: ^8.41.0
     eslint-plugin-astro: ^0.34.0
     eslint-plugin-jsx-a11y: ^6.7.1
