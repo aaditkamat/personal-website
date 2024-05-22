@@ -53,6 +53,7 @@
   },
   "packageManager": "yarn@3.8.2",
   "dependencies": {
-    "@astrojs/react": "^2.2.1"
+    "@astrojs/react": "^2.2.1",
+    "deepmerge-ts": "^7.0.1"
   }
 }
