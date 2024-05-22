@@ -1,0 +1,28 @@
+---
+import { Icon } from 'astro-icon';
+import Project  from '~/components/Project.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import { SITE } from '~/config.mjs';
+import { projectsData } from '~/data';
+import About from './about.astro';
+const meta = {
+  title: SITE.title,
+  description: SITE.description,
+  dontUseTitleTemplate: true,
+};
+---
+
+<Layout {meta}>
+    <div class="row mt-16" style={{marginLeft: '25.5em'}}>  
+    {
+      projectsData.map((project) => (
+        <>
+        <Project {...project} />
+        <br><br>
+        </>
+      ))
+    }
+    <br>
+</Layout>
+
+<br> <br>
