@@ -1,22 +1,26 @@
 ---
-layout: '../layouts/PageLayout.astro'
-title: Tools
+import { SITE } from '~/config.mjs';
+import Layout from '~/layouts/PageLayout.astro';
+
+const meta = {
+  title: SITE.title,
+  description: SITE.description,
+  dontUseTitleTemplate: true,
+};
 ---
 
-<h1 class="font-bold text-3xl text-center mb-4"> Tools </h1>
-
-<main class="container mt-8 ml-32">
+<Layout {meta}>
+    <div class="row mt-16" style={{marginLeft: '25.5em'}}> 
 
 I was checking out <a href="https://www.alfredworkflows.store/workflows/unsplash">an Alfred Unsplash workflow</a>. One thing led to another, and I came upon the <a href="https://www.adamdehaven.com/uses/">section on the author's website</a> which lists the tools he uses for development. I've been meaning to do the same for a while now, but I wasn't sure where I would put it. His page gave me just the kind of inspiration I needed to do so.
 
 Here's my list of my development tools. These may change from time to time, but at least some of them will come in handy for the long haul.
 
-<br>
+<br><br>
 
 <h2 class="font-bold text-2xl text-left mb-4">Hardware</h2>
 
----
-
+<hr>
 <br>
 
 <ul class="ml-10"style="list-style: disc;">
@@ -28,8 +32,7 @@ Here's my list of my development tools. These may change from time to time, but 
 
 <h2 class="font-bold text-2xl text-left  mb-4"> Code Editor </h2>
 
----
-
+<hr>
 <br>
 
 <ul class="ml-10"style="list-style: disc;">
@@ -41,8 +44,7 @@ Here's my list of my development tools. These may change from time to time, but 
 
 <h2 class="font-bold text-2xl text-left  mb-4"> Extensions </h2>
 
----
-
+<hr>
 <br>
 
 <p class="text-left"> Here are some of my favourite extensions: </p>
@@ -60,8 +62,7 @@ Here's my list of my development tools. These may change from time to time, but 
 
 <h2 class="font-bold text-2xl text-left mb-4"> Terminal </h2>
 
----
-
+<hr>
 <br>
 
 <ul class="ml-10"style="list-style: disc;">
@@ -73,8 +74,7 @@ Here's my list of my development tools. These may change from time to time, but 
 
 <h2 class="font-bold text-2xl text-left mb-4"> Audio </h2>
 
----
-
+<hr>
 <br>
 
 <ul class="ml-10"style="list-style: disc;">
@@ -87,8 +87,7 @@ Here's my list of my development tools. These may change from time to time, but 
 
 <h2 class="font-bold text-2xl text-left mb-4"> Other Software & Services </h2>
 
----
-
+<hr>
 <br>
 
 <ul class="ml-10"style="list-style: disc;">
@@ -105,8 +104,7 @@ Here's my list of my development tools. These may change from time to time, but 
 
 <h2 class="font-bold text-2xl text-left mb-4"> Everyday Carry </h2>
 
----
-
+<hr>
 <br>
 
 <ul class="ml-10"style="list-style: disc;">
@@ -119,13 +117,13 @@ Here's my list of my development tools. These may change from time to time, but 
 
 <h2 class="font-bold text-2xl text-left mb-4"> Miscellaneous </h2>
 
----
-
+<hr>
 <br>
 
 <ul class="ml-10"style="list-style: disc;">
 <li><a href="https://store.google.com/sg/product/google_nest_mini?pli=1&hl=en-GB">Google Nest Mini</a>
 </ul>
 
-</main>
+</div>
 <br> <br>
+</Layout>
