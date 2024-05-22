@@ -5,7 +5,4 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
-[[plugins]]
-package = "@algolia/netlify-plugin-crawler"
-  [plugins.inputs]
-  renderJavaScript = true
+    X-Frame-Options = "SAMEORIGIN"
