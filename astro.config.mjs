@@ -60,6 +60,11 @@ export default defineConfig({
 
       logger: 1,
     }),
+    icon({
+      include: {
+        mdi: ["*"], // (Default) Loads entire Material Design Icon set
+      }
+    })
   ],
 
   vite: {
