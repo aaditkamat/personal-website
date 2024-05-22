@@ -64,7 +64,7 @@ export const projectsData = [
   {
     link: "https://github.com/aaditkamat/bollywood-hangman",
     title: "Bollywood Hangman",
-    info: ["The Bollywood version of the awesome <a href=\"https://hollywoodhangman.com/\"> Hollywood Hangman <\a>", "Tech Stack: React, Python"]
+    info: ["The Bollywood version of the awesome &lt;a href=\"https://hollywoodhangman.com/\"&gt; Hollywood Hangman &lt;\\a&gt;", "Tech Stack: React, Python"]
   },
   {
     link: "https://github.com/Remus-Hack-n-Roll-2019/job-matcher",
