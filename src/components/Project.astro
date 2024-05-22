@@ -1,5 +1,5 @@
 ---
-import { Icon } from 'astro-icon';
+import Icon from 'astro-icon';
 
 const {
     link = "",
@@ -13,7 +13,9 @@ const {
 
     <ul class="ml-10"style="list-style: disc;">
         {
-            info && info.map && info.map((item) => (<li>{item}</li>))
+            info && info.map && info.map((item, index) => {
+                return <li key={index}>{item}</li>
+            })
         }
     </ul>
 </div>
