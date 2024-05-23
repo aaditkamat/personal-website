@@ -1,0 +1,27 @@
+---
+import Project  from '~/components/Project.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import { SITE } from '~/config.mjs';
+import { projectsData } from '~/data';
+import About from './about.astro';
+const meta = {
+  title: SITE.title,
+  description: SITE.description,
+  dontUseTitleTemplate: true,
+};
+---
+
+<Layout {meta}>
+    <div class="container mx-auto mt-16 mb-16">  
+    {
+      projectsData.map((project) => (
+        <>
+        <Project {...project} />
+        <br><br>
+        </>
+      ))
+    }
+    <br>
+</Layout>
+
+<br> <br>

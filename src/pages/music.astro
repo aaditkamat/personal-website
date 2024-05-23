@@ -3,22 +3,21 @@ import { SITE } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
 
 const meta = {
-  title: SITE.title,
+  title: 'Music',
   description: SITE.description,
   dontUseTitleTemplate: true,
 };
 ---
-
 <Layout {meta}>
-  <section id="calendar">
+  <section id="music">
     <div class="container mx-auto mt-16 mb-16">
       <div class="flex">
           <iframe 
-            src="https://calendar.google.com/calendar/embed?src=mmqs13nciq5tgq7sbglftfgv8l03jgus%40import.calendar.google.com&ctz=Asia%2FSingapore" 
-            style="border: 0;" 
-            width="800" 
-            height="600">
-          </iframe>
+            src="https://stats.fm/21w5qrmgsdsccbhg24a2x3fhi" 
+            style="border:solid 1px #777;"
+            width="800"
+            height="600"
+          ></iframe>
       </div>
     </div>
   </section>
