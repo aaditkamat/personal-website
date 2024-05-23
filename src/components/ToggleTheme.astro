@@ -1,6 +1,4 @@
 ---
-import { Icon } from 'astro-icon';
-
 import { SITE } from '~/config.mjs';
 
 export interface Props {
@@ -22,7 +20,7 @@ const {
 {
   !(SITE?.defaultTheme && SITE.defaultTheme.endsWith(':only')) && (
     <button type="button" class={className} aria-label={label} data-aw-toggle-color-scheme>
-      <Icon name={iconName} class={iconClass} />
+      <i class={iconClass} />
     </button>
   )
 }

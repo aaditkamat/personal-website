@@ -30,19 +30,16 @@ export const headerData = {
   socialLinks: [
     {
       href: 'https://github.com/aaditkamat',
-      position: 'right',
       className: 'fab fa-github fa-lg',
       label: 'GitHub repository',
     },
     {
       href: 'https://twitter.com/aaditkamat',
-      position: 'right',
       className: 'fab fa-twitter fa-lg',
       label: 'Twitter page',
     },
     {
       href: 'https://www.instagram.com/aadit_kamat',
-      position: 'right',
       className: 'fab fa-instagram fa-lg',
       label: 'Instagram page',
     },
