@@ -23,31 +23,14 @@ Inside AstroWind template, you'll see the following folders and files:
 │   │   └── styles/
 │   │       └── base.css
 │   ├── components/
-│   │   ├── blog/
-│   │   ├── common/
-│   │   ├── widgets/
-│   │   │   ├── Header.astro
-│   │   │   └── ...
 │   │   ├── CustomStyles.astro
 │   │   └── Logo.astro
-│   ├── content/
-│   │   ├── post/
-│   │   │   ├── post-slug-1.md
-│   │   │   ├── post-slug-2.mdx
-│   │   │   └── ...
-│   │   └-- config.ts
 │   ├── layouts/
 │   │   ├── BaseLayout.astro
 │   │   └── ...
 │   ├── pages/
-│   │   ├── [...blog]/
-│   │   │   ├── [category]/
-│   │   │   ├── [tag]/
-│   │   │   ├── [...page].astro
-│   │   │   └── index.astro
 │   │   ├── index.astro
 │   │   ├── 404.astro
-│   │   ├-- rss.xml.ts
 │   │   └── ...
 │   ├── utils/
 │   ├── config.mjs
@@ -129,13 +112,13 @@ const CONFIG = {
 ## Installation
 
 ```console
-yarn install
+npm install
 ```
 
 ## Local Development
 
 ```console
-yarn dev
+npm run dev
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -143,7 +126,7 @@ This command starts a local development server and opens up a browser window. Mo
 ## Build
 
 ```console
-yarn build
+npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
