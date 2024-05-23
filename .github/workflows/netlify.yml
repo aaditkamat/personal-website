@@ -7,18 +7,11 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - name: Set Node.js 16.x
+      - name: Set Node.js 20.13.1
         uses: actions/setup-node@v4
         with:
-          node-version: 16.x
-      - name: Run install
-        uses: borales/actions-yarn@v5
-        with:
-          cmd: install # will run the `yarn install` command
-      - name: Build production bundle
-        uses: borales/actions-yarn@v5
-        with:
-          cmd: build # will run the `yarn build` command
+          node-version: 20.13.1
+      - run: npm install && npm run build
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0
         with:
