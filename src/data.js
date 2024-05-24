@@ -52,11 +52,11 @@ export const footerData = {
   secondaryLinks: [],
 };
 
-export const projectData = [
+export const projectsData = [
   {
     link: 'https://github.com/aaditkamat/plan-it-right',
     title: 'Plan It Right',
-    info: ['A web application that generates trip itineraries of upto 5 days.', 'Tech stack: Node.js, Express, jQuery'],
+    info: ['A web application that generates trip itineraries of up to 5 days.', 'Tech stack: Node.js, Express, jQuery'],
   },
   {
     link: 'https://github.com/aaditkamat/bollywood-hangman',
