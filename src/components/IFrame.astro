@@ -2,14 +2,14 @@
 const {
     altText = '',
     url = '',
-    style = '',
+    className = '',
     width = 800,
     height = 600
 } = Astro.props;
 ---
 <iframe
     src={url} 
-    style={style} 
+    class={className}
     width={width}
     height={height}>
 </iframe>
