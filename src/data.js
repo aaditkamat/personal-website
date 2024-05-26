@@ -1,4 +1,4 @@
-import { getPermalink } from './utils/permalinks';
+import { getPermalink } from '~/utils/permalinks';
 
 export const headerData = {
   links: [
@@ -21,6 +21,10 @@ export const headerData = {
     {
       text: 'Projects',
       href: getPermalink('/projects'),
+    },
+    {
+      text: 'Resume',
+      href: getPermalink('/resume'),
     },
     {
       text: 'Tools',
@@ -83,7 +87,6 @@ export const projectsData = [
 
 export const podcastData = [
   {
-    altText: 'Work Life With Adam Grant',
     src: 'https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA?utm_source=generator',
   },
   {

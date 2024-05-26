@@ -1,0 +1,9 @@
+---
+import Page from '~/components/Page.astro';
+import IFrame from '~/components/IFrame.astro';
+import { getAsset } from '~/utils/permalinks';
+---
+
+<Page>
+  <IFrame url={getAsset('/resume.pdf')} style="border:solid 1px #777;" width={800} height={600} />
+</Page>
