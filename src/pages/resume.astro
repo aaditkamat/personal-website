@@ -1,0 +1,9 @@
+---
+import Page from '~/components/Page.astro';
+import IFrame from '~/components/IFrame.astro';
+import { getAsset } from '~/utils/permalinks';
+---
+
+<Page>
+  <IFrame url={`${getAsset('/resume.pdf')}#view=FitH`} className="border-solid border border-gray-500 w-full" height={1000}/>
+</Page>
