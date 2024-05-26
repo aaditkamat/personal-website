@@ -32,7 +32,7 @@
     "astro": "^2.10.15",
     "astro-compress": "^2.0.0",
     "astro-eslint-parser": "^1.0.0-beta.5",
-    "eslint": "^9.0.0",
+    "eslint": "^8.56.0",
     "eslint-plugin-astro": "^1.0.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "limax": "4.1.0",
