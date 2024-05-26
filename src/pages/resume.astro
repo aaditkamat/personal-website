@@ -5,5 +5,5 @@ import { getAsset } from '~/utils/permalinks';
 ---
 
 <Page>
-  <IFrame url={getAsset('/resume.pdf')} style="border:solid 1px #777;" width={800} height={600} />
+  <IFrame url={`${getAsset('/resume.pdf')}#view=FitH`} className="border-solid border border-gray-500 w-full" height={1000}/>
 </Page>
