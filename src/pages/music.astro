@@ -1,24 +1,13 @@
 ---
-import { SITE } from '~/config.mjs';
-import Layout from '~/layouts/PageLayout.astro';
-
-const meta = {
-  title: 'Music',
-  description: SITE.description,
-  dontUseTitleTemplate: true,
-};
+import Page from '~/components/Page.astro';
+import IFrame from '~/components/IFrame.astro';
 ---
-<Layout {meta}>
-  <section id="music">
-    <div class="container mx-auto mt-16 mb-16">
-      <div class="flex">
-          <iframe 
-            src="https://stats.fm/21w5qrmgsdsccbhg24a2x3fhi" 
-            style="border:solid 1px #777;"
-            width="800"
-            height="600"
-          ></iframe>
-      </div>
-    </div>
-  </section>
-</Layout>
+
+<Page>
+  <IFrame
+    url="https://stats.fm/21w5qrmgsdsccbhg24a2x3fhi" 
+    style="border:solid 1px #777;" 
+    width={800}
+    height={600}
+    />
+</Page>

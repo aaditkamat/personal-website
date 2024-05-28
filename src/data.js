@@ -87,26 +87,27 @@ export const projectsData = [
 
 export const podcastData = [
   {
-    src: 'https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA?utm_source=generator',
+    altText: 'WorkLife with Adam Grant',
+    url: 'https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA?utm_source=generator',
   },
   {
     altText: 'Deep Questions With Cal Newport',
-    src: 'https://open.spotify.com/embed/show/0e9lFr3AdJByoBpM6tAbxD?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/0e9lFr3AdJByoBpM6tAbxD?utm_source=generator',
   },
   {
     altText: 'No Stupid Questions',
-    src: 'https://open.spotify.com/embed/show/6Z49m4VQ4TfQ28Cnl42yiT?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/6Z49m4VQ4TfQ28Cnl42yiT?utm_source=generator',
   },
   {
     altText: 'The Ranveer Show',
-    src: 'https://open.spotify.com/embed/show/6ZcvVBPQ2ToLXEWVbaw59P?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/6ZcvVBPQ2ToLXEWVbaw59P?utm_source=generator',
   },
   {
     altText: 'Being Well with Dr Rick Hanson and Forrest Hanson',
-    src: 'https://open.spotify.com/embed/show/5d87ZU1XY0fpdYNSEwXLVQ?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/5d87ZU1XY0fpdYNSEwXLVQ?utm_source=generator',
   },
   {
     altText: "Skeptic's Path to Enlightenment",
-    src: 'https://open.spotify.com/embed/show/2LZPT1To5ziuPPbEVDtVhZ?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/2LZPT1To5ziuPPbEVDtVhZ?utm_source=generator',
   },
 ];

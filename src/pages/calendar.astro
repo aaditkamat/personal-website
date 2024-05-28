@@ -1,25 +1,12 @@
 ---
-import { SITE } from '~/config.mjs';
-import Layout from '~/layouts/PageLayout.astro';
-
-const meta = {
-  title: SITE.title,
-  description: SITE.description,
-  dontUseTitleTemplate: true,
-};
+import Page from '~/components/Page.astro';
+import IFrame from '~/components/IFrame.astro';
 ---
+<Page>
+  <IFrame
+    url="https://calendar.google.com/calendar/embed?src=mmqs13nciq5tgq7sbglftfgv8l03jgus%40import.calendar.google.com&ctz=Asia%2FSingapore" 
+    style="border:0" 
+    width={600}
+    height={800}/>
+</Page>
 
-<Layout {meta}>
-  <section id="calendar">
-    <div class="container mx-auto mt-16 mb-16">
-      <div class="flex">
-          <iframe 
-            src="https://calendar.google.com/calendar/embed?src=mmqs13nciq5tgq7sbglftfgv8l03jgus%40import.calendar.google.com&ctz=Asia%2FSingapore" 
-            style="border: 0;" 
-            width="800" 
-            height="600">
-          </iframe>
-      </div>
-    </div>
-  </section>
-</Layout>
