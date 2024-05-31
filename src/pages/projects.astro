@@ -1,19 +1,71 @@
 ---
-import Project  from '~/components/Project.astro';
+import SoftwareEngineeringProject from '~/components/SoftwareEngineeringProject.astro';
+import ConsultingOrAnalyticsProject from '~/components/ConsultingOrAnalyticsProject.astro';
 import { projectsData } from '~/data';
 import Page from '~/components/Page.astro';
 ---
 
 <Page>
+  <details>
+    <summary> <strong>Analytics</strong></summary>
+    <br />
     {
-      projectsData.map((project) => (
-        <>
-        <Project {...project} />
-        <br><br>
-        </>
-      ))
+      projectsData
+        .filter((project) => project.category === 'analytics')
+        .map((project) => {
+          return (
+            <>
+              <ConsultingOrAnalyticsProject {...project} />
+              <>
+                <br />
+                <br />
+              </>
+            </>
+          );
+        })
     }
-    <br>
+  </details>
+  <br />
+  <details>
+    <summary> <strong>Consulting</strong></summary>
+    <br />
+    {
+      projectsData
+        .filter((project) => project.category === 'consulting')
+        .map((project) => {
+          return (
+            <>
+              <ConsultingOrAnalyticsProject {...project} />
+              <>
+                <br />
+                <br />
+              </>
+            </>
+          );
+        })
+    }
+  </details>
+  <br />
+  <details>
+    <summary> <strong>Software Engineering</strong></summary>
+    <br />
+    {
+      projectsData
+        .filter((project) => project.category === 'software-engineering')
+        .map((project) => {
+          return (
+            <>
+              <SoftwareEngineeringProject {...project} />
+              <>
+                <br />
+                <br />
+              </>
+            </>
+          );
+        })
+    }
+  </details>
 </Page>
 
-<br> <br>
+<br />
+<br />
