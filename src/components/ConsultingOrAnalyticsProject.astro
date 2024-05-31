@@ -7,11 +7,7 @@ const {
 ---
 
 <div class="border border-zinc-200 rounded-xl p-10" style={{width: '1200px'}}>
-    <ul class="ml-10"style="list-style: disc;">
-        {
-            info && info.map && info.map((item, index) => {
-                return <li key={index}>{item}</li>
-            })
-        }
-    </ul>
+    <a href={link} class="font-bold text-l text-left inline-block align-middle">{title}</span>
+    <br>
+    <span>{info}</span>
 </div>
