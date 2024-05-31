@@ -5,29 +5,24 @@ import Page from '~/components/Page.astro';
 ---
 
 <Page>
+    <pre>
     {
-      projectsData['consulting'].map((project => (
+      `projectsData['consulting'].map((project => (
         <>
         <ConsultingOrAnalyticsProject {...project} />
         <br><br>
         </>
-      ))
-    }
-    {
-      projectsData['analytics'].map((project) => (
+      ));\nprojectsData['analytics'].map((project) => (
         <>
         <ConsultingOrAnalyticsProject {...project} />
         <br><br>
         </>
-      ))
-    }
-    {
-      projectsData['software-engineering'].map((project) => (
+      ));\nprojectsData['software-engineering'].map((project) => (
         <>
         <SoftwareEngineeringProject {...project} />
         <br><br>
         </>
-      ))
+      ))`
     }
     <br>
 </Page>
