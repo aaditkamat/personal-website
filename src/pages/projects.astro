@@ -6,65 +6,67 @@ import Page from '~/components/Page.astro';
 ---
 
 <Page>
-  <details>
-    <summary> <strong>Analytics</strong></summary>
-    <br />
-    {
-      projectsData
-        .filter((project) => project.category === 'analytics')
-        .map((project) => {
-          return (
-            <>
-              <ConsultingOrAnalyticsProject {...project} />
+  <div class="ml-3">
+    <details>
+      <summary> <strong>Analytics</strong></summary>
+      <br />
+      {
+        projectsData
+          .filter((project) => project.category === 'analytics')
+          .map((project) => {
+            return (
               <>
-                <br />
-                <br />
+                <ConsultingOrAnalyticsProject {...project} />
+                <>
+                  <br />
+                  <br />
+                </>
               </>
-            </>
-          );
-        })
-    }
-  </details>
-  <br />
-  <details>
-    <summary> <strong>Consulting</strong></summary>
+            );
+          })
+      }
+    </details>
     <br />
-    {
-      projectsData
-        .filter((project) => project.category === 'consulting')
-        .map((project) => {
-          return (
-            <>
-              <ConsultingOrAnalyticsProject {...project} />
+    <details>
+      <summary> <strong>Consulting</strong></summary>
+      <br />
+      {
+        projectsData
+          .filter((project) => project.category === 'consulting')
+          .map((project) => {
+            return (
               <>
-                <br />
-                <br />
+                <ConsultingOrAnalyticsProject {...project} />
+                <>
+                  <br />
+                  <br />
+                </>
               </>
-            </>
-          );
-        })
-    }
-  </details>
-  <br />
-  <details>
-    <summary> <strong>Software Engineering</strong></summary>
+            );
+          })
+      }
+    </details>
     <br />
-    {
-      projectsData
-        .filter((project) => project.category === 'software-engineering')
-        .map((project) => {
-          return (
-            <>
-              <SoftwareEngineeringProject {...project} />
+    <details>
+      <summary> <strong>Software Engineering</strong></summary>
+      <br />
+      {
+        projectsData
+          .filter((project) => project.category === 'software-engineering')
+          .map((project) => {
+            return (
               <>
-                <br />
-                <br />
+                <SoftwareEngineeringProject {...project} />
+                <>
+                  <br />
+                  <br />
+                </>
               </>
-            </>
-          );
-        })
-    }
-  </details>
+            );
+          })
+      }
+    </details>
+</div>
 </Page>
 
 <br />
