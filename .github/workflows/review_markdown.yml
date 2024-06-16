@@ -50,7 +50,7 @@ jobs:
 
     - name: Add a comment to the pull request
       if: ${{ env.SUGGESTION_FOUND == 'true' }}
-      uses: actions/github-script@v5
+      uses: actions/github-script@v7
       with:
         script: |
           const suggestionsList = process.env.SUGGESTIONS.split('\n').filter(suggestion => suggestion.trim() !== '');
