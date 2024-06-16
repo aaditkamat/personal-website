@@ -1,5 +1,6 @@
 ---
 import { SITE } from '~/config.mjs';
+import Page from '~/components/Page.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const meta = {
@@ -9,8 +10,8 @@ const meta = {
 };
 ---
 
-<Layout {meta}>
-    <div class="container ml-24 px-3 mt-16 mb-16"> 
+<Page>
+    <div class="ml-3 mt-16"> 
     I was checking out <a href="https://www.alfredworkflows.store/workflows/unsplash">an Alfred Unsplash workflow</a>. One thing led to another, and I came upon the <a href="https://www.adamdehaven.com/uses/">section on the author's website</a> which lists the tools he uses for development. I've been meaning to do the same for a while now, but I wasn't sure where I would put it. His page gave me just the kind of inspiration I needed to do so.
 
     Here's my list of my development tools. These may change from time to time, but at least some of them will come in handy for the long haul.
@@ -106,4 +107,4 @@ const meta = {
     <li><a href="https://www.apple.com/lae/apple-watch-series-6/">Apple Watch Series 6</a>
     <li><a href="https://thewalletshop.com/product/crossing-modish-bi-fold-leather-wallet-with-flap-and-coin-pouch-rfid-black-teal/">Black Teal coloured Crossing Modish Bi Fold Leather Wallet with Flap and Coin Pouch (RFID Protected)</a>
     </ul>
-</Layout>
+</Page>
