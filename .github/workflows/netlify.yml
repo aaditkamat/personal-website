@@ -4,11 +4,11 @@ on:
   pull_request:
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - name: Set Node.js 20.13.1
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4.1.7
+      - name: Set latest Node.js
+        uses: actions/setup-node@v4.0.2
         with:
           node-version: 20.13.1
       - run: npm install
