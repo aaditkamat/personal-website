@@ -81,13 +81,13 @@ export const projectsData = [
     category: 'analytics',
     link: 'https://xiaofan-lab.github.io/',
     title: 'Analyzing genetic variants',
-    info: 'Studying association between variant pathogenicity and protein properties using regression techniques under Dr.Xiao',
+    info: 'Studying the association between variant pathogenicity and protein properties using regression techniques under Dr.Xiao',
   },
   {
     category: 'analytics',
     link: 'https://drive.google.com/file/d/1geGWhkjG4fEpDRwFMtRXJKDsECnptJxj/view?usp=sharing',
     title: 'Impact of Advertising Budget on Product Sales',
-    info: 'Used regression modelling to predict the impact of advertising budgets and user engagement with social media platforms on product sales',
+    info: 'Used regression modeling to predict the impact of advertising budgets and user engagement with social media platforms on product sales',
   },
   {
     category: 'software-engineering',
@@ -118,26 +118,30 @@ export const projectsData = [
 export const podcastData = [
   {
     altText: 'WorkLife with Adam Grant',
-    url: 'https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA',
   },
   {
     altText: 'Deep Questions With Cal Newport',
-    url: 'https://open.spotify.com/embed/show/0e9lFr3AdJByoBpM6tAbxD?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/0e9lFr3AdJByoBpM6tAbxD',
   },
   {
     altText: 'No Stupid Questions',
-    url: 'https://open.spotify.com/embed/show/6Z49m4VQ4TfQ28Cnl42yiT?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/6Z49m4VQ4TfQ28Cnl42yiT',
+  },
+  {
+    altText: 'Lex Fridman Podcast',
+    url: 'https://open.spotify.com/embed/show/2MAi0BvDc6GTFvKFPXnkCL',    
   },
   {
     altText: 'The Ranveer Show',
-    url: 'https://open.spotify.com/embed/show/6ZcvVBPQ2ToLXEWVbaw59P?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/6ZcvVBPQ2ToLXEWVbaw59P',
   },
   {
     altText: 'Being Well with Dr Rick Hanson and Forrest Hanson',
-    url: 'https://open.spotify.com/embed/show/5d87ZU1XY0fpdYNSEwXLVQ?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/5d87ZU1XY0fpdYNSEwXLVQ',
   },
   {
     altText: "Skeptic's Path to Enlightenment",
-    url: 'https://open.spotify.com/embed/show/2LZPT1To5ziuPPbEVDtVhZ?utm_source=generator',
+    url: 'https://open.spotify.com/embed/show/2LZPT1To5ziuPPbEVDtVhZ?',
   },
 ];
