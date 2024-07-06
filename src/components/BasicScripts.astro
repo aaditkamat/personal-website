@@ -122,3 +122,7 @@ import { SITE } from '~/config.mjs';
   src="//instant.page/5.2.0"
   type="module"
   integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+<script type="module" src="https://cdn.app.getsummer.ai/libs/init.umd.js" async></script>
+<script type="module">
+	window.GetSummer = window.GetSummer || { id: process.env.SUMMER_AI_ID }
+</script>
