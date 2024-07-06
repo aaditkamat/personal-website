@@ -47,6 +47,9 @@ export default defineConfig({
       alias: {
         '~': path.resolve(__dirname, './src')
       }
+    },
+    define: {
+      'import.meta.env.SUMMER_AI_ID': JSON.stringify(process.env.SUMMER_AI_ID)
     }
   }
 });
