@@ -49,7 +49,7 @@ export default defineConfig({
       }
     },
     define: {
-      'import.meta.env.SUMMER_AI_ID': JSON.stringify(process.env.SUMMER_AI_ID)
+      'import.meta.env.SUMMER_AI_ID': JSON.stringify(process.env.SUMMER_AI_ID || 'default_value')
     }
   }
 });
