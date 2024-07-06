@@ -1,5 +1,6 @@
 ---
 import { SITE } from '~/config.mjs';
+const summerAIId = import.meta.env.SUMMER_AI_ID;
 ---
 
 <script is:inline define:vars={{ defaultTheme: SITE.defaultTheme }}>
@@ -123,6 +124,6 @@ import { SITE } from '~/config.mjs';
   type="module"
   integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 <script type="module" src="https://cdn.app.getsummer.ai/libs/init.umd.js" async></script>
-<script type="module">
-	window.GetSummer = window.GetSummer || { id: process.env.SUMMER_AI_ID }
+<script is:inline define:vars={{id: summerAIId}}>
+	window.GetSummer = window.GetSummer || { id: id }
 </script>
