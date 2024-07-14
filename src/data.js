@@ -117,8 +117,12 @@ export const projectsData = [
 
 export const podcastData = [
   {
+    altText: 'Empire Podcast',
+    url: 'https://open.spotify.com/embed/show/0sBh58hSTReUQiK4axYUVx'
+  },
+  {
     altText: 'WorkLife with Adam Grant',
-    url: 'https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA',
+    url: 'https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA'
   },
   {
     altText: 'Deep Questions With Cal Newport',
@@ -141,7 +145,7 @@ export const podcastData = [
     url: 'https://open.spotify.com/embed/show/5d87ZU1XY0fpdYNSEwXLVQ',
   },
   {
-    altText: "Skeptic's Path to Enlightenment",
+    altText: 'Skeptic's Path to Enlightenment',
     url: 'https://open.spotify.com/embed/show/2LZPT1To5ziuPPbEVDtVhZ',
-  },
+  }
 ];
