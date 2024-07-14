@@ -145,7 +145,7 @@ export const podcastData = [
     url: 'https://open.spotify.com/embed/show/5d87ZU1XY0fpdYNSEwXLVQ',
   },
   {
-    altText: 'Skeptic's Path to Enlightenment',
+    altText: 'Skeptic\'s Path to Enlightenment',
     url: 'https://open.spotify.com/embed/show/2LZPT1To5ziuPPbEVDtVhZ',
   }
 ];
