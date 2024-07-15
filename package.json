@@ -13,7 +13,6 @@
     "lint:eslint": "eslint . --ext .js,.ts,.astro"
   },
   "devDependencies": {
-    "@algolia/client-search": "^4.17.1",
     "@astrojs/image": "^0.18.0",
     "@astrojs/mdx": "^0.19.0",
     "@astrojs/partytown": "^1.2.2",
