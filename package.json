@@ -52,6 +52,6 @@
     "@astrojs/react": "^2.2.1",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
     "deepmerge-ts": "^7.0.3",
-    "eslint": "^8.57.0"
+    "eslint": "^9.0.0"
   }
 }
