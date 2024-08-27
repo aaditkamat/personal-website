@@ -147,5 +147,9 @@ export const podcastData = [
   {
     altText: 'Skeptic\'s Path to Enlightenment',
     url: 'https://open.spotify.com/embed/show/2LZPT1To5ziuPPbEVDtVhZ',
+  }, 
+  {
+    altText: 'Ten Percent Happier with Dan Harris',
+    url: 'https://open.spotify.com/embed/show/1CfW319UkBMVhCXfei8huv'
   }
 ];
