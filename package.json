@@ -24,7 +24,7 @@
     "@astrolib/seo": "^1.0.0-beta.8",
     "@docsearch/css": "^3.6.2",
     "@docsearch/react": "^3.6.2",
-    "@fontsource/inter": "^5.1.0",
+    "@fontsource-variable/inter": "^5.1.0",
     "@tailwindcss/typography": "^0.5.15",
     "@typescript-eslint/parser": "^8.11.0",
     "astro": "^4.16.7",
