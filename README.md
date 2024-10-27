@@ -4,6 +4,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/built%20with-tailwind%20css-38b2ac.svg?style=flat-square&color=38b2ac&labelColor=38b2ac&logo=tailwind-css)](https://tailwindcss.com)
 [![License](https://img.shields.io/github/license/onwidget/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/astrowind/blob/main/LICENSE.md)
 [![Netlify Status](https://github.com/nwtgck/actions-netlify/workflows/build-test/badge.svg)](https://app.netlify.com/sites/fastidious-donut-484954/deploys)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Faaditkamat%2Fpersonal-website.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Faaditkamat%2Fpersonal-website?ref=badge_shield)
 
 
 This website is built using [Astro Wind](https://github.com/onwidget/astrowind), an open-source template using **[Astro 2.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/)**.
@@ -138,3 +139,6 @@ Initially created by [onWidget](https://onwidget.com) and maintained by a commun
 ## License
 
 This website is licensed under the MIT license — see the [LICENSE](./LICENSE.md) file for details.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Faaditkamat%2Fpersonal-website.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Faaditkamat%2Fpersonal-website?ref=badge_large)
