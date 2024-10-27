@@ -1,7 +1,6 @@
 ---
 import { AstroSeo } from '@astrolib/seo';
 import { GoogleAnalytics } from '@astrolib/analytics';
-import { getImage } from '@astrojs/image';
 
 import { SITE } from '~/config.mjs';
 import type { MetaSEO } from '~/types';
@@ -14,16 +13,7 @@ export interface Props extends MetaSEO {
   dontUseTitleTemplate?: boolean;
 }
 
-const defaultImage = SITE.defaultImage
-  ? (
-      await getImage({
-        src: SITE.defaultImage,
-        alt: 'Default image',
-        width: 1200,
-        height: 628,
-      })
-    ).src
-  : '';
+const defaultImage = SITE.defaultImage;
 
 const {
   title = SITE.name,
@@ -93,5 +83,7 @@ const image =
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 <link rel="shortcut icon" href={getAsset('/favicon.ico')} />
 <link rel="icon" type="image/svg+xml" href={getAsset('/favicon.svg')} />
+
+
 <link rel="mask-icon" href={getAsset('/favicon.svg')} color="#8D46E7" />
 <link rel="sitemap" href={getAsset('/sitemap-index.xml')} />
