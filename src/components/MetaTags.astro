@@ -1,29 +1,17 @@
 ---
 import { AstroSeo } from '@astrolib/seo';
 import { GoogleAnalytics } from '@astrolib/analytics';
-import { getImage } from '@astrojs/image';
 
 import { SITE } from '~/config.mjs';
 import type { MetaSEO } from '~/types';
 import { getCanonical, getAsset } from '~/utils/permalinks';
 import { getRelativeUrlByFilePath } from '~/utils/directories';
 
-import CustomStyles from '~/components/CustomStyles.astro';
-
 export interface Props extends MetaSEO {
   dontUseTitleTemplate?: boolean;
 }
 
-const defaultImage = SITE.defaultImage
-  ? (
-      await getImage({
-        src: SITE.defaultImage,
-        alt: 'Default image',
-        width: 1200,
-        height: 628,
-      })
-    ).src
-  : '';
+const defaultImage = SITE.defaultImage;
 
 const {
   title = SITE.name,
@@ -80,8 +68,6 @@ const image =
     cardType: image ? 'summary_large_image' : undefined,
   }}
 />
-
-<CustomStyles />
 
 <!-- Google Site Verification -->
 {SITE.googleSiteVerificationId && <meta name="google-site-verification" content={SITE.googleSiteVerificationId} />}
