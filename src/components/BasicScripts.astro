@@ -1,4 +1,5 @@
 ---
+import 'aos/dist/aos.css';
 import { SITE } from '~/config.mjs';
 const summerAIId = import.meta.env.VITE_SUMMER_AI_ID;
 ---
@@ -124,3 +125,7 @@ const summerAIId = import.meta.env.VITE_SUMMER_AI_ID;
   type="module"
   integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 <script async src="https://js.usechat.ai/widget/aaee3a2d-e398-4949-beea-2ccef408d06d.js"></script><a id="usechat-button" style="color: #ddd; font-size: 11px;" href="https://app.usechat.ai/widget/aaee3a2d-e398-4949-beea-2ccef408d06d" aria-label="Access to website chatbot to know more about person">UseChat</a>
+<script is:inline>
+  import AOS from 'aos';
+  AOS.init();
+</script>
