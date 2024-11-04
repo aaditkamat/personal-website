@@ -1,10 +1,10 @@
 ---
-import Layout from '~/layouts/PageLayout.astro';
+import Layout from "~/layouts/PageLayout.astro";
 
-import Hero from '~/components/widgets/Hero.astro';
-import Content from '~/components/widgets/Content.astro';
+import Hero from "~/components/widgets/Hero.astro";
+import Content from "~/components/widgets/Content.astro";
 const metadata = {
-  title: 'Aadit Kamat Personal Website',
+  title: "Aadit Kamat Personal Website",
   ignoreTitleTemplate: true,
 };
 ---
@@ -15,44 +15,44 @@ const metadata = {
       src="https://avatars.githubusercontent.com/u/30969577?s=400&u=9558fc3557d79c88a7080034fe8c22654aca2e4d&v=4"
       alt="GitHub profile picture"
       style={{
-        borderRadius: '200%',
-        margin: '0 auto',
-        maxWidth: '200px',
+        borderRadius: "200%",
+        margin: "0 auto",
+        maxWidth: "200px",
       }}
     />
     <br />
 
     <Hero>
-    <Fragment slot="title">
-      Hello, World! This is Aadit.
-    </Fragment>
+      <Fragment slot="title"> Hello, World! This is Aadit. </Fragment>
 
-    <Fragment slot="subtitle">
-      Welcome to my 🏠  on the internet.
-    </Fragment>
-  </Hero>
+      <Fragment slot="subtitle"> Welcome to my 🏠 on the internet. </Fragment>
+    </Hero>
 
-  <Content
-  isReversed
-  title="My socials"
->
-  <Fragment slot="content">
-    <div class="grid grid-cols-2 gap-2" style="width: 62.5rem">
-      <div>
-      <iframe
-        src="https://aadit.substack.com/embed"
-        title="Aadit's Substack"
-        width="480"
-        height="425"
-        style="border:1px solid #EEE; background:white; margin: '0 auto';"
-      >
-      </iframe>
-      </div>
-      <div>
-        <a class="twitter-timeline" data-lang="en" data-width="480" data-height="425" href="https://twitter.com/aaditkamat?ref_src=twsrc%5Etfw">Tweets by aaditkamat</a>
-      </div> 
-    </div>
+    <Content isReversed title="My socials">
+      <Fragment slot="content">
+        <div class="flex space-x-64" style="width: 62.5rem">
+          <div>
+            <iframe
+              src="https://aadit.substack.com/embed"
+              title="Aadit's Substack"
+              width="480"
+              height="425"
+              style="border:1px solid #EEE; background:white; margin: '0 auto';"
+            >
+            </iframe>
+          </div>
+          <div>
+            <a
+              class="twitter-timeline"
+              data-lang="en"
+              data-width="480"
+              data-height="425"
+              href="https://twitter.com/aaditkamat?ref_src=twsrc%5Etfw"
+              >Tweets by aaditkamat</a
+            >
+          </div>
+        </div>
+      </Fragment>
+    </Content>
   </section>
-</Fragment>
-</Content>
 </Layout>

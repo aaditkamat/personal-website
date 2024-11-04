@@ -1,32 +1,32 @@
-import { getPermalink, getBlogPermalink, getAsset } from "./utils/permalinks";
+import { getPermalink } from "./utils/permalinks";
 
 export const headerData = {
   links: [
     {
-      text: 'About Me',
-      href: getPermalink('/about'),
+      text: "About Me",
+      href: getPermalink("/about"),
     },
     {
-      text: 'Calendar',
-      href: getPermalink('/calendar'),
+      text: "Calendar",
+      href: getPermalink("/calendar"),
     },
     {
-      text: 'Podcasts',
-      href: getPermalink('/podcasts'),
+      text: "Podcasts",
+      href: getPermalink("/podcasts"),
     },
     {
-      text: 'Projects',
-      href: getPermalink('/projects'),
+      text: "Projects",
+      href: getPermalink("/projects"),
     },
     {
-      text: 'Resume',
-      href: getPermalink('/resume'),
+      text: "Resume",
+      href: getPermalink("/resume"),
     },
     {
-      text: 'Tools',
-      href: getPermalink('/tools'),
-    }
-  ]
+      text: "Tools",
+      href: getPermalink("/tools"),
+    },
+  ],
 };
 
 export const footerData = {
@@ -34,12 +34,24 @@ export const footerData = {
   secondaryLinks: [
     { text: "Terms", href: getPermalink("/terms") },
     { text: "Privacy Policy", href: getPermalink("/privacy") },
-    { text: "Contact", href: getPermalink("/contact") }
+    { text: "Contact", href: getPermalink("/contact") },
   ],
   socialLinks: [
-    { ariaLabel: "X", icon: "tabler:brand-x", href: "https://x.com/aaditkamat" },
-    { ariaLabel: "Instagram", icon: "tabler:brand-instagram", href: "https://instagram.com/aadit_kamat" },
-    { ariaLabel: "Facebook", icon: "tabler:brand-facebook", href: "https://facebook.com/AaditKam" },
+    {
+      ariaLabel: "X",
+      icon: "tabler:brand-x",
+      href: "https://x.com/aaditkamat",
+    },
+    {
+      ariaLabel: "Instagram",
+      icon: "tabler:brand-instagram",
+      href: "https://instagram.com/aadit_kamat",
+    },
+    {
+      ariaLabel: "Facebook",
+      icon: "tabler:brand-facebook",
+      href: "https://facebook.com/AaditKam",
+    },
     {
       ariaLabel: "Github",
       icon: "tabler:brand-github",
