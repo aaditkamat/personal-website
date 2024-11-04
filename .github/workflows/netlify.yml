@@ -11,8 +11,7 @@ jobs:
         with:
           node-version: 20.13.1
       - run: yarn install
-      - run: yarn run fix
-      - run: yarn run check
+      - run: yarn run check && yarn run fix
       - run: yarn run build
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0
