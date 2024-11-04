@@ -6,9 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4.1.7
-      - name: Set Node.js 20.13.1
-        uses: actions/setup-node@v4.0.3
+      - name: Set Yarn
+        uses: mskelton/setup-yarn@v3
         with:
           node-version: 20.13.1
       - run: yarn install
