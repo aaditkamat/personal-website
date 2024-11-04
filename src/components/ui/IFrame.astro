@@ -1,0 +1,15 @@
+---
+const {
+    altText = '',
+    url = '',
+    className = '',
+    width = 800,
+    height = 600
+} = Astro.props;
+---
+<iframe
+    src={url} 
+    class={className}
+    width={width}
+    height={height}>
+</iframe>
