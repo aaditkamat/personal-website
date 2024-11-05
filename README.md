@@ -8,7 +8,7 @@
 [![Netlify Status](https://github.com/nwtgck/actions-netlify/workflows/build-test/badge.svg)](https://app.netlify.com/sites/fastidious-donut-484954/deploys)
 
 
-This website is built using [Astro Wind](https://github.com/onwidget/astrowind), an open-source template using **[Astro 2.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/)**.
+This website is built using [Astro Wind](https://github.com/onwidget/astrowind), an open-source template using **[Astro 4.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/)**.
 
 ### Project structure
 
