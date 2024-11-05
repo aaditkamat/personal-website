@@ -1,6 +1,6 @@
 # Aadit's Personal Website
 
-[![Lighthouse Report](./Lighthouse%20scores.png)]
+![Lighthouse Report](./Lighthouse%20scores.png)
 [![onWidget](https://custom-icon-badges.demolab.com/badge/made%20by%20-onWidget-556bf2?style=flat-square&logo=onwidget&logoColor=white&labelColor=101827)](https://onwidget.com)
 [![Astro](https://img.shields.io/badge/built%20with-astro-000000.svg?style=flat-square&color=000000&labelColor=000000&logo=astro)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/built%20with-tailwind%20css-38b2ac.svg?style=flat-square&color=38b2ac&labelColor=38b2ac&logo=tailwind-css)](https://tailwindcss.com)
