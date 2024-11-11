@@ -23,9 +23,16 @@ const metadata = {
     <br />
 
     <Hero>
-      <Fragment slot="title"> Hello, World! This is Aadit. </Fragment>
+      <Fragment slot="title">
+        Hello, <span class="text-accent dark:text-white highlight">World!</span>
+        This is <span class="text-accent dark:text-white highlight">Aadit.</span>
+      </Fragment>
 
-      <Fragment slot="subtitle"> Welcome to my 🏠 on the internet. </Fragment>
+      <Fragment slot="subtitle">
+        <span class="hidden sm:inline">
+          Welcome to my 🏠 on the internet.
+        </span>
+      </Fragment>
     </Hero>
 
     <Content isReversed title="My socials">
