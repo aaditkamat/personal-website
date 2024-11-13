@@ -4,6 +4,6 @@ import IFrame from '~/components/ui/IFrame.astro';
 import { getAsset } from '~/utils/permalinks';
 ---
 
-<Page>
+<Page title="Resume" headline="The Paper Trail of My Genius">
   <IFrame url={`${getAsset('/resume.pdf')}`} className="border-solid border border-gray-500 ml-3 w-full" height={1000}/>
 </Page>

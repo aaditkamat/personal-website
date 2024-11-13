@@ -1,12 +1,18 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import Headline from '../blog/Headline.astro';
+const {
+  headline = await Astro.slots.render('headline'),
+  title = await Astro.slots.render('title')
+} = Astro.props;
+
 const metadata = {
-  title: 'Aadit Kamat Personal Website',
-  ignoreTitleTemplate: true,
+  title: `${title}`,
 };
 ---
 <Layout metadata={metadata}>
-    <div class="px-3 mx-auto mt-16 mb-16 max-w-7xl">  
+  <div class="px-3 mx-auto mt-16 mb-16 max-w-7xl">  
+      <Headline>{headline}</Headline>
         <slot />    
     <br>
 </Layout>

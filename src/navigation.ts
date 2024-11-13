@@ -21,11 +21,7 @@ export const headerData = {
     {
       text: "Resume",
       href: getPermalink("/resume"),
-    },
-    {
-      text: "Tools",
-      href: getPermalink("/tools"),
-    },
+    }
   ],
 };
 
@@ -33,8 +29,7 @@ export const footerData = {
   links: [],
   secondaryLinks: [
     { text: "Terms", href: getPermalink("/terms") },
-    { text: "Privacy Policy", href: getPermalink("/privacy") },
-    { text: "Contact", href: getPermalink("/contact") },
+    { text: "Privacy Policy", href: getPermalink("/privacy") }
   ],
   socialLinks: [
     {
