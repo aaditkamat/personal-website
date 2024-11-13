@@ -1,18 +1,19 @@
 ---
-import IFrame from '~/components/ui/IFrame.astro';
-import Page from '~/components/common/Page.astro';
-import { podcastData } from '~/data';
+import IFrame from "~/components/ui/IFrame.astro";
+import Page from "~/components/common/Page.astro";
+import { podcastData } from "~/data";
 ---
 
-<Page>
+<Page title="Podcasts" headline="My Brain's Podcast Binge">
     {
         podcastData.map((podcast) => {
             return (
                 <IFrame
-                    className = 'rounded-xl ml-2 mb-4 w-full'
+                    className="rounded-xl ml-2 mb-8 w-full"
                     height={232}
-                    {...podcast} />
-            )
+                    {...podcast}
+                />
+            );
         })
     }
 </Page>
