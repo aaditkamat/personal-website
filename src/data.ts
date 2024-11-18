@@ -55,6 +55,10 @@ export const podcastData = [
     url: "https://open.spotify.com/embed/show/6Z49m4VQ4TfQ28Cnl42yiT",
   },
   {
+    altText: "Freakonomics Radio",
+    url: "https://open.spotify.com/show/6z4NLXyHPga1UmSJsPK7G1"
+  },
+  {
     altText: "Lex Fridman Podcast",
     url: "https://open.spotify.com/embed/show/2MAi0BvDc6GTFvKFPXnkCL",
   },
