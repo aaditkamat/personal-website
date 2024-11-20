@@ -10,9 +10,13 @@ jobs:
         uses: mskelton/setup-yarn@v3
         with:
           node-version: 20.13.1
-      - run: yarn install
-      - run: yarn run check
-      - run: yarn run build
+      - name: Build Astro site
+        env: 
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          yarn install
+          yarn run check
+          yarn run build
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0
         with:
