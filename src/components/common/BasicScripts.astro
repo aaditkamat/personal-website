@@ -260,3 +260,10 @@ import { UI } from 'astrowind:config';
   integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 <script async src="https://js.usechat.ai/widget/aaee3a2d-e398-4949-beea-2ccef408d06d.js"></script><a id="usechat-button" style="color: #ddd; font-size: 11px;" href="https://app.usechat.ai/widget/aaee3a2d-e398-4949-beea-2ccef408d06d" aria-label="Access to website chatbot to know more about person">UseChat</a>
 <script defer data-domain="aaditkamat.me" src="https://plausible.io/js/script.js"></script>
+<script is:inline>
+  window.Userback = window.Userback || {};
+  Userback.access_token = import.meta.env.ACCESS_TOKEN;
+  (function(d) {
+    var s = d.createElement('script');s.async = true;s.src = 'https://static.userback.io/widget/v1.js';(d.head || d.body).appendChild(s);
+  })(document);
+</script>
