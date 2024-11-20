@@ -97,6 +97,4 @@ export default defineConfig({
       },
     },
   },
-
-  site: process.env.ACCESS_TOKEN
 });
