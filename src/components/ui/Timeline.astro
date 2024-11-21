@@ -1,60 +1,141 @@
 ---
-import { Icon } from 'astro-icon/components';
-import { twMerge } from 'tailwind-merge';
-import type { Item } from '~/types';
-
-export interface Props {
-  items?: Array<Item>;
-  defaultIcon?: string;
-  classes?: Record<string, string>;
+interface TimelineItem {
+  date: string;
+  title: string;
+  location: string;
+  bulletItems: string[];
+  type: string;
 }
 
-const { items = [], classes = {}, defaultIcon } = Astro.props as Props;
+interface Props {
+  items: TimelineItem[];
+}
 
-const {
-  container: containerClass = '',
-  panel: panelClass = '',
-  title: titleClass = '',
-  description: descriptionClass = '',
-  icon: defaultIconClass = 'text-primary dark:text-slate-200 border-primary dark:border-blue-700',
-} = classes;
+const { items } = Astro.props;
 ---
 
-{
-  items && items.length && (
-    <div class={containerClass}>
-      {items.map(({ title, description, icon, classes: itemClasses = {} }, index = 0) => (
-        <div
-          class={twMerge(
-            'flex intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade',
-            panelClass,
-            itemClasses?.panel
-          )}
-        >
-          <div class="flex flex-col items-center mr-4 rtl:mr-0 rtl:ml-4">
-            <div>
-              <div class="flex items-center justify-center">
-                {(icon || defaultIcon) && (
-                  <Icon
-                    name={icon || defaultIcon}
-                    class={twMerge('w-10 h-10 p-2 rounded-full border-2', defaultIconClass, itemClasses?.icon)}
-                  />
-                )}
-              </div>
-            </div>
-            {index !== items.length - 1 && <div class="w-px h-full bg-black/10 dark:bg-slate-400/50" />}
-          </div>
-          <div class={`pt-1 ${index !== items.length - 1 ? 'pb-8' : ''}`}>
-            {title && <p class={twMerge('text-xl font-bold', titleClass, itemClasses?.title)} set:html={title} />}
-            {description && (
-              <p
-                class={twMerge('text-muted mt-2', descriptionClass, itemClasses?.description)}
-                set:html={description}
-              />
-            )}
-          </div>
-        </div>
-      ))}
+<div class="timeline">
+  {items.map((item, index) => (
+    <div class={`timeline-item ${item.type}`}>
+      <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">
+          <span class="timeline-date">{item.date}</span>
+          {item.title}
+        </h3>
+        <ol style="list-style-type" class="timeline-bullet-items">
+            {
+                item.bulletItems.map((bulletItem) => (
+                    <li>{bulletItem}</li>
+                ))
+            }
+        </ul>
+      </div>
     </div>
-  )
-}
+  ))}
+</div>
+
+<style>
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    position: relative;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: calc(2rem + 4px);
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #e2e8f0;
+  }
+
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    gap: 1rem;
+    position: relative;
+  }
+
+  .timeline-marker {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #3b82f6;
+    justify-self: center;
+    align-self: start;
+    margin-top: 0.5rem;
+  }
+
+  .timeline-content {
+    background-color: #f8fafc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  }
+
+  .timeline-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .timeline-date {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #64748b;
+    background-color: #e2e8f0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+  }
+
+  .timeline-bullet-items {
+    font-size: 1rem;
+    color: #475569;
+  }
+
+  .education .timeline-marker {
+    background-color: #8b5cf6;
+  }
+
+  .experience .timeline-marker {
+    background-color: #10b981;
+  }
+
+  @media (min-width: 640px) {
+    .timeline {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .timeline::before {
+      left: 50%;
+    }
+
+    .timeline-item {
+      grid-template-columns: 1fr 4rem 1fr;
+    }
+
+    .timeline-item:nth-child(even) {
+      grid-template-areas: "content marker .";
+    }
+
+    .timeline-item:nth-child(odd) {
+      grid-template-areas: ". marker content";
+    }
+
+    .timeline-marker {
+      grid-area: marker;
+    }
+
+    .timeline-content {
+      grid-area: content;
+    }
+  }
+</style>
