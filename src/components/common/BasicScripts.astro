@@ -9,6 +9,18 @@ import { UI } from "astrowind:config";
 
   window.basic_script = true;
 
+  function animateTimelineItems() {
+    const timelineItems = document.querySelectorAll('.timeline-item');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+        }
+      });
+    }, { threshold: 0.1 });
+    timelineItems.forEach(item => observer.observe(item));
+  }
+
   function applyTheme(theme) {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
@@ -182,6 +194,7 @@ import { UI } from "astrowind:config";
   document.addEventListener("astro:after-swap", () => {
     initTheme();
     onLoad();
+    animateTimelineItems();
     onPageShow();
   });
 </script>
