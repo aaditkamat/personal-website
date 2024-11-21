@@ -15,7 +15,7 @@ const { items } = Astro.props;
 ---
 
 <div class="timeline">
-  {items.map((item, index) => (
+  {items.map((item, _) => (
     <div class={`timeline-item ${item.type}`}>
       <div class="timeline-marker"></div>
       <div class="timeline-content">
