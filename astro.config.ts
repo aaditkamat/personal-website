@@ -36,41 +36,50 @@ const whenExternalScripts = (
 export default defineConfig({
   output: "static",
 
-  integrations: [tailwind({
-    applyBaseStyles: false,
-  }), sitemap(), mdx(), icon({
-    include: {
-      tabler: ["*"],
-      "flat-color-icons": [
-        "template",
-        "gallery",
-        "approval",
-        "document",
-        "advertising",
-        "currency-exchange",
-        "voice-presentation",
-        "business-contact",
-        "database",
-      ],
-    },
-  }), ...whenExternalScripts(() =>
-    partytown({
-      config: { forward: ["dataLayer.push"] },
+  integrations: [
+    tailwind({
+      applyBaseStyles: false,
     }),
-  ), compress({
-    CSS: true,
-    HTML: {
-      "html-minifier-terser": {
-        removeAttributeQuotes: false,
+    sitemap(),
+    mdx(),
+    icon({
+      include: {
+        tabler: ["*"],
+        "flat-color-icons": [
+          "template",
+          "gallery",
+          "approval",
+          "document",
+          "advertising",
+          "currency-exchange",
+          "voice-presentation",
+          "business-contact",
+          "database",
+        ],
       },
-    },
-    Image: false,
-    JavaScript: true,
-    SVG: false,
-    Logger: 1,
-  }), astrowind({
-    config: "./src/config.yaml",
-  }), react()],
+    }),
+    ...whenExternalScripts(() =>
+      partytown({
+        config: { forward: ["dataLayer.push"] },
+      }),
+    ),
+    compress({
+      CSS: true,
+      HTML: {
+        "html-minifier-terser": {
+          removeAttributeQuotes: false,
+        },
+      },
+      Image: false,
+      JavaScript: true,
+      SVG: false,
+      Logger: 1,
+    }),
+    astrowind({
+      config: "./src/config.yaml",
+    }),
+    react(),
+  ],
 
   image: {
     domains: ["cdn.pixabay.com"],
