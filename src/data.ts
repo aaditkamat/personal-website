@@ -3,7 +3,7 @@ export const projectsData = [
     link: "https://docs.google.com/presentation/d/1yCiyHcRhLLPspg4zvtwjgle7KtiDqY71_t7CVwZrdmA/",
     title: "JEA Technology Consulting",
     info: "Used ETL to get the data from the original Excel sheet for JEA's employee performance-related metrics into PowerBI and created visuals to help the executives better understand the business metrics",
-    imgSrc: "/images/BlueShield Logo.png",
+    imgSrc: "/images/JEA Logo.png",
   },
   {
     link: "https://www.science.org/doi/full/10.1126/science.add7150?casa_token=lngchMBZQ2oAAAAA%3AMiX-hHddparHoLFBXhszlQu4YdhiKR9XoqpFa85i6-sZmcDfvJCqDkcfFGwGe79X-89pTHNj6oPZ",
