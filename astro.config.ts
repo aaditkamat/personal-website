@@ -20,8 +20,6 @@ import {
   lazyImagesRehypePlugin,
 } from "./src/utils/frontmatter";
 
-import react from "@astrojs/react";
-
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const hasExternalScripts = false;
