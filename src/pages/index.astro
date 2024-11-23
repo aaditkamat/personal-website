@@ -10,60 +10,70 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto">
-    <Hero
-      image={{
-        src: "~/assets/images/Landing Page Photo.jpg",
-        alt: "Aadit at Ben Hill Griffins",
-      }}
-    >
-      <Fragment slot="title">
-        <TypeAnimation client:load>
-          Hello, <span class="text-accent dark:text-white highlight"
-            >World!</span
-          >
-        </TypeAnimation>
-        <TypeAnimation client:load>
-          This is <span class="text-accent dark:text-white highlight"
-            >Aadit.</span
-          >
-        </TypeAnimation>
-      </Fragment>
+  <Hero
+    image={{
+      src: "~/assets/images/Landing Page Photo.jpg",
+      alt: "Aadit at Ben Hill Griffins",
+    }}
+  >
+    <Fragment slot="title">
+      <TypeAnimation cursor={false} sequence={["Hello,"]} client:only="react" />
+      <TypeAnimation
+        className="text-accent dark:text-white highlight"
+        cursor={false}
+        sequence={[1000, "World!"]}
+        client:only="react"
+      />
+      <TypeAnimation
+        cursor={false}
+        sequence={[2000, "This is"]}
+        client:only="react"
+      />
+      <TypeAnimation
+        className="text-accent dark:text-white highlight"
+        cursor={false}
+        sequence={[3000, "Aadit."]}
+        client:only="react"
+      />
+    </Fragment>
 
-      <Fragment slot="subtitle">
-        <span class="hidden sm:inline text-4xl">
-          Welcome to my 🏠 on the internet.
-        </span>
-      </Fragment>
-    </Hero>
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline text-4xl">
+        <TypeAnimation
+          cursor={false}
+          sequence={[4000, "Welcome to my 🏠 on the internet."]}
+          client:only="react"
+        />
+      </span>
+    </Fragment>
+  </Hero>
 
-    <Content isReversed title="My socials">
-      <Fragment slot="content">
-        <div
-          class="flex flex-col space-y-12 md:flex-row md:space-x-36 md:space-y-0 md:items-center"
-        >
-          <div>
-            <iframe
-              src="https://aadit.substack.com/embed"
-              title="Aadit's Substack"
-              width="480"
-              height="425"
-              style="border:1px solid #EEE; background:white; margin: '0 auto';"
-            >
-            </iframe>
-          </div>
-          <div>
-            <a
-              class="twitter-timeline"
-              data-lang="en"
-              data-width="480"
-              data-height="425"
-              href="https://twitter.com/aaditkamat?ref_src=twsrc%5Etfw"
-              >Tweets by aaditkamat</a
-            >
-          </div>
+  <Content isReversed title="My socials">
+    <Fragment slot="content">
+      <div
+        class="flex flex-col space-y-12 md:flex-row md:space-x-36 md:space-y-0 md:items-center"
+      >
+        <div>
+          <iframe
+            src="https://aadit.substack.com/embed"
+            title="Aadit's Substack"
+            width="480"
+            height="425"
+            style="border:1px solid #EEE; background:white; margin: '0 auto';"
+          >
+          </iframe>
         </div>
-      </Fragment>
-    </Content>
-  </section>
+        <div>
+          <a
+            class="twitter-timeline"
+            data-lang="en"
+            data-width="480"
+            data-height="425"
+            href="https://twitter.com/aaditkamat?ref_src=twsrc%5Etfw"
+            >Tweets by aaditkamat</a
+          >
+        </div>
+      </div>
+    </Fragment>
+  </Content>
 </Layout>
