@@ -93,3 +93,41 @@ export const podcastData = [
     url: "https://open.spotify.com/embed/show/4rOoJ6Egrf8K2IrywzwOMk",
   },
 ];
+
+export const timelineData = [
+  {
+    title: "January 2023 - December 2024",
+    cardTitle: "University of Florida, Warringtom College of Business",
+    cardSubtitle: "Master's in Information Systems and Operations Management",
+    cardDetailedText:
+      "As a graduate student under the Data Science track, I learnt how to apply data science techniques to solve real-world business problems. I took courses on databases, data mining, and business intelligence. I also worked on consulting projects with non profit organizations to help them improve their operations and make data-driven decisions",
+  },
+  {
+    title: "June 2024 - August 2024",
+    cardTitle: "Getzler Henrich & Associates LLC",
+    cardSubtitle: "Data Engineering Intern",
+    cardDetailedText:
+      "I teamed up with senior analysts to create a customized 13-week cash flow model, which improved our forecasting accuracy and helped with strategic planning. I also put together a detailed data dictionary for an Excel model to improve data consistency and accessibility",
+  },
+  {
+    title: "March 2022 - September 2022",
+    cardTitle: "Visa Worldwide Pte Ltd",
+    cardSubtitle: "Software Engineer",
+    cardDetailedText:
+      "In addition to creating automated data pipelines that bring Visa financial data right into mobile apps, I rolled out functional unit tests to ensure the Visa developer portal is accessible and user-friendly as well as designed and document RESTful APIs for the payment microservices",
+  },
+  {
+    title: "May 2021 - March 2022",
+    cardTitle: "Shopee Singapore Pte Ltd",
+    cardSubtitle: "Quality Assurance Engineer",
+    cardDetailedText:
+      "I helped develop and maintain over 100 test cases for our Promotion modules, significantly enhancing the user experience for more than a million customers. I also worked closely with QA Engineers from ten different departments to refresh our training syllabus to guide new engineers in automation tools like Espresso and UiAutomator.",
+  },
+  {
+    title: "August 2017 - May 2021",
+    cardTitle: "National University of Singapore",
+    cardSubtitle: "Bachelor of Computing in Computer Science",
+    cardDetailedText:
+      "This program gave me a foundation for all my technical explorations. I not only learnt software engineering skills but also the fundamentals underlying computer systems like OS, Computer Architecture in addition to taking electives in AI and Machine Learning.",
+  },
+];
