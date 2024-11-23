@@ -1,8 +1,8 @@
 ---
 import Layout from "~/layouts/PageLayout.astro";
-
 import Hero from "~/components/widgets/Hero.astro";
 import Content from "~/components/widgets/Content.astro";
+import { TypeAnimation } from "react-type-animation";
 const metadata = {
   title: "Aadit Kamat",
   ignoreTitleTemplate: true,
@@ -11,11 +11,23 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto">
-    <Hero image={{src: '~/assets/images/Landing Page Photo.jpg', alt: 'Aadit at Ben Hill Griffins'}}>
+    <Hero
+      image={{
+        src: "~/assets/images/Landing Page Photo.jpg",
+        alt: "Aadit at Ben Hill Griffins",
+      }}
+    >
       <Fragment slot="title">
-        Hello, <span class="text-accent dark:text-white highlight">World!</span>
-        This is <span class="text-accent dark:text-white highlight">Aadit.</span
-        >
+        <TypeAnimation client:load>
+          Hello, <span class="text-accent dark:text-white highlight"
+            >World!</span
+          >
+        </TypeAnimation>
+        <TypeAnimation client:load>
+          This is <span class="text-accent dark:text-white highlight"
+            >Aadit.</span
+          >
+        </TypeAnimation>
       </Fragment>
 
       <Fragment slot="subtitle">
