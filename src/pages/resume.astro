@@ -1,9 +1,13 @@
 ---
-import Page from '~/components/common/Page.astro';
-import Timeline from '~/components/ui/Timeline.astro';
+import Page from "~/components/common/Page.astro";
+import { Chrono } from "react-chrono";
 import { timelineData } from "~/data";
 ---
 
 <Page title="Resume" headline="Resume">
-  <Timeline items={timelineData} />
-</main>
+  <Chrono
+    items={timelineData}
+    mode="VERTICAL_ALTERNATING"
+    client:only="react"
+  />
+</Page>
