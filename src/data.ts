@@ -1,18 +1,24 @@
 export const projectsData = [
   {
+    link: "https://docs.google.com/presentation/d/1yCiyHcRhLLPspg4zvtwjgle7KtiDqY71_t7CVwZrdmA/",
+    title: "JEA Technology Consulting",
+    info: "Used ETL to get the data from the original Excel sheet for JEA's employee performance-related metrics into PowerBI and created visuals to help the executives better understand the business metrics",
+    imgSrc: "/images/JEA Logo.png",
+  },
+  {
     link: "https://www.science.org/doi/full/10.1126/science.add7150?casa_token=lngchMBZQ2oAAAAA%3AMiX-hHddparHoLFBXhszlQu4YdhiKR9XoqpFa85i6-sZmcDfvJCqDkcfFGwGe79X-89pTHNj6oPZ",
     title: "BlueShield Consulting",
     info: "Conducted market analysis and competitive overview to help BlueShield - a Gainesville based Therapeutics startup - to understand the market for its novel immunotherapy based treatment for Depression",
     imgSrc: "/images/BlueShield Logo.png",
   },
   {
-    link: "https://drive.google.com/file/d/1zJM82f6M7A8rShkrquBknE-lE_LhSCpx/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1ckWJeYl6TEJGMoUiwejcnQj58yc9I6zM/",
     title: "WeCareJax Connect Technology Consulting",
     info: "Led the automation for the process of collecting feedback data from surveys sent to patients post-visit using Jotform",
     imgSrc: "/images/WeCareJax Logo.png",
   },
   {
-    link: "https://www.credential.net/90df5825-c490-4df8-b358-0011c5c194be",
+    link: "https://drive.google.com/file/d/1AJldMg0LWAQifHqeJUuyFWCU6q1zxbBF/view?usp=sharing",
     title: "Happy Sneeze Market Research Externship",
     info: "Performed market analysis and competitor overview as well and identified potential partners for outreach",
     imgSrc: "/images/HappySneeze Logo.png",
