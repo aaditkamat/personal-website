@@ -60,4 +60,124 @@ import '@fontsource-variable/inter';
       color: snow;
     }
   }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    position: relative;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 2rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #000000;
+    z-index: 1;
+  }
+
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    gap: 1rem;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .timeline::before.animate, .timeline-item.animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .timeline-dot {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: hsl(var(--primary));
+    justify-self: center;
+    align-self: start;
+    margin-top: 0.5rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .timeline-content {
+    background-color: hsl(var(--card));
+    border: 3px solid black;
+    padding: 1rem;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .timeline-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    gap: 0.5rem;
+  }
+
+  .timeline-timePeriod {
+    font-weight: 400;
+  }
+
+  .timeline-year {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: hsl(var(--muted-foreground));
+    background-color: hsl(var(--muted));
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+  }
+
+  .timeline-description {
+    font-size: 1rem;
+    color: hsl(var(--foreground));
+  }
+
+  .education .timeline-dot {
+    background-color: hsl(var(--secondary));
+  }
+
+  .experience .timeline-dot {
+    background-color: hsl(var(--accent));
+  }
+
+  @media (min-width: 640px) {
+    .timeline::before {
+      left: 50%;
+    }
+
+    .timeline-item {
+      width: 50%;
+    }
+
+    .timeline-item:nth-child(even) {
+      margin-left: 45%;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-content {
+      margin-right: 5%;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-title {
+      flex-direction: row-reverse;
+    }
+
+    .timeline-item:nth-child(odd) {
+      transform: translateX(20px);
+    }
+
+    .timeline-item:nth-child(even) {
+      transform: translateX(-20px);
+    }
+
+    .timeline-item.animate:nth-child(odd),
+    .timeline-item.animate:nth-child(even) {
+      transform: translateX(0);
+    }
+  }
 </style>

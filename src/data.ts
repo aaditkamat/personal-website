@@ -90,10 +90,10 @@ export const podcastData = [
 
 export const timelineData = [
   {
-    date: 'December 2024',
+    timePeriod: 'January 2023 - December 2024',
     title: 'Master\'s Degree in Information Systems and Operations Management',
     location: 'Gainesville, FL',
-    bulletItems: [
+    description: [
       'GPA: 3.7/4.0',
       'Track: Data Science',
       'Relevant Coursework: Database Systems, System Analysis and Design, Statistical Analysis, Business Analytics Practicum'
@@ -101,47 +101,41 @@ export const timelineData = [
     type: 'education'
   },
   {
-    date: 'May 2021',
+    timePeriod: 'June 2024 - August 2024',
+    title: 'Data Analyst Intern at Getzler Henrich',
+    location: 'New York, NY',
+    description: [
+      'I teamed up with senior analysts to create a customized 13-week cash flow model, which improved our forecasting accuracy and helped with strategic planning. I also put together a detailed data dictionary for an Excel model to improve data consistency and accessibility'
+    ],
+    type: 'experience'
+  },
+  {
+    timePeriod: 'March 2022 - September 2022',
+    title: 'Software Engineer at Visa',
+    location: 'Singapore, SG',
+    description: [
+      'In addition to creating automated data pipelines that bring Visa financial data right into mobile apps, I rolled out functional unit tests to ensure the Visa developer portal is accessible and user-friendly as well as designed and document RESTful APIs for the payment microservices'
+    ],
+    type: 'experience'
+  },
+  {
+    timePeriod: 'May 2021 - March 2022',
+    title: 'Quality Assurance Engineer at Shopee',
+    location: 'Singapore, SG',
+    description: [
+      'I helped develop and maintain over 100 test cases for our Promotion modules, significantly enhancing the user experience for more than a million customers. I also worked closely with QA Engineers from ten different departments to refresh our training syllabus to guide new engineers in automation tools like Espresso and UiAutomator.'
+    ],
+    type: 'experience'
+  },
+  {
+    timePeriod: 'August 2017 - May 2021',
     title: 'Bachelor\'s Degree in Computer Science',
     location: 'Singapore, SG',
-    bulletItems: [
+    description: [
       'Concentration: Artificial Intelligence',
       'Track: Data Science',
       'Relevant Coursework: Database Systems, System Analysis and Design, Statistical Analysis, Business Analytics Practicum'
     ],
     type: 'education'
-  },
-  {
-    date: 'June 2024 - August 2024',
-    title: 'Data Analyst Intern at Getzler Henrich Associates',
-    location: 'New York, NY',
-    bulletItems: [
-      'Automated data pipelines to feed Visa financial data into mobile apps, cutting annual costs by $25,000 and saving 20 hours per quarter for IC developers',
-      'Deployed functional unit tests to ensure accessibility compliance across a developer portal used by 30 IC teams in North America and EMEA',
-      'Engineered and documented RESTful APIs for microservices, facilitating 100 transactions per second for over 100,000 users through major Indian banks'
-    ],
-    type: 'experience'
-  },
-  {
-    date: 'March 2022 - September 2022',
-    title: 'Software Engineer at Visa Worldwide Pte Ltd',
-    location: 'Singapore, SG',
-    bulletItems: [
-      'Automated data pipelines to feed Visa financial data into mobile apps, cutting annual costs by $25,000 and saving 20 hours per quarter for IC developers',
-      'Deployed functional unit tests to ensure accessibility compliance across a developer portal used by 30 IC teams in North America and EMEA',
-      'Engineered and documented RESTful APIs for microservices, facilitating 100 transactions per second for over 100,000 users through major Indian banks'
-    ],
-    type: 'experience'
-  },
-  {
-    date: 'May 2021 - March 2022',
-    title: 'Quality Assurance Engineer at Shopee Singapore Pte Ltd',
-    location: 'Singapore, SG',
-    bulletItems: [
-      'Orchestrated the development and maintenance of 100+ test cases for Promotion modules, improving user experience for over 1 million customers',
-      'Coordinated with QA Engineers from 10 other departments to update the training syllabus, mentoring 50 new engineers in automation tools like Espresso and UiAutomator',
-      'Reduced failed and flaky test cases by 25% through a systematic testing framework'
-    ],
-    type: 'experience'
   }
 ]
