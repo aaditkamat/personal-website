@@ -11,18 +11,7 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto">
-    <img
-      src="https://avatars.githubusercontent.com/u/30969577?s=400&u=9558fc3557d79c88a7080034fe8c22654aca2e4d&v=4"
-      alt="GitHub profile picture"
-      style={{
-        borderRadius: "200%",
-        margin: "0 auto",
-        maxWidth: "200px",
-      }}
-    />
-    <br />
-
-    <Hero>
+    <Hero image={{src: '~/assets/images/Landing Page Photo.jpg', alt: 'Aadit at Ben Hill Griffins'}}>
       <Fragment slot="title">
         Hello, <span class="text-accent dark:text-white highlight">World!</span>
         This is <span class="text-accent dark:text-white highlight">Aadit.</span
