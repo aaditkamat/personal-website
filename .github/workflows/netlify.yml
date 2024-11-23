@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: 20.13.1
       - name: Build Astro site
-        env: 
+        env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
           yarn install
