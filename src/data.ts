@@ -87,3 +87,61 @@ export const podcastData = [
     url: "https://open.spotify.com/embed/show/4rOoJ6Egrf8K2IrywzwOMk",
   },
 ];
+
+export const timelineData = [
+  {
+    date: 'December 2024',
+    title: 'Master\'s Degree in Information Systems and Operations Management',
+    location: 'Gainesville, FL',
+    bulletItems: [
+      'GPA: 3.7/4.0',
+      'Track: Data Science',
+      'Relevant Coursework: Database Systems, System Analysis and Design, Statistical Analysis, Business Analytics Practicum'
+    ],
+    type: 'education'
+  },
+  {
+    date: 'May 2021',
+    title: 'Bachelor\'s Degree in Computer Science',
+    location: 'Singapore, SG',
+    bulletItems: [
+      'Concentration: Artificial Intelligence',
+      'Track: Data Science',
+      'Relevant Coursework: Database Systems, System Analysis and Design, Statistical Analysis, Business Analytics Practicum'
+    ],
+    type: 'education'
+  },
+  {
+    date: 'June 2024 - August 2024',
+    title: 'Data Analyst Intern at Getzler Henrich Associates',
+    location: 'New York, NY',
+    bulletItems: [
+      'Automated data pipelines to feed Visa financial data into mobile apps, cutting annual costs by $25,000 and saving 20 hours per quarter for IC developers',
+      'Deployed functional unit tests to ensure accessibility compliance across a developer portal used by 30 IC teams in North America and EMEA',
+      'Engineered and documented RESTful APIs for microservices, facilitating 100 transactions per second for over 100,000 users through major Indian banks'
+    ],
+    type: 'experience'
+  },
+  {
+    date: 'March 2022 - September 2022',
+    title: 'Software Engineer at Visa Worldwide Pte Ltd',
+    location: 'Singapore, SG',
+    bulletItems: [
+      'Automated data pipelines to feed Visa financial data into mobile apps, cutting annual costs by $25,000 and saving 20 hours per quarter for IC developers',
+      'Deployed functional unit tests to ensure accessibility compliance across a developer portal used by 30 IC teams in North America and EMEA',
+      'Engineered and documented RESTful APIs for microservices, facilitating 100 transactions per second for over 100,000 users through major Indian banks'
+    ],
+    type: 'experience'
+  },
+  {
+    date: 'May 2021 - March 2022',
+    title: 'Quality Assurance Engineer at Shopee Singapore Pte Ltd',
+    location: 'Singapore, SG',
+    bulletItems: [
+      'Orchestrated the development and maintenance of 100+ test cases for Promotion modules, improving user experience for over 1 million customers',
+      'Coordinated with QA Engineers from 10 other departments to update the training syllabus, mentoring 50 new engineers in automation tools like Espresso and UiAutomator',
+      'Reduced failed and flaky test cases by 25% through a systematic testing framework'
+    ],
+    type: 'experience'
+  }
+]
