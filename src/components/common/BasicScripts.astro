@@ -9,18 +9,6 @@ import { UI } from "astrowind:config";
 
   window.basic_script = true;
 
-  function animateTimelineItems() {
-    const timelineItems = document.querySelectorAll('.timeline-item');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animate');
-        }
-      });
-    }, { threshold: 0.1 });
-    timelineItems.forEach(item => observer.observe(item));
-  }
-
   function applyTheme(theme) {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
@@ -324,7 +312,7 @@ import { UI } from "astrowind:config";
   src="https://plausible.io/js/script.js"></script>
 <script is:inline>
   window.Userback = window.Userback || {};
-  Userback.access_token = import.meta.env.ACCESS_TOKEN;
+  Userback.access_token = process.env.ACCESS_TOKEN;
   (function (d) {
     const s = d.createElement("script");
     s.async = true;
