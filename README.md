@@ -16,30 +16,52 @@ Inside AstroWind template, you'll see the following folders and files:
 ```
 /
 ├── public/
-│   ├── robots.txt
-│   └── favicon.ico
+│   ├── _headers
+│   └── robots.txt
 ├── src/
 │   ├── assets/
+│   │   ├── favicons/
 │   │   ├── images/
 │   │   └── styles/
-│   │       └── base.css
+│   │       └── tailwind.css
 │   ├── components/
+│   │   ├── blog/
+│   │   ├── common/
+│   │   ├── ui/
+│   │   ├── widgets/
+│   │   │   ├── Header.astro
+│   │   │   └── ...
 │   │   ├── CustomStyles.astro
+│   │   ├── Favicons.astro
 │   │   └── Logo.astro
+│   ├── content/
+│   │   ├── post/
+│   │   │   ├── post-slug-1.md
+│   │   │   ├── post-slug-2.mdx
+│   │   │   └── ...
+│   │   └-- config.ts
 │   ├── layouts/
-│   │   ├── BaseLayout.astro
-│   │   └── ...
+│   │   ├── Layout.astro
+│   │   ├── MarkdownLayout.astro
+│   │   └── PageLayout.astro
 │   ├── pages/
+│   │   ├── [...blog]/
+│   │   │   ├── [category]/
+│   │   │   ├── [tag]/
+│   │   │   ├── [...page].astro
+│   │   │   └── index.astro
 │   │   ├── index.astro
 │   │   ├── 404.astro
+│   │   ├-- rss.xml.ts
 │   │   └── ...
 │   ├── utils/
-│   ├── config.mjs
-│   └── data.js
+│   ├── config.yaml
+│   └── navigation.js
 ├── package.json
-├── astro.config.mjs
+├── astro.config.ts
 └── ...
 ```
+
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
