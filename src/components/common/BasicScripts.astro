@@ -1,4 +1,5 @@
 ---
+const accessToken = import.meta.env.ACCESS_TOKEN;
 import { UI } from "astrowind:config";
 ---
 
@@ -312,7 +313,7 @@ import { UI } from "astrowind:config";
   src="https://plausible.io/js/script.js"></script>
 <script is:inline>
   window.Userback = window.Userback || {};
-  Userback.access_token = process.env.ACCESS_TOKEN;
+  Userback.access_token = accessToken;
   (function (d) {
     const s = d.createElement("script");
     s.async = true;
