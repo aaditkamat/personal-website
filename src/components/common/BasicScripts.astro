@@ -311,7 +311,7 @@ import { UI } from "astrowind:config";
   defer
   data-domain="aaditkamat.me"
   src="https://plausible.io/js/script.js"></script>
-<script is:inline defineVariables={{ accessToken: accessToken}}>
+<script is:inline define:vars={{ accessToken: accessToken}}>
   window.Userback = window.Userback || {};
   Userback.access_token = accessToken;
   (function (d) {
