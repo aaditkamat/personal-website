@@ -87,11 +87,7 @@ export const podcastData = [
   {
     altText: "The Happiness Lab with Dr. Laurie Santos",
     url: "https://open.spotify.com/embed/show/3i5TCKhc6GY42pOWkpWveG",
-  },
-  {
-    altText: "The Joe Rogan Experience",
-    url: "https://open.spotify.com/embed/show/4rOoJ6Egrf8K2IrywzwOMk",
-  },
+  }
 ];
 
 export const timelineData = [
