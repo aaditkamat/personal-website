@@ -35,10 +35,18 @@
   dependencies:
     "@astro-community/astro-embed-utils" "^0.1.0"
 
-"@astro-community/astro-embed-integration@^0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@astro-community/astro-embed-integration/-/astro-embed-integration-0.7.2.tgz#dbe016e22369d8dd392a694855cabbf925da0798"
-  integrity sha512-R5eyiA01pj400skp6sJY4t01oXtTY+Huv2uR4eWUagaPgOOadu135+UkPXo38+LgZ5voYzZkaGwfTaZj4R0AFg==
+"@astro-community/astro-embed-bluesky@^0.1.0":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@astro-community/astro-embed-bluesky/-/astro-embed-bluesky-0.1.2.tgz#c93887ca4b99dcffd0e371d047229c4bfb6fd217"
+  integrity sha512-DBTRxNOJuQO9BWLzML80lL92mA1vpc3TYkvTZPMCTTDF69szWpgzKBGUVbq7NZCbN4oigfj6IxJHLa3tBmbLyg==
+  dependencies:
+    "@atproto/api" "^0.13.14"
+    ts-pattern "^5.5.0"
+
+"@astro-community/astro-embed-integration@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@astro-community/astro-embed-integration/-/astro-embed-integration-0.8.0.tgz#652698df2276a5b6b177701d4778b5896dc06e0b"
+  integrity sha512-WnBBikazuFDSslsYjJ5xGeQexMWYdGqpxpiHl0IiBJ9A51MYwDlBoHAtnXU8a5jkidneN8+BD/vLW5uFWf157A==
   dependencies:
     "@astro-community/astro-embed-link-preview" "^0.2.0"
     "@astro-community/astro-embed-twitter" "^0.5.5"
@@ -250,6 +258,54 @@
   version "1.0.0-beta.8"
   resolved "https://registry.yarnpkg.com/@astrolib/seo/-/seo-1.0.0-beta.8.tgz#58ac1dbe924ccdaad63bebebc24f3f11fc5f0cd4"
   integrity sha512-SpNycspjcjnz6um4Vph0k+SAKgUib7/8qJRCaaahJD1UfLuXKK7E+bmKbnv8QPBTRPZkQW6zFVaZRl5VvnyDfg==
+
+"@atproto/api@^0.13.14":
+  version "0.13.21"
+  resolved "https://registry.yarnpkg.com/@atproto/api/-/api-0.13.21.tgz#8ee27a07e5a024b5bf32408d9bd623dd598ad1cc"
+  integrity sha512-iOxSj2YS3Fx9IPz1NivKrSsdYPNbBgpnUH7+WhKYAMvDFDUe2PZe7taau8wsUjJAu/H3S0Mk2TDh5e/7tCRwHA==
+  dependencies:
+    "@atproto/common-web" "^0.3.1"
+    "@atproto/lexicon" "^0.4.4"
+    "@atproto/syntax" "^0.3.1"
+    "@atproto/xrpc" "^0.6.5"
+    await-lock "^2.2.2"
+    multiformats "^9.9.0"
+    tlds "^1.234.0"
+    zod "^3.23.8"
+
+"@atproto/common-web@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@atproto/common-web/-/common-web-0.3.1.tgz#86f8efb10a4b9073839cee914c6c08a664917cc4"
+  integrity sha512-N7wiTnus5vAr+lT//0y8m/FaHHLJ9LpGuEwkwDAeV3LCiPif4m/FS8x/QOYrx1PdZQwKso95RAPzCGWQBH5j6Q==
+  dependencies:
+    graphemer "^1.4.0"
+    multiformats "^9.9.0"
+    uint8arrays "3.0.0"
+    zod "^3.23.8"
+
+"@atproto/lexicon@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@atproto/lexicon/-/lexicon-0.4.4.tgz#0d97314bb57b693b76f2495fa5e02872469dd93a"
+  integrity sha512-QFEmr3rpj/RoAmfX9ALU/asBG/rsVtQZnw+9nOB1/AuIwoxXd+ZyndR6lVUc2+DL4GEjl6W2yvBru5xbQIZWyA==
+  dependencies:
+    "@atproto/common-web" "^0.3.1"
+    "@atproto/syntax" "^0.3.1"
+    iso-datestring-validator "^2.2.2"
+    multiformats "^9.9.0"
+    zod "^3.23.8"
+
+"@atproto/syntax@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@atproto/syntax/-/syntax-0.3.1.tgz#4346418728f9643d783d2ffcf7c77e132e1f53d4"
+  integrity sha512-fzW0Mg1QUOVCWUD3RgEsDt6d1OZ6DdFmbKcDdbzUfh0t4rhtRAC05KbZYmxuMPWDAiJ4BbbQ5dkAc/mNypMXkw==
+
+"@atproto/xrpc@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@atproto/xrpc/-/xrpc-0.6.5.tgz#8b180fc5f6b8374fd00c41b9e4cd7b24ead48e6b"
+  integrity sha512-t6u8iPEVbWge5RhzKZDahSzNDYIAxUtop6Q/X/apAZY1rgreVU0/1sSvvRoRFH19d3UIKjYdLuwFqMi9w8nY3Q==
+  dependencies:
+    "@atproto/lexicon" "^0.4.4"
+    zod "^3.23.8"
 
 "@babel/code-frame@^7.25.9", "@babel/code-frame@^7.26.0":
   version "7.26.2"
@@ -1692,13 +1748,14 @@ astro-compress@2.3.3:
     svgo "3.3.2"
     terser "5.34.1"
 
-astro-embed@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/astro-embed/-/astro-embed-0.8.0.tgz#8bc59b7fb9d300d28520c54de0c82023edd51d29"
-  integrity sha512-zG7SjRKo2TT4LsZLQfttf+Yb9OJ2oty+/qj7SZ9RPPAo0olfbWgoXkAdrDHBJyvVMss9GCgCunIp/kqQ32t9ZA==
+astro-embed@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/astro-embed/-/astro-embed-0.9.0.tgz#a81a35fec194d07d45960fe320fd5bd41020686f"
+  integrity sha512-koBCZH8n1q7tyXW+s11mdwb5dFsv9kG8uMuF17CUIVFJWqwRxx7YCpa9o2P9PuPeWffsrwmdVJTl65kLLP2Uug==
   dependencies:
     "@astro-community/astro-embed-baseline-status" "^0.1.0"
-    "@astro-community/astro-embed-integration" "^0.7.2"
+    "@astro-community/astro-embed-bluesky" "^0.1.0"
+    "@astro-community/astro-embed-integration" "^0.8.0"
     "@astro-community/astro-embed-link-preview" "^0.2.2"
     "@astro-community/astro-embed-twitter" "^0.5.6"
     "@astro-community/astro-embed-vimeo" "^0.3.10"
@@ -1825,6 +1882,11 @@ autoprefixer@^10.4.20:
     normalize-range "^0.1.2"
     picocolors "^1.0.1"
     postcss-value-parser "^4.2.0"
+
+await-lock@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/await-lock/-/await-lock-2.2.2.tgz#a95a9b269bfd2f69d22b17a321686f551152bcef"
+  integrity sha512-aDczADvlvTGajTDjcjpJMqRkOF6Qdz3YbPZm/PyW6tKPkx2hlYBzxMhEywM/tU72HrVZjgl5VCdRuMlA7pZ8Gw==
 
 axios@^1.7.7:
   version "1.7.7"
@@ -3411,6 +3473,11 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
+iso-datestring-validator@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/iso-datestring-validator/-/iso-datestring-validator-2.2.2.tgz#2daa80d2900b7a954f9f731d42f96ee0c19a6895"
+  integrity sha512-yLEMkBbLZTlVQqOnQ4FiMujR6T4DEcCb1xizmvXS+OxuhwcbtynoosRzdMA69zZCShCNAbi+gJ71FxZBBXx1SA==
+
 jackspeak@^3.1.2:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/jackspeak/-/jackspeak-3.4.3.tgz#8833a9d89ab4acde6188942bd1c53b6390ed5a8a"
@@ -4433,6 +4500,11 @@ muggle-string@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/muggle-string/-/muggle-string-0.4.1.tgz#3b366bd43b32f809dc20659534dd30e7c8a0d328"
   integrity sha512-VNTrAak/KhO2i8dqqnqnAHOa3cYBwXEZe9h+D5h/1ZqFSTEFHdM65lR7RoIqq3tBBYavsOXV84NoHXZ0AkPyqQ==
+
+multiformats@^9.4.2, multiformats@^9.9.0:
+  version "9.9.0"
+  resolved "https://registry.yarnpkg.com/multiformats/-/multiformats-9.9.0.tgz#c68354e7d21037a8f1f8833c8ccd68618e8f1d37"
+  integrity sha512-HoMUjhH9T8DDBNT+6xzkrd9ga/XiBI4xLr58LJACwK6G3HTOPeMz4nB4KJs33L2BelrIJa7P0VuNaVF3hMYfjg==
 
 mz@^2.7.0:
   version "2.7.0"
@@ -5725,6 +5797,11 @@ tinyexec@^0.3.0, tinyexec@^0.3.1:
   resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-0.3.1.tgz#0ab0daf93b43e2c211212396bdb836b468c97c98"
   integrity sha512-WiCJLEECkO18gwqIp6+hJg0//p23HXp4S+gGtAKu3mI2F2/sXC4FvHvXvB0zJVVaTPhx1/tOwdbRsa1sOBIKqQ==
 
+tlds@^1.234.0:
+  version "1.255.0"
+  resolved "https://registry.yarnpkg.com/tlds/-/tlds-1.255.0.tgz#53c2571766c10da95928c716c48dfcf141341e3f"
+  integrity sha512-tcwMRIioTcF/FcxLev8MJWxCp+GUALRhFEqbDoZrnowmKSGqPrl5pqS+Sut2m8BgJ6S4FExCSSpGffZ0Tks6Aw==
+
 to-regex-range@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
@@ -5751,6 +5828,11 @@ ts-interface-checker@^0.1.9:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
+
+ts-pattern@^5.5.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/ts-pattern/-/ts-pattern-5.6.0.tgz#831516bbb9041499c5525e8976d8fc6b68ac8bb9"
+  integrity sha512-SL8u60X5+LoEy9tmQHWCdPc2hhb2pKI6I1tU5Jue3v8+iRqZdcT3mWPwKKJy1fMfky6uha82c8ByHAE8PMhKHw==
 
 tsconfck@^3.1.4:
   version "3.1.4"
@@ -5814,6 +5896,13 @@ uhyphen@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/uhyphen/-/uhyphen-0.2.0.tgz#8fdf0623314486e020a3c00ee5cc7a12fe722b81"
   integrity sha512-qz3o9CHXmJJPGBdqzab7qAYuW8kQGKNEuoHFYrBwV6hWIMcpAmxDLXojcHfFr9US1Pe6zUswEIJIbLI610fuqA==
+
+uint8arrays@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/uint8arrays/-/uint8arrays-3.0.0.tgz#260869efb8422418b6f04e3fac73a3908175c63b"
+  integrity sha512-HRCx0q6O9Bfbp+HHSfQQKD7wU70+lydKVt4EghkdOvlK/NlrF90z+eXV34mUd48rNvVJXwkrMSPpCATkct8fJA==
+  dependencies:
+    multiformats "^9.4.2"
 
 ultrahtml@^1.5.3:
   version "1.5.3"
