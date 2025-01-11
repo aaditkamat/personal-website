@@ -89,9 +89,9 @@ export const podcastData = [
     url: "https://open.spotify.com/embed/show/3i5TCKhc6GY42pOWkpWveG",
   },
   {
-    altText: "The Joe Rogan Experience",
-    url: "https://open.spotify.com/embed/show/4rOoJ6Egrf8K2IrywzwOMk",
-  },
+    altText: "WTF is with Nikhil Kamath",
+    url: "https://open.spotify.com/embed/show/5T1uhRS6IKKYuo9v0jcSrD"
+  }
 ];
 
 export const timelineData = [
