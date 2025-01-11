@@ -87,6 +87,10 @@ export const podcastData = [
   {
     altText: "The Happiness Lab with Dr. Laurie Santos",
     url: "https://open.spotify.com/embed/show/3i5TCKhc6GY42pOWkpWveG",
+  },
+  {
+    altText: "WTF is with Nikhil Kamath",
+    url: "https://open.spotify.com/embed/show/5T1uhRS6IKKYuo9v0jcSrD"
   }
 ];
 
