@@ -53,10 +53,6 @@ export const podcastData = [
     url: "https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA",
   },
   {
-    altText: "Deep Questions With Cal Newport",
-    url: "https://open.spotify.com/embed/show/0e9lFr3AdJByoBpM6tAbxD",
-  },
-  {
     altText: "No Stupid Questions",
     url: "https://open.spotify.com/embed/show/6Z49m4VQ4TfQ28Cnl42yiT",
   },
