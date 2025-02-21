@@ -1,5 +1,11 @@
 export const projectsData = [
   {
+    link: "https://dashboard-leap.netlify.app/",
+    title: "LEAP Dashboard",
+    info: "Obtained data from LEAP's Monday.com account to create a dashboard showcasing the metrics that highlight the impact that LEAP has created through its programs",
+    imgSrc: "/images/LEAP Logo.png",
+  } ,
+  {
     link: "https://docs.google.com/presentation/d/1yCiyHcRhLLPspg4zvtwjgle7KtiDqY71_t7CVwZrdmA/",
     title: "JEA Technology Consulting",
     info: "Used ETL to get the data from the original Excel sheet for JEA's employee performance-related metrics into PowerBI and created visuals to help the executives better understand the business metrics",
