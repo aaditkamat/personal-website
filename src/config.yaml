@@ -9,21 +9,21 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: Aadit Kamat Personal Website
     template: "%s"
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "Aadit's home on the internet. Built with Astrowind"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Aadit Kamat Personal Website
     images:
       - url: "~/assets/images/default.png"
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: "@onwidget"
+    handle: "@aaditkamat"
     site: "@onwidget"
     cardType: summary_large_image
 
