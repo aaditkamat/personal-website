@@ -54,6 +54,6 @@ export const footerData = {
     },
   ],
   footNote: `
-    Copyright © 2024 Aadit Kamat. Built with <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    Copyright © 2025 Aadit Kamat. Built with <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
   `,
 };
