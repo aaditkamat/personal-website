@@ -1,0 +1,50 @@
+---
+import { Icon } from "astro-icon/components";
+const { imagesData } = Astro.props;
+---
+
+<div class="carousel relative overflow-hidden w-[1000px] h-[600px]">
+  <div
+    class="carousel-inner flex transition-transform duration-500 ease-in-out"
+  >
+    {
+      imagesData.map((imageData, index) => (
+        <div class="carousel-item min-w-full" key={index}>
+          <img src={imageData.src} alt={imageData.alt} />
+        </div>
+      ))
+    }
+  </div>
+  <button class="prev absolute left-0 top-1/2 -translate-y-1/2">
+    <Icon name="ei:arrow-left" size={32} />
+  </button>
+  <button
+    class="next absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white p-2"
+  >
+    <Icon name="ei:arrow-right" size={32} />
+  </button>
+</div>
+
+<script is:inline>
+  document.addEventListener("DOMContentLoaded", () => {
+    const carousel = document.querySelector(".carousel-inner");
+    const items = document.querySelectorAll(".carousel-item");
+    const prevButton = document.querySelector(".prev");
+    const nextButton = document.querySelector(".next");
+    let index = 0;
+
+    const updateCarousel = () => {
+      carousel.style.transform = `translateX(-${index * 100}%)`;
+    };
+
+    prevButton.addEventListener("click", () => {
+      index = index > 0 ? index - 1 : items.length - 1;
+      updateCarousel();
+    });
+
+    nextButton.addEventListener("click", () => {
+      index = index < items.length - 1 ? index + 1 : 0;
+      updateCarousel();
+    });
+  });
+</script>
