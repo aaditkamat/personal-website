@@ -4,7 +4,7 @@ export const projectsData = [
     title: "LEAP Dashboard",
     info: "Obtained data from LEAP's Monday.com account to create a dashboard showcasing the metrics that highlight the impact that LEAP has created through its programs",
     imgSrc: "/images/LEAP Logo.png",
-  } ,
+  },
   {
     link: "https://docs.google.com/presentation/d/1yCiyHcRhLLPspg4zvtwjgle7KtiDqY71_t7CVwZrdmA/",
     title: "JEA Technology Consulting",
@@ -51,32 +51,8 @@ export const projectsData = [
 
 export const podcastData = [
   {
-    altText: "Empire Podcast",
-    url: "https://open.spotify.com/embed/show/0sBh58hSTReUQiK4axYUVx",
-  },
-  {
-    altText: "WorkLife with Adam Grant",
-    url: "https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA",
-  },
-  {
-    altText: "No Stupid Questions",
-    url: "https://open.spotify.com/embed/show/6Z49m4VQ4TfQ28Cnl42yiT",
-  },
-  {
-    altText: "Freakonomics Radio",
-    url: "https://open.spotify.com/embed/show/6z4NLXyHPga1UmSJsPK7G1",
-  },
-  {
-    altText: "Lex Fridman Podcast",
-    url: "https://open.spotify.com/embed/show/2MAi0BvDc6GTFvKFPXnkCL",
-  },
-  {
     altText: "The Ranveer Show",
     url: "https://open.spotify.com/embed/show/6ZcvVBPQ2ToLXEWVbaw59P",
-  },
-  {
-    altText: "Being Well with Dr Rick Hanson and Forrest Hanson",
-    url: "https://open.spotify.com/embed/show/5d87ZU1XY0fpdYNSEwXLVQ",
   },
   {
     altText: "Skeptic's Path to Enlightenment",
@@ -87,13 +63,25 @@ export const podcastData = [
     url: "https://open.spotify.com/embed/show/1CfW319UkBMVhCXfei8huv",
   },
   {
+    altText: "People by WTF",
+    url: "https://open.spotify.com/embed/show/435Ybgmr5x92krW0jCl3cC",
+  },
+  {
+    altText: "No Stupid Questions",
+    url: "https://open.spotify.com/embed/show/6Z49m4VQ4TfQ28Cnl42yiT",
+  },
+  {
+    altText: "Lex Fridman Podcast",
+    url: "https://open.spotify.com/embed/show/2MAi0BvDc6GTFvKFPXnkCL",
+  },
+  {
+    altText: "WorkLife with Adam Grant",
+    url: "https://open.spotify.com/embed/show/4eylg9GZJOVvUhTynt4jjA",
+  },
+  {
     altText: "The Happiness Lab with Dr. Laurie Santos",
     url: "https://open.spotify.com/embed/show/3i5TCKhc6GY42pOWkpWveG",
   },
-  {
-    altText: "WTF is with Nikhil Kamath",
-    url: "https://open.spotify.com/embed/show/5T1uhRS6IKKYuo9v0jcSrD"
-  }
 ];
 
 export const timelineData = [
@@ -103,7 +91,7 @@ export const timelineData = [
     cardSubtitle: "Master's in Information Systems and Operations Management",
     cardDetailedText:
       "As a graduate student under the Data Science track, I learnt how to apply data science techniques to solve real-world business problems. I took courses on databases, data mining, and business intelligence. I also worked on consulting projects with non profit organizations to help them improve their operations and make data-driven decisions",
-    url: "https://warrington.ufl.edu/master-of-science-in-information-systems-and-operations-management/"
+    url: "https://warrington.ufl.edu/master-of-science-in-information-systems-and-operations-management/",
   },
   {
     title: "June 2024 - August 2024",
@@ -111,7 +99,7 @@ export const timelineData = [
     cardSubtitle: "Data Engineering Intern",
     cardDetailedText:
       "I teamed up with senior analysts to create a customized 13-week cash flow model, which improved our forecasting accuracy and helped with strategic planning. I also put together a detailed data dictionary for an Excel model to improve data consistency and accessibility",
-    url: "https://getzlerhenrich.com"
+    url: "https://getzlerhenrich.com",
   },
   {
     title: "March 2022 - September 2022",
@@ -119,7 +107,7 @@ export const timelineData = [
     cardSubtitle: "Software Engineer",
     cardDetailedText:
       "In addition to creating automated data pipelines that bring Visa financial data right into mobile apps, I rolled out functional unit tests to ensure the Visa developer portal is accessible and user-friendly as well as designed and document RESTful APIs for the payment microservices",
-    url: "https://www.visa.com.sg/about-visa/global-innovation-centers/singapore.html"
+    url: "https://www.visa.com.sg/about-visa/global-innovation-centers/singapore.html",
   },
   {
     title: "May 2021 - March 2022",
@@ -127,7 +115,7 @@ export const timelineData = [
     cardSubtitle: "Quality Assurance Engineer",
     cardDetailedText:
       "I helped develop and maintain over 100 test cases for the Promotion modules (Flash Sale/Bundle Deal/Add on Deal/Discount) for the Android App, significantly enhancing the user experience for more than a million customers. I also worked closely with QA Engineers from other departments to refresh our training syllabus and guide new engineers in automation tools like Espresso and UiAutomator.",
-    url: "https://seller.shopee.sg/edu/article/20254/types-of-promotions"
+    url: "https://seller.shopee.sg/edu/article/20254/types-of-promotions",
   },
   {
     title: "December 2020 - March 2021",
@@ -135,7 +123,7 @@ export const timelineData = [
     cardSubtitle: "Software Engineering Intern",
     cardDetailedText:
       "I collaborated with the senior physicists to build solutions enabling them to run cold atom interferometry experiments for their quantum gravimeter using Field Programmable Gate Array (FPGA) hardware more efficiently",
-    url: "https://www.atomionics.com/our-solution"
+    url: "https://www.atomionics.com/our-solution",
   },
   {
     title: "May 2020 - August 2020",
@@ -143,7 +131,7 @@ export const timelineData = [
     cardSubtitle: "Software Engineering Intern",
     cardDetailedText:
       "I designed a web portal that would make it easier for network administrators in NUS IT to review firewall rules on a regular basis",
-    url: "https://nusit.nus.edu.sg/support/faqpage/firewall-requests-faq/"
+    url: "https://nusit.nus.edu.sg/support/faqpage/firewall-requests-faq/",
   },
   {
     title: "May 2019 - October 2019",
@@ -151,7 +139,7 @@ export const timelineData = [
     cardSubtitle: "Test Automation Intern",
     cardDetailedText:
       "I developed automation scripts in Python to reduce manual effort required for regression testing, performed cross platform testing for different versions of Autodesk products, as well as devised a merge plan to combine common functionalities across test codebases",
-    url: "https://www.autodesk.com/products"
+    url: "https://www.autodesk.com/products",
   },
   {
     title: "May 2019 - September 2019",
@@ -159,7 +147,7 @@ export const timelineData = [
     cardSubtitle: "CP2106B Orbital Advisor",
     cardDetailedText:
       "I guided 5 teams to successfully complete their projects as part of the Orbital program, which is the NUS School of Computing's self-driven programming summer experience designed to give first year students flavour of what a real life software development project looks like",
-    url: "https://nusskylab-dev.comp.nus.edu.sg"
+    url: "https://nusskylab-dev.comp.nus.edu.sg",
   },
   {
     title: "May 2019 - September 2019",
@@ -167,7 +155,7 @@ export const timelineData = [
     cardSubtitle: "Web Developer Intern",
     cardDetailedText:
       "I enhanced the Skylab platform so as to ensure a smoother, more seamless experience for students using the Learning Management System (LMS) platform for their course submissions",
-    url: "https://nusskylab-dev.comp.nus.edu.sg/public_views/public_staff"
+    url: "https://nusskylab-dev.comp.nus.edu.sg/public_views/public_staff",
   },
   {
     title: "December 2018 - March 2019",
@@ -175,7 +163,7 @@ export const timelineData = [
     cardSubtitle: "Software Engineering Intern",
     cardDetailedText:
       "I created an SMS dashboard to track leads generated and a Marketing Dashboard for easier customer segmentation. I also redesigned the internal Customer Relationship Management (CRM) software to provide better insight into customer retention data",
-    url: "https://learnseeker.com"
+    url: "https://learnseeker.com",
   },
   {
     title: "August 2017 - May 2021",
@@ -183,6 +171,6 @@ export const timelineData = [
     cardSubtitle: "Bachelor of Computing in Computer Science",
     cardDetailedText:
       "This program gave me a foundation for all my technical explorations. I not only learnt software engineering skills but also the fundamentals underlying computer systems like OS, Computer Architecture in addition to taking electives in AI and Machine Learning.",
-    url: "https://www.comp.nus.edu.sg"
+    url: "https://www.comp.nus.edu.sg",
   },
 ];
