@@ -45,6 +45,7 @@ export default defineConfig({
     icon({
       include: {
         tabler: ["*"],
+        ei: ["*"],
         "flat-color-icons": [
           "template",
           "gallery",
