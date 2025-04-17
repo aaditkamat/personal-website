@@ -1,7 +1,7 @@
 import {
   isUnpicCompatible,
   unpicOptimizer,
-  astroAsseetsOptimizer,
+  astroAssetsOptimizer,
 } from "./images-optimization";
 import type { ImageMetadata } from "astro";
 import type { OpenGraph } from "@astrolib/seo";
@@ -108,7 +108,7 @@ export const adaptOpenGraphImages = async (
               ? [resolvedImage?.width, resolvedImage?.height]
               : [defaultWidth, defaultHeight];
           _image = (
-            await astroAsseetsOptimizer(
+            await astroAssetsOptimizer(
               resolvedImage,
               [dimensions[0]],
               dimensions[0],
