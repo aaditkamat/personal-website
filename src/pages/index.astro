@@ -48,32 +48,22 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <Content isReversed>
-    <Fragment slot="content">
-      <div
-        class="flex flex-col space-y-12 md:flex-row md:space-x-36 md:space-y-0 md:items-center"
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 mx-[14%]">
+    <div class="aspect-square">
+      <iframe
+        src="https://aadit.substack.com/embed"
+        title="Aadit's Substack"
+        class="w-full h-full border border-solid bg-white mx-auto my-0"
       >
-        <div>
-          <iframe
-            src="https://aadit.substack.com/embed"
-            title="Aadit's Substack"
-            width="480"
-            height="425"
-            style="border:1px solid #EEE; background:white; margin: '0 auto';"
-          >
-          </iframe>
-        </div>
-        <div>
-          <iframe
-            src="https://widget.tagembed.com/2163398"
-            title="Aadit's LinkedIn"
-            width="480"
-            height="425"
-            style="border:1px solid #EEE; background:white; margin: '0 auto';"
-          >
-          </iframe>
-        </div>
-      </div>
-    </Fragment>
-  </Content>
+      </iframe>
+    </div>
+    <div class="aspect-square">
+      <iframe
+        src="https://widget.tagembed.com/2163398"
+        title="Aadit's LinkedIn"
+        class="w-full h-full border border-solid bg-white mx-auto my-0"
+      >
+      </iframe>
+    </div>
+  </section>
 </Layout>
