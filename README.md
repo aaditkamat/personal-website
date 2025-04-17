@@ -6,7 +6,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/built%20with-tailwind%20css-38b2ac.svg?style=flat-square&color=38b2ac&labelColor=38b2ac&logo=tailwind-css)](https://tailwindcss.com)
 [![License](https://img.shields.io/github/license/onwidget/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/astrowind/blob/main/LICENSE.md)
 
-This website is built using [Astro Wind](https://github.com/onwidget/astrowind), an open-source template using **[Astro 4.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/)**.
+This website is built using [Astro Wind](https://github.com/onwidget/astrowind), an open-source template using **[Astro 5.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/)**.
 
 ### Project structure
 
