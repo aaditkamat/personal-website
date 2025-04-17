@@ -6,7 +6,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/built%20with-tailwind%20css-38b2ac.svg?style=flat-square&color=38b2ac&labelColor=38b2ac&logo=tailwind-css)](https://tailwindcss.com)
 [![License](https://img.shields.io/github/license/onwidget/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/astrowind/blob/main/LICENSE.md)
 
-This website is built using [Astro Wind](https://github.com/onwidget/astrowind), an open-source template using **[Astro 5.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/)**.
+This website is built using [Astro Wind](https://github.com/onwidget/astrowind), an open-source template using **[Astro 5.0](https://astro.build/blog/astro-5/) + [Tailwind CSS](https://tailwindcss.com/)**.
 
 ### Project structure
 
@@ -33,29 +33,17 @@ Inside AstroWind template, you'll see the following folders and files:
 │   │   ├── CustomStyles.astro
 │   │   ├── Favicons.astro
 │   │   └── Logo.astro
-│   ├── content/
-│   │   ├── post/
-│   │   │   ├── post-slug-1.md
-│   │   │   ├── post-slug-2.mdx
-│   │   │   └── ...
-│   │   └-- config.ts
 │   ├── layouts/
 │   │   ├── Layout.astro
 │   │   ├── MarkdownLayout.astro
 │   │   └── PageLayout.astro
 │   ├── pages/
-│   │   ├── [...blog]/
-│   │   │   ├── [category]/
-│   │   │   ├── [tag]/
-│   │   │   ├── [...page].astro
-│   │   │   └── index.astro
 │   │   ├── index.astro
 │   │   ├── 404.astro
-│   │   ├-- rss.xml.ts
 │   │   └── ...
 │   ├── utils/
 │   ├── config.yaml
-│   └── navigation.js
+│   └── navigation.ts
 ├── package.json
 ├── astro.config.ts
 └── ...
@@ -134,13 +122,13 @@ const CONFIG = {
 ## Installation
 
 ```console
-npm install
+yarn
 ```
 
 ## Local Development
 
 ```console
-npm run dev
+yarn dev
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -148,7 +136,7 @@ This command starts a local development server and opens up a browser window. Mo
 ## Build
 
 ```console
-npm run build
+yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
