@@ -9,16 +9,16 @@ import Page from "~/components/common/Page.astro";
       projectsData.map((project) => {
         return (
           <>
-            <div class="flex m-5 border-2 shadow-xl rounded-xl over:text-black md:h-64 md:w-full mb-8">
+            <div class="flex m-5 border-2 shadow-xl rounded-xl over:text-black md:h-64 mb-8">
               <div class="md:p-6 md:m-4 p-2 h-1/3 w-2/3 text-left">
                 <a href={project.link}>
-                  <h1 class="font-bold text-xl text-purple-800 underline">
+                  <h1 class="font-bold md:text-xl text-blue-800 underline">
                     {project.title}
                   </h1>
                 </a>
                 <p>{project.info}</p>
               </div>
-              <div class="w-[300px] h-[150px]">
+              <div class="w-[20%]">
                 <img
                   src={project.imgSrc}
                   alt={project.title}

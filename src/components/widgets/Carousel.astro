@@ -26,7 +26,7 @@ const { imagesData } = Astro.props;
 </div>
 
 <script is:inline>
-  document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("load", () => {
     const carousel = document.querySelector(".carousel-inner");
     const items = document.querySelectorAll(".carousel-item");
     const prevButton = document.querySelector(".prev");
