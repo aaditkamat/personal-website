@@ -27,7 +27,7 @@ export const projectsData = [
     link: "https://drive.google.com/file/d/1AJldMg0LWAQifHqeJUuyFWCU6q1zxbBF/view?usp=sharing",
     title: "Happy Sneeze Market Research Externship",
     info: "Performed market analysis and competitor overview as well and identified potential partners for outreach",
-    imgSrc: "/images/HappySneeze Logo.png",
+    imgSrc: "/images/Extern Logo.png",
   },
   {
     link: "https://github.com/aaditkamat/QMB6945-RMS-Project",
