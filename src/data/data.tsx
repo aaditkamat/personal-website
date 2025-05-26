@@ -1,4 +1,3 @@
-import {useMemo} from 'react';
 import {FaGithub, FaLinkedin, FaStackOverflow, FaXTwitter} from 'react-icons/fa6';
 import {
   HiAcademicCap,
@@ -9,7 +8,6 @@ import {
   HiMap,
   HiSparkles,
 } from 'react-icons/hi2';
-import {TypeAnimation} from 'react-type-animation';
 
 import heroImage from '../images/Bukit Batok.jpg';
 import blueShieldConsulting from '../images/portfolio/BlueShield Consulting.jpg';
