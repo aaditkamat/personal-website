@@ -1,3 +1,4 @@
+import {useMemo} from 'react';
 import {FaGithub, FaLinkedin, FaStackOverflow, FaXTwitter} from 'react-icons/fa6';
 import {
   HiAcademicCap,
@@ -8,6 +9,7 @@ import {
   HiMap,
   HiSparkles,
 } from 'react-icons/hi2';
+import {TypeAnimation} from 'react-type-animation';
 
 import heroImage from '../images/Bukit Batok.jpg';
 import blueShieldConsulting from '../images/portfolio/BlueShield Consulting.jpg';
@@ -62,11 +64,10 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Hello World! This is Aadit.`,
+  name: 'Aadit Kamat',
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Welcome to my 🏠 on the internet! <br />
         I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> based in Singapore, currently
         working with <strong className="text-stone-100">Florida Community Innovation</strong> to build a mobile app that
         would empower residents within the Miami-Dade county with knowledge about recycleable materials, curbside
