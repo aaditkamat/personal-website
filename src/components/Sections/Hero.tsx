@@ -1,7 +1,7 @@
-import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
+import {FaChevronDown} from 'react-icons/fa6';
 
 import {heroData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
@@ -47,7 +47,7 @@ const Hero: FC = memo(() => {
           <a
             className="rounded-full bg-white p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
             href={`/#${SectionId.About}`}>
-            <ChevronDownIcon className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
+            <FaChevronDown className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
           </a>
         </div>
       </div>

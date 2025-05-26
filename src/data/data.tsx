@@ -1,17 +1,14 @@
+import {FaGithub, FaLinkedin, FaStackOverflow, FaXTwitter} from 'react-icons/fa6';
 import {
-  AcademicCapIcon,
-  ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  CalendarIcon,
-  FlagIcon,
-  MapIcon,
-  SparklesIcon,
-} from '@heroicons/react/24/outline';
+  HiAcademicCap,
+  HiArrowDownTray,
+  HiBuildingOffice2,
+  HiCalendar,
+  HiFlag,
+  HiMap,
+  HiSparkles,
+} from 'react-icons/hi2';
 
-import GithubIcon from '../components/Icon/GithubIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/Bukit Batok.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -70,7 +67,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Welcome to my 🏠 on the internet! <br />
-        I'm a Singapore based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently
+        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> based in Singapore, currently
         working with <strong className="text-stone-100">Florida Community Innovation</strong> to build a mobile app that
         would empower residents within the Miami-Dade county with knowledge about recycleable materials, curbside
         programs and drop off locations in their vicinity, as well as sustainability related events organized in the
@@ -83,7 +80,7 @@ export const heroData: Hero = {
       href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
-      Icon: ArrowDownTrayIcon,
+      Icon: HiArrowDownTray,
     },
     {
       href: `#${SectionId.Contact}`,
@@ -104,12 +101,12 @@ export const aboutData: About = {
 
   Outside of spreadsheets and code, I’m a lifelong learner who believes in growth through curiosity and teamwork.`,
   aboutItems: [
-    {label: 'Location', text: 'Bukit Batok, Singapore', Icon: MapIcon},
-    {label: 'Age', text: '28', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Singaporean', Icon: FlagIcon},
-    {label: 'Interests', text: 'Effective Altruism, Spirituality, Podcasts, Music (Hindi/English)', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Florida', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Florida Community Innovation', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Bukit Batok, Singapore', Icon: HiMap},
+    {label: 'Age', text: '28', Icon: HiCalendar},
+    {label: 'Nationality', text: 'Singaporean', Icon: HiFlag},
+    {label: 'Interests', text: 'Effective Altruism, Spirituality, Podcasts, Music (Hindi/English)', Icon: HiSparkles},
+    {label: 'Study', text: 'University of Florida', Icon: HiAcademicCap},
+    {label: 'Employment', text: 'Florida Community Innovation', Icon: HiBuildingOffice2},
   ],
 };
 
@@ -169,7 +166,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
+        level: 8,
+      },
+      {
+        name: 'Expo',
+        level: 8,
       },
     ],
   },
@@ -443,8 +444,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/aaditkamat'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/10334485/aadit-kamat'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/aaditkamat/'},
-  {label: 'X', Icon: TwitterIcon, href: 'https://x.com/aaditkamat'},
+  {label: 'Github', Icon: FaGithub, href: 'https://github.com/aaditkamat'},
+  {label: 'Stack Overflow', Icon: FaStackOverflow, href: 'https://stackoverflow.com/users/10334485/aadit-kamat'},
+  {label: 'LinkedIn', Icon: FaLinkedin, href: 'https://www.linkedin.com/in/aaditkamat/'},
+  {label: 'X', Icon: FaXTwitter, href: 'https://x.com/aaditkamat'},
 ];

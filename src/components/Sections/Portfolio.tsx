@@ -1,7 +1,7 @@
-import {ArrowTopRightOnSquareIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
+import {HiArrowTopRightOnSquare} from 'react-icons/hi2';
 
 import {isMobile} from '../../config';
 import {portfolioItems, SectionId} from '../../data/data';
@@ -77,7 +77,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
           <h2 className="text-center font-bold text-white opacity-100">{title}</h2>
           <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
         </div>
-        <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
+        <HiArrowTopRightOnSquare className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
       </div>
     </a>
   );

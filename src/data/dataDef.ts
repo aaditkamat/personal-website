@@ -1,7 +1,6 @@
 import {StaticImageData} from 'next/image';
-import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
-
-import {IconProps} from '../components/Icon/Icon';
+import {ForwardRefExoticComponent, SVGProps} from 'react';
+import {IconType} from 'react-icons';
 
 export interface HomepageMeta {
   title: string;
@@ -31,7 +30,7 @@ interface HeroActionItem {
   href: string;
   text: string;
   primary?: boolean;
-  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
+  Icon?: IconType | undefined;
 }
 
 /**
@@ -46,7 +45,7 @@ export interface About {
 export interface AboutItem {
   label: string;
   text: string;
-  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
+  Icon: IconType;
 }
 
 /**
@@ -122,8 +121,7 @@ export const ContactType = {
   Location: 'Location',
   Github: 'Github',
   LinkedIn: 'LinkedIn',
-  Facebook: 'Facebook',
-  Twitter: 'Twitter',
+  X: 'X',
 } as const;
 
 export type ContactType = (typeof ContactType)[keyof typeof ContactType];
@@ -135,7 +133,7 @@ export interface ContactItem {
 }
 
 export interface ContactValue {
-  Icon: FC<IconProps> | ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
+  Icon: IconType;
   srLabel: string;
 }
 
@@ -144,6 +142,6 @@ export interface ContactValue {
  */
 export interface Social {
   label: string;
-  Icon: FC<IconProps>;
+  Icon: IconType;
   href: string;
 }

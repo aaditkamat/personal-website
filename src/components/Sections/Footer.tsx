@@ -1,5 +1,5 @@
-import {BoltIcon, ChevronUpIcon} from '@heroicons/react/24/solid';
 import {FC, memo} from 'react';
+import {HiBolt, HiChevronUp} from 'react-icons/hi2';
 
 import {SectionId} from '../../data/data';
 import Socials from '../Socials';
@@ -12,7 +12,7 @@ const Footer: FC = memo(() => (
       <a
         className="rounded-full bg-neutral-100 p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
         href={`/#${SectionId.Hero}`}>
-        <ChevronUpIcon className="h-6 w-6 bg-transparent sm:h-8 sm:w-8" />
+        <HiChevronUp className="h-6 w-6 bg-transparent sm:h-8 sm:w-8" />
       </a>
     </div>
     <div className="flex flex-col items-center gap-y-6">
@@ -22,7 +22,7 @@ const Footer: FC = memo(() => (
       <a
         className="-m-2 flex items-center gap-x-1 rounded-md p-2 ring-yellow focus:outline-none focus:ring-2"
         href="https://reactresume.com">
-        <BoltIcon className="h-5 w-5 text-yellow" />
+        <HiBolt className="h-5 w-5 text-yellow" />
         <span>
           Provided by <span className="text-white">React</span>
           <span className="italic text-yellow">Resume</span>

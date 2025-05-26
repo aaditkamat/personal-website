@@ -1,26 +1,20 @@
-import {DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import {FC, memo} from 'react';
+import {FaEnvelope, FaGithub, FaLinkedin, FaXTwitter} from 'react-icons/fa6';
+import {HiDevicePhoneMobile, HiMapPin} from 'react-icons/hi2';
 
 import {contact, SectionId} from '../../../data/data';
 import {ContactType, ContactValue} from '../../../data/dataDef';
-import FacebookIcon from '../../Icon/FacebookIcon';
-import GithubIcon from '../../Icon/GithubIcon';
-import InstagramIcon from '../../Icon/InstagramIcon';
-import LinkedInIcon from '../../Icon/LinkedInIcon';
-import TwitterIcon from '../../Icon/TwitterIcon';
 import Section from '../../Layout/Section';
 import ContactForm from './ContactForm';
 
 const ContactValueMap: Record<ContactType, ContactValue> = {
-  [ContactType.Email]: {Icon: EnvelopeIcon, srLabel: 'Email'},
-  [ContactType.Phone]: {Icon: DevicePhoneMobileIcon, srLabel: 'Phone'},
-  [ContactType.Location]: {Icon: MapPinIcon, srLabel: 'Location'},
-  [ContactType.Github]: {Icon: GithubIcon, srLabel: 'Github'},
-  [ContactType.LinkedIn]: {Icon: LinkedInIcon, srLabel: 'LinkedIn'},
-  [ContactType.Facebook]: {Icon: FacebookIcon, srLabel: 'Facebook'},
-  [ContactType.Twitter]: {Icon: TwitterIcon, srLabel: 'Twitter'},
-  [ContactType.Instagram]: {Icon: InstagramIcon, srLabel: 'Instagram'},
+  [ContactType.Email]: {Icon: FaEnvelope, srLabel: 'Email'},
+  [ContactType.Phone]: {Icon: HiDevicePhoneMobile, srLabel: 'Phone'},
+  [ContactType.Location]: {Icon: HiMapPin, srLabel: 'Location'},
+  [ContactType.Github]: {Icon: FaGithub, srLabel: 'Github'},
+  [ContactType.LinkedIn]: {Icon: FaLinkedin, srLabel: 'LinkedIn'},
+  [ContactType.X]: {Icon: FaXTwitter, srLabel: 'X'},
 };
 
 const Contact: FC = memo(() => {
@@ -29,7 +23,7 @@ const Contact: FC = memo(() => {
     <Section className="bg-neutral-800" sectionId={SectionId.Contact}>
       <div className="flex flex-col gap-y-6">
         <div className="flex flex-col gap-6 md:flex-row md:items-center">
-          <EnvelopeIcon className="hidden h-16 w-16 text-white md:block" />
+          <FaEnvelope className="hidden h-16 w-16 text-white md:block" />
           <h2 className="text-2xl font-bold text-white">{headerText}</h2>
         </div>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
