@@ -9,15 +9,15 @@ import {
   HiSparkles,
 } from 'react-icons/hi2';
 
-import heroImage from '../images/Bukit Batok.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import heroImage from '../images/Bukit Batok.jpg';
+import leapDashboard from '../images/portfolio/Leap Dashboard.png';
+import jeaTechnologyDashboard from '../images/portfolio/JEA Technology Dashboard.png';
+import weCareJaxAutomation from '../images/portfolio/WeCareJax Automation.png';
+import blueShieldConsulting from '../images/portfolio/BlueShield Consulting.jpg';
+import legalLingo from '../images/portfolio/Legal Lingo.jpg';
+import echoChat from '../images/portfolio/EchoChat.png';
+import marketResearchExternship from '../images/portfolio/Happy Sneeze Market Research Externship.jpeg';
+import rmsBAPracticuum from '../images/portfolio/RMS Business Analytics Practicuum.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.jpg';
 import {
@@ -105,7 +105,7 @@ export const aboutData: About = {
     {label: 'Age', text: '28', Icon: HiCalendar},
     {label: 'Nationality', text: 'Singaporean', Icon: HiFlag},
     {label: 'Interests', text: 'Effective Altruism, Spirituality, Podcasts, Music (Hindi/English)', Icon: HiSparkles},
-    {label: 'Study', text: 'University of Florida', Icon: HiAcademicCap},
+    {label: 'Education', text: 'University of Florida', Icon: HiAcademicCap},
     {label: 'Employment', text: 'Florida Community Innovation', Icon: HiBuildingOffice2},
   ],
 };
@@ -114,23 +114,6 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
-  {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Hindi',
-        level: 8,
-      },
-      {
-        name: 'Marathi',
-        level: 6,
-      },
-    ],
-  },
   {
     name: 'Frontend development',
     skills: [
@@ -174,6 +157,27 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
+  {
+    name: 'Data Analysis',
+    skills: [
+      {
+        name: 'Jupyter (Python)',
+        level: 9,
+      },
+      {
+        name: 'SQL',
+        level: 8,
+      },
+      {
+        name: 'Excel',
+        level: 6,
+      },
+      {
+        name: 'R',
+        level: 6,
+      },
+    ],
+  },
 ];
 
 /**
@@ -185,28 +189,28 @@ export const portfolioItems: PortfolioItem[] = [
     description:
       "Obtained data from LEAP's Monday.com account to create a dashboard showcasing the metrics that highlight the impact that LEAP has created through its programs",
     url: 'https://dashboard-leap.netlify.app/',
-    image: porfolioImage1,
+    image: leapDashboard,
   },
   {
     title: 'JEA Technology Scorecard',
     description:
       "Used ETL to get the data from the original Excel sheet for JEA's employee performance-related metrics into PowerBI and created visuals to help the executives better understand the business metrics",
     url: 'https://docs.google.com/presentation/d/1yCiyHcRhLLPspg4zvtwjgle7KtiDqY71_t7CVwZrdmA/',
-    image: porfolioImage2,
+    image: jeaTechnologyDashboard,
   },
   {
     title: 'Automating Client Feedback Mechanism - WeCareJax',
     description:
       'I created a workflow in Microsoft Power Apps that would allow WeCareJax to  automatically populate their Salesforce dashboard with feedback data from surveys sent to patients post-visit via Microsoft Forms and also investigated ways to improve survey response rates using Mogli, a Salesforce native app that provides bulk messaging capabilities.',
     url: 'https://drive.google.com/file/d/1ckWJeYl6TEJGMoUiwejcnQj58yc9I6zM/edit?pli=1',
-    image: porfolioImage3,
+    image: weCareJaxAutomation,
   },
   {
     title: 'BlueShield Consulting',
     description:
       'Conducted market analysis and competitive overview to help BlueShield - a Gainesville based Therapeutics startup - to understand the market for its novel immunotherapy based treatment for Depression',
     url: 'https://www.science.org/doi/full/10.1126/science.add7150?casa_token=lngchMBZQ2oAAAAA%3AMiX-hHddparHoLFBXhszlQu4YdhiKR9XoqpFa85i6-sZmcDfvJCqDkcfFGwGe79X-89pTHNj6oPZ',
-    image: porfolioImage4,
+    image: blueShieldConsulting,
   },
   {
     title: 'LegalLingo',
@@ -214,26 +218,27 @@ export const portfolioItems: PortfolioItem[] = [
 
     Our goal is to help users, especially those from minority communities, better understand these documents and make more informed decisions.`,
     url: 'https://github.com/lchin21/Legal-Lingo',
-    image: porfolioImage5,
+    image: legalLingo,
   },
   {
     title: 'Echo Chat App',
     description:
       'Designed and implemented a messaging module for the mobile app to improve user communication, integrating it seamlessly into the platform. Additionally, I improved code quality and streamlined the development process.',
     url: 'https://github.com/ufosc/Echo-Chat',
-    image: porfolioImage6,
+    image: echoChat,
   },
   {
     title: 'Happy Sneeze Market Research Externship',
-    description: 'Give a short description of your project here.',
+    description:
+      'I conducted market analysis for the urogynecology sector and demonstrated how Happy Sneeze could expand market reach by identifying potential partners and outlining a targeted outreach strategy.',
     url: 'https://drive.google.com/file/d/1AJldMg0LWAQifHqeJUuyFWCU6q1zxbBF/view',
-    image: porfolioImage7,
+    image: marketResearchExternship,
   },
   {
     title: 'Comparing Benchmarking Measures for Financial Data',
     description: `Performed EDA on 6000+ records to establish relationships between different key metrics such as and leveraged Data Envelopment Analysis (DEA) algorithm to benchmark efficiency based on costs and sales, enabling stakeholders to identify underperforming restaurants`,
     url: 'https://github.com/aaditkamat/QMB6945-RMS-Project',
-    image: porfolioImage8,
+    image: rmsBAPracticuum,
   },
 ];
 
@@ -243,14 +248,14 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'December 2024',
-    location: 'Warrington College of Business,University of Florida',
+    location: 'Warrington College of Business, University of Florida',
     title: 'Masters in Information Systems and Operations Research (MSISOM)',
     content: (
       <p>
-        As a graduate student under the Data Science track, I learnt how to apply data science techniques to solve
-        real-world business problems. I took courses on databases, data mining, and business intelligence. I also worked
-        on consulting projects with non profit organizations to help them improve their operations and make data-driven
-        decisions
+        As a graduate student under the Data Science track, I learnt how to apply <strong>data science </strong>
+        techniques to solve real-world business problems. I took courses on
+        <strong> databases, data mining, and business intelligence</strong>. I also worked on consulting projects with
+        non profit organizations to help them improve their operations and make data-driven decisions
       </p>
     ),
   },
@@ -261,8 +266,8 @@ export const education: TimelineItem[] = [
     content: (
       <p>
         This program gave me a foundation for all my technical explorations. I not only learnt software engineering
-        skills but also the fundamentals underlying computer systems like OS, Computer Architecture in addition to
-        taking electives in AI and Machine Learning.
+        skills but also the fundamentals underlying computer systems like
+        <strong> OS, Computer Architecture in addition to taking electives in AI and Machine Learning</strong>.
       </p>
     ),
   },
@@ -366,8 +371,7 @@ export const experience: TimelineItem[] = [
       <>
         <p>
           I helped develop and maintain over 100 test cases for the Promotion modules (Flash Sale/Bundle Deal/Add on
-          Deal/Discount) for the Android App, significantly enhancing the user experience for more than a million
-          customers.
+          Deal) for the Android App, significantly enhancing the user experience for more than a million customers.
         </p>
         <br />
         <p>
