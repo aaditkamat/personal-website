@@ -324,9 +324,9 @@ export const experience: TimelineItem[] = [
         </p>
         <br />
         <p>
-          Using Microsoft Fabric, I prototyped a data pipeline to process client financial data from ERP systems. After
-          data cleaning, ingestion, and processing, the pipeline creates a 13-week cash flow model with 80% forecasting
-          accuracy, reducing FP&A analysis time by 30 hours/quarter.
+          Using <strong>Microsoft Fabric</strong>, I prototyped a data pipeline to process client financial data from
+          ERP systems. After data cleaning, ingestion, and processing, the pipeline creates a 13-week cash flow model
+          with increased forecasting accuracy and reduced <strong>FP&amp;A</strong> time.
         </p>
       </>
     ),
@@ -351,14 +351,14 @@ export const experience: TimelineItem[] = [
     content: (
       <>
         <p>
-          I engineered the backend APIs within a microservices based architecture used by major India banks with over
-          100 thousand customers enrolled with VisaNet Accounts Based Payment Solutions.
+          I engineered the backend APIs within a microservices based architecture in <strong>Spring Boot</strong> used
+          by major India banks with over 100 thousand customers enrolled with VisaNet Accounts Based Payment Solutions.
         </p>
         <br />
         <p>
-          I also built the frontend interface for an internal portal that streamlined the process of dynamically
-          accessing and manipulating data used by mobile apps in the Singapore Innovation Centre, demonstrating
-          real-time payment processing capabilities to clients.
+          I also built the <strong>Next.js and ChakraUI based </strong>frontend interface for an internal portal that
+          streamlined the process of dynamically accessing and manipulating data used by mobile apps in the Singapore
+          Innovation Centre, demonstrating real-time payment processing capabilities to clients.
         </p>
       </>
     ),
@@ -376,7 +376,7 @@ export const experience: TimelineItem[] = [
         <br />
         <p>
           I also worked closely with QA Engineers from other departments to refresh our training syllabus and guide new
-          engineers in automation tools like Espresso and UiAutomator.
+          engineers in automation tools like <strong>Espresso and UiAutomator</strong>.
         </p>
       </>
     ),
