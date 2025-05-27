@@ -1,37 +1,29 @@
-# React JS Resume Website Template
+# Aadit Kamat's Personal Website
 
-![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
+This website is built using [ReactResume](https://github.com/tbakerx/react-resume-template) created and maintained by [Tim Baker](https://github.com/tbakerx)
 
-<div align="center">
+## Configuration
+All of the data for the site is driven via a file at /src/data/data.tsx. This is where you'll find the existing content, and updating the values here will be reflected on the site. If you have the site running as described above, you should see these changes reflected on save. The data types for all of these items are given in the same folder in the dataDef.ts file. Example images can be found at src/images/ and are imported in the data file. To change, simply update these images using the same name and location, or add new images and update the imports.
 
-<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/tbakerx/react-resume-template?include_prereleases">
+## Installation
+```bash
+yarn
+```
 
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/tbakerx/react-resume-template?style=flat">
+## Local Development
+```bash
+yarn dev
+```
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/tbakerx/react-resume-template?style=flat&color=success">
+## Build
+```bash
+yarn build
+```
+This command generates static content into the `build` directory and can be served using any static content hosting service (I've used Vercel).
 
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tbakerx/react-resume-template?style=flat&color=yellow">
+## Acknowledgements
+Initially created by [Tim Baker](https://github.com/tbakerx) and maintained by a community of contributors.
 
-<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/tbakerx/react-resume-template/react?style=flat">
-
-<img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/tbakerx?style=flat&color=blueviolet">
-
-## React based template for software developer-focused resume websites
-
-This is a React based personal resume website template. Built with typescript on the Next.js framework, styled with Tailwind css, and populated with data from a single file, you can easily create, customize and host your own personal website in minutes. Even better, the site is fully mobile-optimized and server-side rendered to ensure fast loading and a clean UI on any device. Read on to learn how to make it your own.
-
-## Project Created & Maintained By
-
-### Tim Baker
-
-<a href="https://twitter.com/timbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a><a href="https://instagram.com/tbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
-
-[![GitHub followers](https://img.shields.io/github/followers/tbakerx.svg?style=social&label=Follow)](https://github.com/tbakerx/)
-
-## Stargazers
-
-[![Stargazers repo roster for @tbakerx/react-resume-template](https://reporoster.com/stars/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/stargazers)
-
-## Forkers
-
-[![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
+## License
+This website is licensed under the MIT license — see the LICENSE file for details.
