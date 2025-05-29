@@ -95,10 +95,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Hey there! I’m Aadit—a problem-solver at heart who loves turning complex challenges into clear, actionable solutions. My journey’s been all about connecting the dots: I started as an engineer, then pivoted to business to understand how technology and strategy intersect.
-
-  I’m the kind of person who thrives in collaborative spaces—whether I’m automating app tests at Shopee, building payment systems at Visa, or helping nonprofits like WeCareJax streamline their operations. What drives me? Seeing how data and systems can create real impact—like designing cash flow models to help struggling businesses or benchmarking restaurant finances to unlock growth.
-
-  Outside of spreadsheets and code, I’m a lifelong learner who believes in growth through curiosity and teamwork.`,
+  I love seeing how data and systems can create real impact—like designing cash flow models to help struggling businesses or benchmarking restaurant finances to unlock growth. Outside of spreadsheets and code, I’m a lifelong learner who believes in growth through curiosity and teamwork.`,
   aboutItems: [
     {label: 'Location', text: 'Bukit Batok, Singapore', Icon: HiMap},
     {label: 'Age', text: '28', Icon: HiCalendar},
