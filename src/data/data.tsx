@@ -275,36 +275,10 @@ export const experience: TimelineItem[] = [
     location: 'Florida Community Innovation',
     title: 'Lead Software Engineer',
     content: (
-      <>
         <p>
-          I am currently leading the development of a mobile app called Recyclepedia that Florida Community Innovation
-          (FCI) is building in partnership with Dream in Green (DiG) to empower residents of the Miami Dade county area
-          - which has one of the lowest recycling rates within the state - with the knoweldge that would help them adopt
-          better recycling practices. <br />
+          I'm currently leading the development of a mobile app called <a href="https://recyclepedia.info">Recyclepedia</a> in collaboration with a Miami based non profit called <a href="https://dreamingreen.org/">Dream in Green</a> geared towards residents in the Miami Dade county area, empowering them with knowledge about recycleable materials, curbside recycling program and drop off locations in their vicinity as well as recycling initiatives organized by community partners in Miami. 
+          The app plans to include other features like <a href="https://www.recyclepedia.info/games">educational games</a> and designs making the app friendly for younger audiences as well as a chatbot that answers questions about recycling and environmental sustainability.
         </p>
-        <br />
-        <p>Some of the features planned for the mobile app as part of its roadmap:</p>
-        <ol>
-          <li>
-            The home page with a calendar of community events related to recycling organized by Dream in Green (with an
-            ad space to allow sponsors to air environmental sustainability related content that helps create revenue for
-            the app while keeping it free for users){' '}
-          </li>
-          <li>
-            Curbside/Drop off page that allows users to select the categories of items they wish to recycle and suggest
-            them the nearest curbside pickup/drop off location(s) where they can keep their recyclable materials{' '}
-          </li>
-          <li>Barcode scanner that provides information about whether the material is recyclable or not</li>
-          <li>
-            Authentication that allows users to create accounts so that they can specifically keep track of which events
-            they are attending as well as points and rewards earned from games
-          </li>
-          <li>
-            Chatbot that answers questions from users about recycling and other environmental sustainability initiatives
-          </li>
-          <li>Mobile games that highlight effective recycling practices</li>
-        </ol>
-      </>
     ),
   },
   {
@@ -314,15 +288,8 @@ export const experience: TimelineItem[] = [
     content: (
       <>
         <p>
-          I teamed up with senior analysts to create a customized 13-week cash flow model, which improved our
-          forecasting accuracy and helped with strategic planning. I also put together a detailed data dictionary for an
-          Excel model to improve data consistency and accessibility.
-        </p>
-        <br />
-        <p>
-          Using <strong>Microsoft Fabric</strong>, I prototyped a data pipeline to process client financial data from
-          ERP systems. After data cleaning, ingestion, and processing, the pipeline creates a 13-week cash flow model
-          with increased forecasting accuracy and reduced <strong>FP&amp;A</strong> time.
+          I teamed up with senior analysts in the firm to understand how they come up with customized 13-week cash flow models for the middle-market financially distressed companies they take on as clients. 
+          Based on this understanding, I created a data dictionary that would capture and define the components common to these models and proposed a service that would automate the generation of models based on the data dictionary, reducing the FP&A time and increasing the forecasting accuracy
         </p>
       </>
     ),
@@ -333,10 +300,9 @@ export const experience: TimelineItem[] = [
     title: 'Graduate Research Assistant',
     content: (
       <p>
-        I collaborated with Dr. Xiao Fan - the head of the Fan Lab at the University of Florida - on research
-        investigating the relationship between variant pathogenicity and protein characteristics. I conducted
-        bioinformatics analysis and interpreted the results of the analysis, enabling publication of an analysis on the
-        Pediatrics Cardiomyopathy Genes Study
+        I assisted Dr Xiao Fan - an assistant professor who heads the Fan lab at the University of Florida - with a project related to her research on rare genetic diseases. 
+        The project involved studying the association between variant pathogenicity and properties of proteins present within these genetic variants. 
+        I also leveraged UF's internal High Performance Computing facilities to transcribe and annotate large scale genomic datasets obtained from NIH databases.
       </p>
     ),
   },
@@ -347,14 +313,8 @@ export const experience: TimelineItem[] = [
     content: (
       <>
         <p>
-          I engineered the backend APIs within a microservices based architecture in <strong>Spring Boot</strong> used
-          by major India banks with over 100 thousand customers enrolled with VisaNet Accounts Based Payment Solutions.
-        </p>
-        <br />
-        <p>
-          I also built the <strong>Next.js and ChakraUI based </strong>frontend interface for an internal portal that
-          streamlined the process of dynamically accessing and manipulating data used by mobile apps in the Singapore
-          Innovation Centre, demonstrating real-time payment processing capabilities to clients.
+           built the backend APIs in Spring Boot based on a microservices based architecture, which were being rolled out to major banking institutions within South Asia who wanted to build their own Accounts Based Payment solutions by leveraging the Visa Payment Network (VisaNet) infrastructure. 
+          I also developed the frontend interface for an internal portal used by developers to dynamically access and manipulate data residing within mobile apps in the Singapore Innovation Centre, demonstrating real-time payment processing capabilities to clients.
         </p>
       </>
     ),
@@ -366,13 +326,10 @@ export const experience: TimelineItem[] = [
     content: (
       <>
         <p>
-          I helped develop and maintain over 100 test cases for the Promotion modules (Flash Sale/Bundle Deal/Add on
-          Deal) for the Android App, significantly enhancing the user experience for more than a million customers.
-        </p>
-        <br />
-        <p>
-          I also worked closely with QA Engineers from other departments to refresh our training syllabus and guide new
-          engineers in automation tools like <strong>Espresso and UiAutomator</strong>.
+          This was my first full time role after graduating from NUS. 
+          I led the test automation efforts for the Promotion modules within the Shopee Android app such as Flash Sales, Bundle Deal and Add On Deal that are used by more than 2 million customers daily. 
+          I added and maintained over a 100 test cases for these modules, investigating the root cause for the issues across different layers of the stack - whether at the application layer or the logs within the Golang containerized environments in the internal servers that interact with the application. 
+          Aside from my engineering duties, I also collaborated with Quality Assurance Engineers from other departments to come up with onboarding material to train incoming engineers in test automation tools and techniques.
         </p>
       </>
     ),
