@@ -68,9 +68,8 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> based in Singapore, currently
         working with <strong className="text-stone-100">Florida Community Innovation</strong> to build a mobile app that
-        would empower residents within the Miami-Dade county with knowledge about recycleable materials, curbside
-        programs and drop off locations in their vicinity, as well as sustainability related events organized in the
-        area.
+        empowering residents within the Miami-Dade county with knowledge about recycleable materials, curbside programs
+        and drop off locations in their vicinity, as well as sustainability related events organized in the area.
       </p>
     </>
   ),
@@ -94,8 +93,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hey there! I’m Aadit—a problem-solver at heart who loves turning complex challenges into clear, actionable solutions. My journey’s been all about connecting the dots: I started as an engineer, then pivoted to business to understand how technology and strategy intersect.
-  I love seeing how data and systems can create real impact—like designing cash flow models to help struggling businesses or benchmarking restaurant finances to unlock growth. Outside of spreadsheets and code, I’m a lifelong learner who believes in growth through curiosity and teamwork.`,
+  description: `Hey there! I’m Aadit—a problem-solver at heart who loves turning complex challenges into clear, actionable solutions. My journey’s been all about connecting the dots: I am trained as an engineer, but I also understand how technology and strategy intersect to make businesses succeed.
+  I love seeing how data and systems can create real impact—whether it's creating a resource for residents to improve recycling rates or designing cash flow models to help struggling businesses. Outside of spreadsheets and code, I’m a lifelong learner who believes in growth through curiosity and teamwork.`,
   aboutItems: [
     {label: 'Location', text: 'Bukit Batok, Singapore', Icon: HiMap},
     {label: 'Age', text: '28', Icon: HiCalendar},
@@ -183,43 +182,42 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'LEAP Dashboard',
     description:
-      "Obtained data from LEAP's Monday.com account to create a dashboard showcasing the metrics that highlight the impact that LEAP has created through its programs",
+      "I managed the frontend developed of a dashboard showcasing energy efficiency KPIs that effectively showcases the impact of LEAP's programs within the state of Virginia.I transitioned from using local data to fetching data dynamically from LEAP's Monday.com board via its GraphQL APIs.",
     url: 'https://dashboard-leap.netlify.app/',
     image: leapDashboard,
   },
   {
     title: 'JEA Technology Scorecard',
     description:
-      "Used ETL to get the data from the original Excel sheet for JEA's employee performance-related metrics into PowerBI and created visuals to help the executives better understand the business metrics",
+      "I transformed and loaded data from Excel sheets tracking JEA's employee performance-related metrics into PowerBI and created visuals to better demonstrate progress along metrics pertaining to employee performance, customer satisfaction, and business excellence to employees.",
     url: 'https://docs.google.com/presentation/d/1yCiyHcRhLLPspg4zvtwjgle7KtiDqY71_t7CVwZrdmA/',
     image: jeaTechnologyDashboard,
   },
   {
     title: 'Automating Client Feedback Mechanism - WeCareJax',
     description:
-      'I created a workflow in Microsoft Power Apps that would allow WeCareJax to  automatically populate their Salesforce dashboard with feedback data from surveys sent to patients post-visit via Microsoft Forms and also investigated ways to improve survey response rates using Mogli, a Salesforce native app that provides bulk messaging capabilities.',
+      'I created a workflow using Microsoft Power Automate that would allow WeCareJax to automatically populate their Salesforce dashboards with personal information obtained from patients through survey forms sent to patients post-visit and also investigated ways to improve survey response rates using Mogli, a Salesforce native app that provides bulk messaging capabilities.',
     url: 'https://drive.google.com/file/d/1ckWJeYl6TEJGMoUiwejcnQj58yc9I6zM/edit?pli=1',
     image: weCareJaxAutomation,
   },
   {
     title: 'BlueShield Consulting',
     description:
-      'Conducted market analysis and competitive overview to help BlueShield - a Gainesville based Therapeutics startup - to understand the market for its novel immunotherapy based treatment for Depression',
+      'I conducted market analysis and competitive overview to help BlueShield - a Gainesville based Therapeutics startup - to understand the market for its novel immunotherapy based treatment for Depression',
     url: 'https://www.science.org/doi/full/10.1126/science.add7150?casa_token=lngchMBZQ2oAAAAA%3AMiX-hHddparHoLFBXhszlQu4YdhiKR9XoqpFa85i6-sZmcDfvJCqDkcfFGwGe79X-89pTHNj6oPZ',
     image: blueShieldConsulting,
   },
   {
     title: 'LegalLingo',
-    description: `LegalLingo is a Chrome Extension that allows users to highlight the objectionable sections of their terms of service document and translates the document into different target languages. The aim is to allow users, especially those from minority communities whose primary language is not English, to better understand the documents so that they can make decisions more easily.
-
-    Our goal is to help users, especially those from minority communities, better understand these documents and make more informed decisions.`,
+    description:
+      'I collaborated with a cross-university team to develop LegalLingo, a Chrome extension that analyzes legal language (e.g., Terms of Service, Privacy Policies) for clauses that are not user friendly using Gemma 2.0 APIs and Parcel',
     url: 'https://github.com/lchin21/Legal-Lingo',
     image: legalLingo,
   },
   {
     title: 'Echo Chat App',
     description:
-      'Designed and implemented a messaging module for the mobile app to improve user communication, integrating it seamlessly into the platform. Additionally, I improved code quality and streamlined the development process.',
+      'I designed and implemented a messaging module for the mobile app to improve user communication, integrating it seamlessly into the platform. Additionally, I improved code quality and streamlined the development process.',
     url: 'https://github.com/ufosc/Echo-Chat',
     image: echoChat,
   },
@@ -232,7 +230,8 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Comparing Benchmarking Measures for Financial Data',
-    description: `Performed EDA on 6000+ records to establish relationships between different key metrics such as and leveraged Data Envelopment Analysis (DEA) algorithm to benchmark efficiency based on costs and sales, enabling stakeholders to identify underperforming restaurants`,
+    description:
+      'I performed Exploratory Data Analysis(EDA) on 6000+ records to establish relationships between different key metrics such as and leveraged the Data Envelopment Analysis (DEA) algorithm to benchmark efficiency based on costs and sales, enabling stakeholders to identify underperforming restaurants',
     url: 'https://github.com/aaditkamat/QMB6945-RMS-Project',
     image: rmsBAPracticuum,
   },
@@ -249,7 +248,7 @@ export const education: TimelineItem[] = [
     content: (
       <p>
         As a graduate student under the Data Science track, I learnt how to apply <strong>data science </strong>
-        techniques to solve real-world business problems. I took courses on
+        techniques to solve real-world business problems. I took courses focussing on areas such as
         <strong> databases, data mining, and business intelligence</strong>. I also worked on consulting projects with
         non profit organizations to help them improve their operations and make data-driven decisions
       </p>
@@ -275,10 +274,16 @@ export const experience: TimelineItem[] = [
     location: 'Florida Community Innovation',
     title: 'Lead Software Engineer',
     content: (
-        <p>
-          I'm currently leading the development of a mobile app called <a href="https://recyclepedia.info">Recyclepedia</a> in collaboration with a Miami based non profit called <a href="https://dreamingreen.org/">Dream in Green</a> geared towards residents in the Miami Dade county area, empowering them with knowledge about recycleable materials, curbside recycling program and drop off locations in their vicinity as well as recycling initiatives organized by community partners in Miami. 
-          The app plans to include other features like <a href="https://www.recyclepedia.info/games">educational games</a> and designs making the app friendly for younger audiences as well as a chatbot that answers questions about recycling and environmental sustainability.
-        </p>
+      <p>
+        I'm currently leading the development of a mobile app called{' '}
+        <a href="https://recyclepedia.info">Recyclepedia</a> in collaboration with a Miami based non profit called{' '}
+        <a href="https://dreamingreen.org/">Dream in Green</a> geared towards residents in the Miami Dade county area,
+        empowering them with knowledge about recycleable materials, curbside recycling program and drop off locations in
+        their vicinity as well as recycling initiatives organized by community partners in Miami. The app plans to
+        include other features like <a href="https://www.recyclepedia.info/games">educational games</a> and designs
+        making the app friendly for younger audiences as well as a chatbot that answers questions about recycling and
+        environmental sustainability.
+      </p>
     ),
   },
   {
@@ -288,8 +293,11 @@ export const experience: TimelineItem[] = [
     content: (
       <>
         <p>
-          I teamed up with senior analysts in the firm to understand how they come up with customized 13-week cash flow models for the middle-market financially distressed companies they take on as clients. 
-          Based on this understanding, I created a data dictionary that would capture and define the components common to these models and proposed a service that would automate the generation of models based on the data dictionary, reducing the FP&A time and increasing the forecasting accuracy
+          I teamed up with senior analysts in the firm to understand how they come up with customized 13-week cash flow
+          models for the middle-market financially distressed companies they take on as clients. Based on this
+          understanding, I created a data dictionary that would capture and define the components common to these models
+          and proposed a service that would automate the generation of models based on the data dictionary, reducing the
+          FP&A time and increasing the forecasting accuracy
         </p>
       </>
     ),
@@ -300,9 +308,11 @@ export const experience: TimelineItem[] = [
     title: 'Graduate Research Assistant',
     content: (
       <p>
-        I assisted Dr Xiao Fan - an assistant professor who heads the Fan lab at the University of Florida - with a project related to her research on rare genetic diseases. 
-        The project involved studying the association between variant pathogenicity and properties of proteins present within these genetic variants. 
-        I also leveraged UF's internal High Performance Computing facilities to transcribe and annotate large scale genomic datasets obtained from NIH databases.
+        I assisted Dr Xiao Fan - an assistant professor who heads the Fan lab at the University of Florida - with a
+        project related to her research on rare genetic diseases. The project involved studying the association between
+        variant pathogenicity and properties of proteins present within these genetic variants. I also leveraged UF's
+        internal High Performance Computing facilities to transcribe and annotate large scale genomic datasets obtained
+        from NIH databases.
       </p>
     ),
   },
@@ -313,8 +323,11 @@ export const experience: TimelineItem[] = [
     content: (
       <>
         <p>
-           built the backend APIs in Spring Boot based on a microservices based architecture, which were being rolled out to major banking institutions within South Asia who wanted to build their own Accounts Based Payment solutions by leveraging the Visa Payment Network (VisaNet) infrastructure. 
-          I also developed the frontend interface for an internal portal used by developers to dynamically access and manipulate data residing within mobile apps in the Singapore Innovation Centre, demonstrating real-time payment processing capabilities to clients.
+          I engineered backend APIs in Spring Boot using a microservice architecture, used by major banking institutions
+          within South Asia to build their own Accounts Based Payment solutions by leveraging the Visa Payment Network
+          (VisaNet) infrastructure. I also developed the frontend interface for an internal portal used by developers to
+          dynamically access and manipulate data residing within mobile apps in the Singapore Innovation Centre,
+          demonstrating real-time payment processing capabilities to clients.
         </p>
       </>
     ),
@@ -326,10 +339,14 @@ export const experience: TimelineItem[] = [
     content: (
       <>
         <p>
-          This was my first full time role after graduating from NUS. 
-          I led the test automation efforts for the Promotion modules within the Shopee Android app such as Flash Sales, Bundle Deal and Add On Deal that are used by more than 2 million customers daily. 
-          I added and maintained over a 100 test cases for these modules, investigating the root cause for the issues across different layers of the stack - whether at the application layer or the logs within the Golang containerized environments in the internal servers that interact with the application. 
-          Aside from my engineering duties, I also collaborated with Quality Assurance Engineers from other departments to come up with onboarding material to train incoming engineers in test automation tools and techniques.
+          This was my first full time role after graduating from NUS. I led the test automation efforts for the
+          Promotion modules within the Shopee Android app such as Flash Sales, Bundle Deal and Add On Deal that are used
+          by more than 2 million customers daily. I added and maintained over a 100 test cases for these modules,
+          investigating the root cause for the issues across different layers of the stack - whether at the application
+          layer or the logs within the Golang containerized environments in the internal servers that interact with the
+          application. Aside from my engineering duties, I also collaborated with Quality Assurance Engineers from other
+          departments to come up with onboarding material to train incoming engineers in test automation tools and
+          techniques.
         </p>
       </>
     ),
