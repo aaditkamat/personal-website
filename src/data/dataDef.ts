@@ -1,5 +1,5 @@
 import {StaticImageData} from 'next/image';
-import {ForwardRefExoticComponent, SVGProps, ReactElement} from 'react';
+import {ForwardRefExoticComponent, ReactElement,SVGProps} from 'react';
 import {IconType} from 'react-icons';
 
 export interface HomepageMeta {
