@@ -67,9 +67,8 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> based in Singapore, currently
-        working with <strong className="text-stone-100">Florida Community Innovation</strong> to build a mobile app that
-        empowering residents within the Miami-Dade county with knowledge about recycleable materials, curbside programs
-        and drop off locations in their vicinity, as well as sustainability related events organized in the area.
+        working for <strong className="text-stone-100">Tata Consultancy Services</strong> on enterprise-level Java projects, 
+        leveraging Spring Boot to build scalable and efficient solutions.
       </p>
     </>
   ),
