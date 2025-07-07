@@ -92,8 +92,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hey there! I’m Aadit—a problem-solver at heart who loves turning complex challenges into clear, actionable solutions. My journey’s been all about connecting the dots: I am trained as an engineer, but I also understand how technology and strategy intersect to make businesses succeed.
-  I love seeing how data and systems can create real impact—whether it's creating a resource for residents to improve recycling rates or designing cash flow models to help struggling businesses. Outside of spreadsheets and code, I’m a lifelong learner who believes in growth through curiosity and teamwork.`,
+  description: `Hey there! As a seasoned full-stack developer with over 2 years of experience, I've had the opportunity to work across various technical domains within the IT sector, including test automation, mobile and web application development, and data analytics. Currently, I'm working on enterprise-level Java projects for the Singapore Land Authority at Tata Consultancy Services. 
+  Before starting my career afresh in Singapore, I earned a Master's in Information Systems from the University of Florida. My graduate studies equipped me with core competencies in data analytics and provided a comprehensive understanding of how businesses can leverage data and systems to drive success.
+  I feel fulfilled when I apply my technical expertise to address critical business problems: whether it's developing a mobile app for a Miami-based environmental non-profit to educate residents on recycling initiatives or creating a dashboard for a Virginia-based non-profit to showcase energy-saving KPIs to its stakeholders.`,
   aboutItems: [
     {label: 'Location', text: 'Bukit Batok, Singapore', Icon: HiMap},
     {label: 'Age', text: '28', Icon: HiCalendar},
