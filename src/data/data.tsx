@@ -1,7 +1,6 @@
 import {FaGithub, FaLinkedin, FaStackOverflow, FaXTwitter} from 'react-icons/fa6';
 import {
   HiAcademicCap,
-  HiArrowDownTray,
   HiBuildingOffice2,
   HiCalendar,
   HiFlag,
@@ -73,12 +72,6 @@ export const heroData: Hero = {
     </>
   ),
   actions: [
-    {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: HiArrowDownTray,
-    },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
