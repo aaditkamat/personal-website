@@ -356,27 +356,25 @@ export const testimonial: TestimonialSection = {
       name: 'Caroline Nickerson',
       text: `Aadit is the best! Not only does he have technical know-how, but he is also kind, considerate, and a great mentor to younger students. He’s currently building an app that will improve recycling education in Florida, and he’s deftly able to communicate with expert and nonexpert audiences to create tech that serves social good. Anyone would be lucky to work with Aadit!`,
       image:
-        'https://media.licdn.com/dms/image/v2/C5603AQH9_myyvM332A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1626871195696?e=1753920000&v=beta&t=PGSv4DqQdbOKaIXyu4IMGmVx3vCy5N8lJJt4WXbtZ-w',
+        'https://carolinenickerson.com/wp-content/uploads/2024/03/img_3455d.jpg',
     },
     {
       name: 'Xiao Fan',
       text: `Aadit is an independent, self-disciplined, diligent student. When he expressed a strong interest in pursuing data science projects, I introduced him to a bioinformatics project. Despite not having formal training in biology, he quickly grasped the main concepts of the project and data representation of the biology entities. Showing great enthusiasm, Aadit thoroughly explored the datasets and successfully extracted the required information for his project. I am confident that Aadit will excel in his career pursuits and make meaningful contributions to his chosen field of study.`,
       image:
-        'https://media.licdn.com/dms/image/v2/C4D03AQFKBnZAEnGmAQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1526922137987?e=1753920000&v=beta&t=jTdMq-5QMSGipM-JFVd4NqGaFRFh4JZEdCgBsIqgZ-s',
+        'https://bme.ufl.edu/wp-content/uploads/2022/05/Xiao-Fan-300x300.jpg',
     },
     {
       name: 'Shwetha Ravi',
       text: 'Aadit is a talented software engineer and picks up new skills at an impressive rate. He is also responsible, communicative and passionate about self development. Would highly recommend having him on your team.',
-      image:
-        'https://media.licdn.com/dms/image/v2/D5603AQGUyWeNIALDxQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1686740577700?e=1753920000&v=beta&t=4ISXB0Vi5Eor863Q62IIiUgvX_S7HcACOavv6WhF9HQ',
+      image: 'https://res.cloudinary.com/dixfcmuuj/image/upload/v1762186556/Ravi_Shwetha_nzpjqu.jpg',
     },
     {
       name: 'Robin Loh',
       text: `I was Aadit's mentor during NUS Orbital 2018, which is a self-directed module offered every summer by NUS School of Computing. Together with his teammate, both of them worked on the PlanItRight project, which is a web application that plans itineraries based on the user's travel plans and preferences.
       Aadit demonstrated great enthusiasm in learning software development skills relevant to his project. He successfully defined the functionalities suitable for the intended users in this project and he crafted simple user and developer guides for the web application. There were also many clear and useful illustrations implemented in the web application, such as the use of timeline to visualise the itineraries in a chronological order.
       Throughout the 3 months of mentorship, he displayed good analytical and interpersonal skills. He comprehended new concepts very quickly and he structured his approaches clearly to accomplish his outcomes. I strongly believe that he has the capability to work independently on tough challenges given his inquisitiveness for self-improvement and for developing his technical expertise further.`,
-      image:
-        'https://media.licdn.com/dms/image/v2/C5603AQGLf9kumkR6Xw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1590974862235?e=1753920000&v=beta&t=ro_lYyuNA9Tlod9z4S9GTgRBf8xXZPDBy4kvzxo_als',
+      image: 'https://res.cloudinary.com/dixfcmuuj/image/upload/v1762186556/Robin_Loh_lh9bur.jpg',
     },
   ],
 };
