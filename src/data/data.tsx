@@ -1,12 +1,5 @@
 import {FaGithub, FaLinkedin, FaStackOverflow, FaXTwitter} from 'react-icons/fa6';
-import {
-  HiAcademicCap,
-  HiBuildingOffice2,
-  HiCalendar,
-  HiFlag,
-  HiMap,
-  HiSparkles,
-} from 'react-icons/hi2';
+import {HiAcademicCap, HiBuildingOffice2, HiCalendar, HiFlag, HiMap, HiSparkles} from 'react-icons/hi2';
 
 import heroImage from '../images/Bukit Batok.jpg';
 import blueShieldConsulting from '../images/portfolio/BlueShield Consulting.jpg';
@@ -66,8 +59,8 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> based in Singapore, currently
-        working for <strong className="text-stone-100">Tata Consultancy Services</strong> on enterprise-level Java projects, 
-        leveraging Spring Boot to build scalable and efficient solutions.
+        working for <strong className="text-stone-100">Tata Consultancy Services</strong> on enterprise-level Java
+        projects, leveraging Spring Boot to build scalable and efficient solutions.
       </p>
     </>
   ),
@@ -85,7 +78,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hey there! As a seasoned full-stack developer with over 2 years of experience, I've had the opportunity to work across various technical domains within the IT sector, including test automation, mobile and web application development, and data analytics. Currently, I'm working on enterprise-level Java projects for the Singapore Land Authority at Tata Consultancy Services. 
+  description: `Hey there! As a seasoned full-stack developer with over 2 years of experience, I've had the opportunity to work across various technical domains within the IT sector, including test automation, mobile and web application development, and data analytics. Currently, I'm working on enterprise-level Java projects for the Singapore Land Authority at Tata Consultancy Services.
   Before starting my career afresh in Singapore, I earned a Master's in Information Systems from the University of Florida. My graduate studies equipped me with core competencies in data analytics and provided a comprehensive understanding of how businesses can leverage data and systems to drive success.
   I feel fulfilled when I apply my technical expertise to address critical business problems: whether it's developing a mobile app for a Miami-based environmental non-profit to educate residents on recycling initiatives or creating a dashboard for a Virginia-based non-profit to showcase energy-saving KPIs to its stakeholders.`,
   aboutItems: [
@@ -355,14 +348,12 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Caroline Nickerson',
       text: `Aadit is the best! Not only does he have technical know-how, but he is also kind, considerate, and a great mentor to younger students. He’s currently building an app that will improve recycling education in Florida, and he’s deftly able to communicate with expert and nonexpert audiences to create tech that serves social good. Anyone would be lucky to work with Aadit!`,
-      image:
-        'https://carolinenickerson.com/wp-content/uploads/2024/03/img_3455d.jpg',
+      image: 'https://carolinenickerson.com/wp-content/uploads/2024/03/img_3455d.jpg',
     },
     {
       name: 'Xiao Fan',
       text: `Aadit is an independent, self-disciplined, diligent student. When he expressed a strong interest in pursuing data science projects, I introduced him to a bioinformatics project. Despite not having formal training in biology, he quickly grasped the main concepts of the project and data representation of the biology entities. Showing great enthusiasm, Aadit thoroughly explored the datasets and successfully extracted the required information for his project. I am confident that Aadit will excel in his career pursuits and make meaningful contributions to his chosen field of study.`,
-      image:
-        'https://bme.ufl.edu/wp-content/uploads/2022/05/Xiao-Fan-300x300.jpg',
+      image: 'https://bme.ufl.edu/wp-content/uploads/2022/05/Xiao-Fan-300x300.jpg',
     },
     {
       name: 'Shwetha Ravi',
@@ -389,8 +380,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'aadit.kamat@floridainnovation.org',
-      href: 'mailto:aadit.kamat@floridainnovation.org',
+      text: 'aaditkmt@gmail.com',
+      href: 'mailto:aaditkmt@gmail.com',
     },
     {
       type: ContactType.Location,
