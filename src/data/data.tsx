@@ -83,11 +83,11 @@ export const aboutData: About = {
   I feel fulfilled when I apply my technical expertise to address critical business problems: whether it's developing a mobile app for a Miami-based environmental non-profit to educate residents on recycling initiatives or creating a dashboard for a Virginia-based non-profit to showcase energy-saving KPIs to its stakeholders.`,
   aboutItems: [
     {label: 'Location', text: 'Bukit Batok, Singapore', Icon: HiMap},
-    {label: 'Age', text: '28', Icon: HiCalendar},
+    {label: 'Age', text: '29', Icon: HiCalendar},
     {label: 'Nationality', text: 'Singaporean', Icon: HiFlag},
     {label: 'Interests', text: 'Effective Altruism, Spirituality, Podcasts, Music (Hindi/English)', Icon: HiSparkles},
-    {label: 'Education', text: 'University of Florida', Icon: HiAcademicCap},
-    {label: 'Employment', text: 'Florida Community Innovation', Icon: HiBuildingOffice2},
+    {label: 'Education', text: 'National University of Singapore', Icon: HiAcademicCap},
+    {label: 'Employment', text: 'Tata Consultancy Services', Icon: HiBuildingOffice2},
   ],
 };
 
@@ -256,19 +256,48 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'April 2024 - Present',
+    date: 'June 2025 - Present',
+    location: 'Tata Consultancy Services',
+    title: 'Software Engineer',
+    content: (
+      <p>
+        I oversaw the deployment and production support for an{' '}
+        <u>
+          <a href="https://struts.apache.org/"> Apache Struts MVC framework </a>
+        </u>{' '}
+        based intranet platform used by a Singapore Governmental agency to serve multiple business critical documents
+        for secure storage and processing. I also charted a comprehensive migration plan for transitoning from the
+        legacy Struts to a modern Angular & Spring Boot based tech stack in alignment with GovTech modernization
+        initiatives. Furthermore, I collaborated cross functionally with Business Analyst, IT Admins and Middleware to
+        patch critical application issues, improving application reliability and user satisfaction.
+      </p>
+    ),
+  },
+  {
+    date: 'April 2025 - June 2025',
     location: 'Florida Community Innovation',
     title: 'Lead Software Engineer',
     content: (
       <p>
-        I'm currently leading the development of a mobile app called{' '}
-        <a href="https://recyclepedia.info">Recyclepedia</a> in collaboration with a Miami based non profit called{' '}
-        <a href="https://dreamingreen.org/">Dream in Green</a> geared towards residents in the Miami Dade county area,
-        empowering them with knowledge about recycleable materials, curbside recycling program and drop off locations in
-        their vicinity as well as recycling initiatives organized by community partners in Miami. The app plans to
-        include other features like <a href="https://www.recyclepedia.info/games">educational games</a> and designs
-        making the app friendly for younger audiences as well as a chatbot that answers questions about recycling and
-        environmental sustainability.
+        I led the development of a mobile app called{' '}
+        <u>
+          <a href="https://recyclepedia.info">Recyclepedia</a>
+        </u>{' '}
+        in collaboration with a Miami based non profit called{' '}
+        <u>
+          <a href="https://dreamingreen.org/">Dream in Green</a>
+        </u>{' '}
+        geared towards residents in the Miami Dade county area, empowering them with knowledge about recycleable
+        materials, curbside recycling program and drop off locations in their vicinity as well as recycling initiatives
+        organized by community partners in Miami. The app has features like{' '}
+        <u>
+          <a href="https://www.recyclepedia.info/games">educational games</a>
+        </u>{' '}
+        and designs making the app friendly for younger audiences as well as a chatbot that answers questions about
+        recycling and environmental sustainability. It is currently in{' '}
+        <u>
+          <a href="https://youtu.be/TSohnva_NmQ">beta testing for users based in the US </a>
+        </u>
       </p>
     ),
   },
@@ -294,11 +323,21 @@ export const experience: TimelineItem[] = [
     title: 'Graduate Research Assistant',
     content: (
       <p>
-        I assisted Dr Xiao Fan - an assistant professor who heads the Fan lab at the University of Florida - with a
-        project related to her research on rare genetic diseases. The project involved studying the association between
-        variant pathogenicity and properties of proteins present within these genetic variants. I also leveraged UF's
-        internal High Performance Computing facilities to transcribe and annotate large scale genomic datasets obtained
-        from NIH databases.
+        I assisted{' '}
+        <u>
+          <a href="https://www.eng.ufl.edu/about/contact/college-directory/name/xiao-fan/">Dr Xiao Fan</a>
+        </u>{' '}
+        - an assistant professor at the J.Pruitt Family Department of Biomedical Engineering who heads the{' '}
+        <u>
+          <a href="https://xiaofan-lab.github.io/">Fan lab at the University of Florida (UF)</a>
+        </u>{' '}
+        - with a project related to her research on rare genetic diseases. The project involved studying the association
+        between variant pathogenicity and properties of proteins present within these genetic variants. I also leveraged
+        the{' '}
+        <u>
+          <a href="https://it.ufl.edu/rc/hipergator/">UF HiPerGator</a>
+        </u>{' '}
+        to transcribe and annotate large scale genomic datasets obtained from NIH databases.
       </p>
     ),
   },
@@ -310,29 +349,39 @@ export const experience: TimelineItem[] = [
       <>
         <p>
           I engineered backend APIs in Spring Boot using a microservice architecture, used by major banking institutions
-          within South Asia to build their own Accounts Based Payment solutions by leveraging the Visa Payment Network
-          (VisaNet) infrastructure. I also developed the frontend interface for an internal portal used by developers to
-          dynamically access and manipulate data residing within mobile apps in the Singapore Innovation Centre,
-          demonstrating real-time payment processing capabilities to clients.
+          within South Asia to build their own Accounts Based Payment solutions by leveraging the{' '}
+          <u>
+            <a href="https://developer.visa.com/apibrowser/#segment=Merchants">Visa Payment Network (VisaNet)</a>
+          </u>{' '}
+          infrastructure. I also developed the frontend interface for an internal portal used by developers to
+          dynamically access and manipulate data residing within mobile apps in the{' '}
+          <u>
+            <a href="https://www.visa.co.uk/visa-everywhere/innovation-centers/singapore.html">
+              Singapore Innovation Centre
+            </a>
+          </u>
+          , demonstrating real-time payment processing capabilities to clients.
         </p>
       </>
     ),
   },
   {
-    date: 'June 2024 - August 2024',
+    date: 'May 2021 - March 2022',
     location: 'Shopee Singapore Pte Ltd',
     title: 'Quality Assurance Engineer',
     content: (
       <>
         <p>
           This was my first full time role after graduating from NUS. I led the test automation efforts for the
-          Promotion modules within the Shopee Android app such as Flash Sales, Bundle Deal and Add On Deal that are used
-          by more than 2 million customers daily. I added and maintained over a 100 test cases for these modules,
-          investigating the root cause for the issues across different layers of the stack - whether at the application
-          layer or the logs within the Golang containerized environments in the internal servers that interact with the
-          application. Aside from my engineering duties, I also collaborated with Quality Assurance Engineers from other
-          departments to come up with onboarding material to train incoming engineers in test automation tools and
-          techniques.
+          <u>
+            <a href="https://seller.shopee.sg/edu/article/7063">Seller Promotion modules</a>
+          </u>{' '}
+          within the Shopee Android app such as Flash Sales, Bundle Deal and Add On Deal with listing that are used by
+          millions of users daily. I added and maintained over a 100 test cases for these modules, investigating the
+          root cause for the issues across different layers of the stack - whether at the application layer or the logs
+          within the Golang containerized environments in the internal servers that interact with the application. Aside
+          from my engineering duties, I also collaborated with Quality Assurance Engineers from other departments to
+          come up with onboarding material to train incoming engineers in test automation tools and techniques.
         </p>
       </>
     ),
