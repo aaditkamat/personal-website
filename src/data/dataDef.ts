@@ -85,7 +85,7 @@ export interface PortfolioItem {
 /**
  * Resume section
  */
-export interface TimelineItemType {
+export interface TimelineEntry {
   date: string;
   location: string;
   title: string;
@@ -97,10 +97,10 @@ export interface TimelineItemType {
  */
 export interface TestimonialSection {
   imageSrc?: string | StaticImageData;
-  testimonials: TestimonialType[];
+  testimonials: TestimonialData[];
 }
 
-export interface TestimonialType {
+export interface TestimonialData {
   image?: string;
   name: string;
   text: string;
