@@ -14,13 +14,10 @@ jobs:
     name: SonarQub Analysis
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0  
       - name: SonarQubeScan
         uses: SonarSource/sonarqube-scan-action@v7
         env: 
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-    verage/overview/
-            # Adds more detail to both client and server-side analysis logs, activating DEBUG mode for the scanner, and adding client-side environment variables and system properties to the server-side log of analysis report processing.
-            #-Dsonar.verbose= # optional, default is false
