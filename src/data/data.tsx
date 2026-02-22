@@ -405,8 +405,8 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Chan Woei Shyong, CEO of Qinet.AI',
       text: `Congrats Aadit and team on the excellent work. The effort, sacrifices, and determination you all brought to the project clearly showed in the quality of the analysis and insights.
-      It was a meaningful way to wrap up 2025, ending the year with a strong achievement and a powerful new set of skills. Data, analytics, and the thoughtful use of AI tools are a potent mix, and your presentation demonstrated that well.
-      Wishing you and the team a fantastic 2026 ahead. May the year bring new areas of exploration, bold breakthroughs, and even greater heights.`,
+It was a meaningful way to wrap up 2025, ending the year with a strong achievement and a powerful new set of skills. Data, analytics, and the thoughtful use of AI tools are a potent mix, and your presentation demonstrated that well.
+Wishing you and the team a fantastic 2026 ahead. May the year bring new areas of exploration, bold breakthroughs, and even greater heights.`,
       image:
         'https://static.wixstatic.com/media/ddcbe1_3aadc819c08041e5a64c3e435c5ce526~mv2.png/v1/fill/w_506,h_506,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png',
     },
