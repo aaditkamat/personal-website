@@ -167,7 +167,7 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Qinet: Promoting Retailer Loyalty',
+    title: 'QiNet: Promoting Retailer Loyalty',
     description:
       'After cleaning the retailer data, doing feature engineering before performing the RFMV (Recency/Frequency/Monetary/Volatility) segmentation and preparing the data for customer churn modelling for different Qinet retailers, I also devised intervention strategies based on the behavioral archetypes obtained from the soft churn risk profiles. Based on all this analysis, I recommended how the different market segments can be targeted and how much retailer sales can be increased as a result of shifts in marketing strategy',
     url: 'https://www.linkedin.com/posts/activity-7407957931507310592-CsFs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACJCXLIBCrAgO5O1jUHsqQ-ZoRnlyd4XOtE',
