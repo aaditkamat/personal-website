@@ -2,7 +2,8 @@ name: SonarQube analysis
 
 on:
   push:
-    branches: [ "main"]
+    branches:
+      - main
   pull_request:
     types: [opened, synchronize, reopened]
 
@@ -18,6 +19,6 @@ jobs:
         with:
           fetch-depth: 0  
       - name: SonarQubeScan
-        uses: SonarSource/sonarqube-scan-action@v7
+        uses: SonarSource/sonarqube-scan-action@v7.0.0
         env: 
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
