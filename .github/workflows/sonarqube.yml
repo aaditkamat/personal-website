@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   sonarqube:
-    name: SonarQub Analysis
+    name: SonarQube Analysis
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
