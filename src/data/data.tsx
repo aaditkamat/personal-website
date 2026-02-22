@@ -402,7 +402,8 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Xiao Fan',
       text: `Aadit is an independent, self-disciplined, diligent student. When he expressed a strong interest in pursuing data science projects, I introduced him to a bioinformatics project. Despite not having formal training in biology, he quickly grasped the main concepts of the project and data representation of the biology entities. Showing great enthusiasm, Aadit thoroughly explored the datasets and successfully extracted the required information for his project. I am confident that Aadit will excel in his career pursuits and make meaningful contributions to his chosen field of study.`,
-      image: 'https://bme.ufl.edu/wp-content/uploads/2022/05/Xiao-Fan-300x300.jpg',
+      image:
+        'https://www.eng.ufl.edu/wp-content/uploads/connections-images/xiao-fan/Xiao-Fan_1_29-Aug-2024-ba859c74c9a9a2a352927cfc84a910f2.jpg',
     },
     {
       name: 'Shwetha Ravi',
