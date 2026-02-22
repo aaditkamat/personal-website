@@ -2,7 +2,7 @@ import {NextPage} from 'next';
 import Head from 'next/head';
 import {useRouter} from 'next/router';
 import Script from 'next/script';
-import {memo, useMemo, PropsWithChildren} from 'react';
+import {memo, PropsWithChildren, useMemo} from 'react';
 
 import {HomepageMeta} from '../../data/dataDef';
 
