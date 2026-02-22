@@ -1,5 +1,5 @@
 import {StaticImageData} from 'next/image';
-import {ForwardRefExoticComponent, ReactElement,SVGProps} from 'react';
+import {ForwardRefExoticComponent, ReactElement, SVGProps} from 'react';
 import {IconType} from 'react-icons';
 
 export interface HomepageMeta {
@@ -85,7 +85,7 @@ export interface PortfolioItem {
 /**
  * Resume section
  */
-export interface TimelineItem {
+export interface TimelineItemType {
   date: string;
   location: string;
   title: string;
@@ -97,10 +97,10 @@ export interface TimelineItem {
  */
 export interface TestimonialSection {
   imageSrc?: string | StaticImageData;
-  testimonials: Testimonial[];
+  testimonials: TestimonialType[];
 }
 
-export interface Testimonial {
+export interface TestimonialType {
   image?: string;
   name: string;
   text: string;

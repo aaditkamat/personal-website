@@ -22,7 +22,7 @@ import {
   SkillGroup,
   Social,
   TestimonialSection,
-  TimelineItem,
+  TimelineItemType,
 } from './dataDef';
 
 /**
@@ -226,7 +226,7 @@ export const portfolioItems: PortfolioItem[] = [
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
-export const education: TimelineItem[] = [
+export const education: TimelineItemType[] = [
   {
     date: 'December 2024',
     location: 'Warrington College of Business, University of Florida',
@@ -254,7 +254,7 @@ export const education: TimelineItem[] = [
   },
 ];
 
-export const experience: TimelineItem[] = [
+export const experience: TimelineItemType[] = [
   {
     date: 'June 2025 - Present',
     location: 'Tata Consultancy Services',
