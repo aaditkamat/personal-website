@@ -10,6 +10,7 @@ import leapDashboard from '../images/portfolio/Leap Dashboard.png';
 import legalLingo from '../images/portfolio/Legal Lingo.jpg';
 import rmsBAPracticuum from '../images/portfolio/RMS Business Analytics Practicuum.png';
 import weCareJaxAutomation from '../images/portfolio/WeCareJax Automation.png';
+import qinetChurnAnalysis from '../images/portfolio/QiNet Churn Analysis.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.jpg';
 import {
@@ -100,11 +101,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 8,
       },
       {
         name: 'Typescript',
-        level: 8,
+        level: 9,
       },
       {
         name: 'GraphQL',
@@ -117,11 +118,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 9,
+        level: 8,
       },
       {
         name: 'Spring Boot',
-        level: 6,
+        level: 8,
       },
     ],
   },
@@ -130,11 +131,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 8,
+        level: 7,
       },
       {
         name: 'Expo',
-        level: 8,
+        level: 7,
       },
     ],
   },
@@ -143,11 +144,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Jupyter (Python)',
-        level: 9,
+        level: 8,
       },
       {
         name: 'SQL',
-        level: 8,
+        level: 9,
       },
       {
         name: 'Excel',
@@ -165,6 +166,13 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'QiNet: Promoting Retailer Loyalty',
+    description:
+      'After cleaning the retailer data, doing feature engineering before performing the RFMV (Recency/Frequency/Monetary/Volatility) segmentation and preparing the data for customer churn modelling for different Qinet retailers, I also devised intervention strategies based on the behavioral archetypes obtained from the soft churn risk profiles. Based on all this analysis, I recommended how the different market segments can be targeted and how much retailer sales can be increased as a result of shifts in marketing strategy',
+    url: 'https://www.linkedin.com/posts/activity-7407957931507310592-CsFs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACJCXLIBCrAgO5O1jUHsqQ-ZoRnlyd4XOtE',
+    image: qinetChurnAnalysis,
+  },
   {
     title: 'LEAP Dashboard',
     description:
@@ -395,23 +403,31 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Caroline Nickerson',
+      name: 'Chan Woei Shyong, CEO of Qinet.AI',
+      text: `Congrats Aadit and team on the excellent work. The effort, sacrifices, and determination you all brought to the project clearly showed in the quality of the analysis and insights.
+It was a meaningful way to wrap up 2025, ending the year with a strong achievement and a powerful new set of skills. Data, analytics, and the thoughtful use of AI tools are a potent mix, and your presentation demonstrated that well.
+Wishing you and the team a fantastic 2026 ahead. May the year bring new areas of exploration, bold breakthroughs, and even greater heights.`,
+      image:
+        'https://static.wixstatic.com/media/ddcbe1_3aadc819c08041e5a64c3e435c5ce526~mv2.png/v1/fill/w_506,h_506,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.png',
+    },
+    {
+      name: 'Caroline Nickerson, PhD, Executive Director of Florida Community Innovation',
       text: `Aadit is the best! Not only does he have technical know-how, but he is also kind, considerate, and a great mentor to younger students. He’s currently building an app that will improve recycling education in Florida, and he’s deftly able to communicate with expert and nonexpert audiences to create tech that serves social good. Anyone would be lucky to work with Aadit!`,
       image: 'https://carolinenickerson.com/wp-content/uploads/2024/03/img_3455d.jpg',
     },
     {
-      name: 'Xiao Fan',
+      name: 'Dr. Xiao Fan, Assistant Professor at the University of Florida',
       text: `Aadit is an independent, self-disciplined, diligent student. When he expressed a strong interest in pursuing data science projects, I introduced him to a bioinformatics project. Despite not having formal training in biology, he quickly grasped the main concepts of the project and data representation of the biology entities. Showing great enthusiasm, Aadit thoroughly explored the datasets and successfully extracted the required information for his project. I am confident that Aadit will excel in his career pursuits and make meaningful contributions to his chosen field of study.`,
       image:
         'https://www.eng.ufl.edu/wp-content/uploads/connections-images/xiao-fan/Xiao-Fan_1_29-Aug-2024-ba859c74c9a9a2a352927cfc84a910f2.jpg',
     },
     {
-      name: 'Shwetha Ravi',
+      name: 'Shwetha Ravi P.S., Software Engineer - Cloud & Distributed Systems at Morgan Stanley',
       text: 'Aadit is a talented software engineer and picks up new skills at an impressive rate. He is also responsible, communicative and passionate about self development. Would highly recommend having him on your team.',
       image: 'https://res.cloudinary.com/dixfcmuuj/image/upload/v1762186556/Ravi_Shwetha_nzpjqu.jpg',
     },
     {
-      name: 'Robin Loh',
+      name: 'Robin Loh, Backend Software Engineer at Grab',
       text: `I was Aadit's mentor during NUS Orbital 2018, which is a self-directed module offered every summer by NUS School of Computing. Together with his teammate, both of them worked on the PlanItRight project, which is a web application that plans itineraries based on the user's travel plans and preferences.
       Aadit demonstrated great enthusiasm in learning software development skills relevant to his project. He successfully defined the functionalities suitable for the intended users in this project and he crafted simple user and developer guides for the web application. There were also many clear and useful illustrations implemented in the web application, such as the use of timeline to visualise the itineraries in a chronological order.
       Throughout the 3 months of mentorship, he displayed good analytical and interpersonal skills. He comprehended new concepts very quickly and he structured his approaches clearly to accomplish his outcomes. I strongly believe that he has the capability to work independently on tough challenges given his inquisitiveness for self-improvement and for developing his technical expertise further.`,
