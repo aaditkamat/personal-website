@@ -13,4 +13,4 @@ jobs:
           urls: |
             https://aaditkamat.dev
           uploadArtifacts: true # save results as an action artifacts
-          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
+          temporaryPublicStorage: false # keep lighthouse report private; do not upload to public temporary storage
