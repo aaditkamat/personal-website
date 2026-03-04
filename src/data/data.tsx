@@ -269,15 +269,16 @@ export const experience: TimelineEntry[] = [
     title: 'Software Engineer',
     content: (
       <p>
-        I oversaw the deployment and production support for an{' '}
+        I am overseeing the deployment and production support for an{' '}
         <u>
           <a href="https://struts.apache.org/"> Apache Struts MVC framework </a>
         </u>{' '}
-        based intranet platform used by a Singapore Governmental agency to serve multiple business critical documents
-        for secure storage and processing. I also charted a comprehensive migration plan for transitoning from the
-        legacy Struts to a modern Angular & Spring Boot based tech stack in alignment with GovTech modernization
-        initiatives. Furthermore, I collaborated cross functionally with Business Analyst, IT Admins and Middleware to
-        patch critical application issues, improving application reliability and user satisfaction.
+        based intranet platform used by a Singapore Government agency to serve multiple legal documents such as
+        caveats/private property instruments/land titles) for secure storage and processing. <br />I also charted a comprehensive 
+        migration plan for transitoning from the legacy Struts to a modern Angular & Spring Boot based tech stack in alignment 
+        with GovTech modernization initiatives. <br /> As the systems are handled by multiple vendor, my role requires cross functional 
+        collaboration with Business Analyst, Database Administrators, IT Admins and Middleware personnel not just from my company 
+        but also from other vendors as I patch critical application issues, improving application reliability and user satisfaction.
       </p>
     ),
   },
