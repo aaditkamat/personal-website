@@ -1,4 +1,4 @@
-import {FaGithub, FaLinkedin, FaStackOverflow, FaXTwitter} from 'react-icons/fa6';
+import {FaBluesky, FaGithub, FaLinkedin, FaStackOverflow} from 'react-icons/fa6';
 import {HiAcademicCap, HiBuildingOffice2, HiCalendar, HiFlag, HiMap, HiSparkles} from 'react-icons/hi2';
 
 import heroImage from '../images/Bukit Batok.jpg';
@@ -470,5 +470,5 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: FaGithub, href: 'https://github.com/aaditkamat'},
   {label: 'Stack Overflow', Icon: FaStackOverflow, href: 'https://stackoverflow.com/users/10334485/aadit-kamat'},
   {label: 'LinkedIn', Icon: FaLinkedin, href: 'https://www.linkedin.com/in/aaditkamat/'},
-  {label: 'X', Icon: FaXTwitter, href: 'https://x.com/aaditkamat'},
+  {label: 'Bluesky', Icon: FaBluesky, href: 'https://bsky.app/profile/aaditkamat.bsky.social'},
 ];
