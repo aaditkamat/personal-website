@@ -87,7 +87,7 @@ export const aboutData: About = {
     {label: 'Age', text: '29', Icon: HiCalendar},
     {label: 'Nationality', text: 'Singaporean', Icon: HiFlag},
     {label: 'Interests', text: 'Effective Altruism, Spirituality, Podcasts, Music (Hindi/English)', Icon: HiSparkles},
-    {label: 'Education', text: 'National University of Singapore', Icon: HiAcademicCap},
+    {label: 'Education', text: 'University of Florida', Icon: HiAcademicCap},
     {label: 'Employment', text: 'Tata Consultancy Services', Icon: HiBuildingOffice2},
   ],
 };
