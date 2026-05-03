@@ -1,4 +1,4 @@
-import {FaGithub, FaLinkedin, FaStackOverflow, FaXTwitter} from 'react-icons/fa6';
+import {FaBluesky, FaGithub, FaLinkedin, FaStackOverflow} from 'react-icons/fa6';
 import {HiAcademicCap, HiBuildingOffice2, HiCalendar, HiFlag, HiMap, HiSparkles} from 'react-icons/hi2';
 
 import heroImage from '../images/Bukit Batok.jpg';
@@ -269,15 +269,16 @@ export const experience: TimelineEntry[] = [
     title: 'Software Engineer',
     content: (
       <p>
-        I oversaw the deployment and production support for an{' '}
+        I am overseeing the deployment and production support for an{' '}
         <u>
           <a href="https://struts.apache.org/"> Apache Struts MVC framework </a>
         </u>{' '}
-        based intranet platform used by a Singapore Governmental agency to serve multiple business critical documents
-        for secure storage and processing. I also charted a comprehensive migration plan for transitoning from the
-        legacy Struts to a modern Angular & Spring Boot based tech stack in alignment with GovTech modernization
-        initiatives. Furthermore, I collaborated cross functionally with Business Analyst, IT Admins and Middleware to
-        patch critical application issues, improving application reliability and user satisfaction.
+        based intranet platform used by a Singapore Government agency to serve multiple legal documents such as
+        caveats, private property instruments and land titles for secure storage and processing. <br />I also charted a comprehensive 
+        migration plan for transitioning from the legacy Struts to a modern Angular & Spring Boot based tech stack in alignment 
+        with GovTech modernization initiatives. <br /> As the systems are handled by multiple vendors, my role requires cross functional 
+        collaboration with Business Analyst, Database Administrators, IT Admins and Middleware personnel not just from my company 
+        but also from other vendors as I patch critical application issues, improving application reliability and user satisfaction.
       </p>
     ),
   },
@@ -469,5 +470,5 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: FaGithub, href: 'https://github.com/aaditkamat'},
   {label: 'Stack Overflow', Icon: FaStackOverflow, href: 'https://stackoverflow.com/users/10334485/aadit-kamat'},
   {label: 'LinkedIn', Icon: FaLinkedin, href: 'https://www.linkedin.com/in/aaditkamat/'},
-  {label: 'X', Icon: FaXTwitter, href: 'https://x.com/aaditkamat'},
+  {label: 'Bluesky', Icon: FaBluesky, href: 'https://bsky.app/profile/aaditkamat.bsky.social'},
 ];
