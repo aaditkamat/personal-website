@@ -1,11 +1,13 @@
 {
-  "name": "react-resume-template",
-  "version": "2.0.0",
+  "name": "personal-website",
+  "version": "2.1.0",
   "private": true,
   "scripts": {
     "build": "yarn compile && yarn next build",
     "clean": "rm -rf build-tsc .next",
     "compile": "yarn run -T tsc --build --verbose",
+    "deploy": "opennextjs-cloudflare build && yarn opennextjs-cloudflare deploy",
+    "preview": "opennextjs-cloudflare build && yarn opennextjs-cloudflare preview",
     "dev": "yarn compile && yarn next dev",
     "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
     "start": "yarn next start",
@@ -13,6 +15,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
+    "@opennextjs/cloudflare": "https://pkg.pr.new/@opennextjs/cloudflare@main",
     "@vercel/analytics": "^1.6.1",
     "autoprefixer": "10.4.24",
     "classnames": "^2.5.1",
@@ -58,7 +61,8 @@
     "stylelint-order": "^6.0.4",
     "stylelint-prettier": "^4.0.2",
     "tailwindcss": "^3.3.3",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "wrangler": "^4.87.0"
   },
   "resolutions": {
     "autoprefixer": "10.4.5"
