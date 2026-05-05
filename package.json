@@ -1,21 +1,22 @@
 {
   "name": "personal-website",
   "version": "2.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "yarn compile && yarn next build",
     "clean": "rm -rf build-tsc .next",
     "compile": "yarn run -T tsc --build --verbose",
-    "deploy": "opennextjs-cloudflare build && yarn opennextjs-cloudflare deploy",
-    "preview": "opennextjs-cloudflare build && yarn opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "dev": "yarn compile && yarn next dev",
     "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
+    "int": "croct init --org=aadit-kamat-6466 --wor=aadit-kamat",
     "start": "yarn next start",
     "sitemap": "yarn next-sitemap"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
-    "@opennextjs/cloudflare": "https://pkg.pr.new/@opennextjs/cloudflare@main",
+    "@opennextjs/cloudflare": "^1.19.6",
     "@vercel/analytics": "^1.6.1",
     "autoprefixer": "10.4.24",
     "classnames": "^2.5.1",
@@ -36,6 +37,7 @@
     "@types/webpack-env": "^1.18.1",
     "@typescript-eslint/eslint-plugin": "^8.59.1",
     "@typescript-eslint/parser": "^8.59.1",
+    "croct": "^0.12.15",
     "cssnano": "^6.0.1",
     "eslint": "^8.46.0",
     "eslint-config-next": "^16.2.4",
@@ -66,5 +68,10 @@
   "resolutions": {
     "autoprefixer": "10.4.5"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "description": "Aadit Kamat's personal portfolio website",
+  "main": "index.js",
+  "repository": "git@github.com:aaditkamat/personal-website.git",
+  "author": "Aadit Kamat <plunges_abiotic.0q@icloud.com>",
+  "license": "MIT"
 }
