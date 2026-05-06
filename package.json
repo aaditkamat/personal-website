@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "2.1.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "build": "yarn compile && yarn next build",
     "clean": "rm -rf build-tsc .next",
