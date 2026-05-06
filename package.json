@@ -10,7 +10,7 @@
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "dev": "yarn compile && yarn next dev",
     "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
-    "int": "croct init --org=aadit-kamat-6466 --wor=aadit-kamat",
+    "croct:init": "croct init --org=aadit-kamat-6466 --wor=aadit-kamat",
     "start": "yarn next start",
     "sitemap": "yarn next-sitemap"
   },
