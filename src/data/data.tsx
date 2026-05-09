@@ -44,7 +44,7 @@ export const SectionId = {
   About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
-  LinkedInPosts: 'linkedin-posts',
+  LinkedInPosts: 'LinkedIn Posts',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
