@@ -479,7 +479,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'GitHired Logo', Icon: FaGithub, href: 'https://www.githired.tech/developer/aaditkamat'},
+  {label: 'GitHired', Icon: FaGithub, href: 'https://www.githired.tech/developer/aaditkamat'},
   {label: 'Stack Overflow', Icon: FaStackOverflow, href: 'https://stackoverflow.com/users/10334485/aadit-kamat'},
   {label: 'LinkedIn', Icon: FaLinkedin, href: 'https://www.linkedin.com/in/aaditkamat/'},
   {label: 'Substack', Icon: SiSubstack, href: 'https://aadit.substack.com/'},
