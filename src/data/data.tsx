@@ -44,7 +44,7 @@ export const SectionId = {
   About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
-  LinkedInPosts: 'LinkedIn Posts',
+  LinkedInPosts: 'Featured LinkedIn Posts',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
@@ -63,8 +63,8 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> based in Singapore, currently
-        working for <strong className="text-stone-100">Tata Consultancy Services</strong> on enterprise-level Java
-        projects, leveraging Spring Boot to build scalable and efficient solutions.
+        building scalable and efficient enterprise solutions through{' '}
+        <strong className="text-stone-100">Tata Consultancy Services</strong> on enterprise-level Java projects.
       </p>
     </>
   ),
