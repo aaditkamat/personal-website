@@ -22,6 +22,8 @@ const LinkedInPosts: FC = memo(() => {
                     title={title}
                     className="absolute inset-0 h-full w-full border-0"
                     loading="lazy"
+                    sandbox="allow-scripts allow-same-origin allow-popups"
+                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
                   />
                 </div>
