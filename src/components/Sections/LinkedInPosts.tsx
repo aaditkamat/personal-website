@@ -6,7 +6,7 @@ const LinkedInPosts: FC = memo(() => {
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.LinkedInPosts}>
       <div className="flex flex-col gap-y-8">
-        <h1 className="self-center text-3xl font-bold text-white">Featured LinkedIn posts</h1>
+        <h2 className="self-center text-3xl font-bold text-white">Featured LinkedIn posts</h2>
         <div className="w-full columns-2 md:columns-3 lg:columns-4">
           {linkedInPosts.map(post => {
             const {url, title} = post;
