@@ -1,4 +1,5 @@
-import {FaBluesky, FaGithub, FaLinkedin, FaStackOverflow} from 'react-icons/fa6';
+import {FaGithub, FaLinkedin, FaStackOverflow} from 'react-icons/fa6';
+import {SiSubstack} from 'react-icons/si';
 import {HiAcademicCap, HiBuildingOffice2, HiCalendar, HiFlag, HiMap, HiSparkles} from 'react-icons/hi2';
 
 import heroImage from '../images/Bukit Batok.jpg';
@@ -24,6 +25,7 @@ import {
   Social,
   TestimonialSection,
   TimelineEntry,
+  LinkedInPost,
 } from './dataDef';
 
 /**
@@ -42,6 +44,7 @@ export const SectionId = {
   About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
+  LinkedInPosts: 'linkedin-posts',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
@@ -79,7 +82,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hey there! As a seasoned full-stack developer with over 2 years of experience, I've had the opportunity to work across various technical domains within the IT sector, including test automation, mobile and web application development, and data analytics. Currently, I'm working on enterprise-level Java projects for the Singapore Land Authority at Tata Consultancy Services.
+  description: `Hey there! As a seasoned full-stack developer with over 2 years of experience, I've had the opportunity to work across various technical domains within the IT sector, including test automation, mobile and web application development, and data analytics. Currently, I'm working on enterprise-level Java projects for a Government Client at Tata Consultancy Services.
   Before starting my career afresh in Singapore, I earned a Master's in Information Systems from the University of Florida. My graduate studies equipped me with core competencies in data analytics and provided a comprehensive understanding of how businesses can leverage data and systems to drive success.
   I feel fulfilled when I apply my technical expertise to address critical business problems: whether it's developing a mobile app for a Miami-based environmental non-profit to educate residents on recycling initiatives or creating a dashboard for a Virginia-based non-profit to showcase energy-saving KPIs to its stakeholders.`,
   aboutItems: [
@@ -87,7 +90,7 @@ export const aboutData: About = {
     {label: 'Age', text: '29', Icon: HiCalendar},
     {label: 'Nationality', text: 'Singaporean', Icon: HiFlag},
     {label: 'Interests', text: 'Effective Altruism, Spirituality, Podcasts, Music (Hindi/English)', Icon: HiSparkles},
-    {label: 'Education', text: 'National University of Singapore', Icon: HiAcademicCap},
+    {label: 'Education', text: 'University of Florida, National University of Singapore', Icon: HiAcademicCap},
     {label: 'Employment', text: 'Tata Consultancy Services', Icon: HiBuildingOffice2},
   ],
 };
@@ -121,7 +124,7 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Spring Boot',
+        name: 'Spring Boot (Java)',
         level: 8,
       },
     ],
@@ -273,12 +276,13 @@ export const experience: TimelineEntry[] = [
         <u>
           <a href="https://struts.apache.org/"> Apache Struts MVC framework </a>
         </u>{' '}
-        based intranet platform used by a Singapore Government agency to serve multiple legal documents such as
-        caveats, private property instruments and land titles for secure storage and processing. <br />I also charted a comprehensive 
-        migration plan for transitioning from the legacy Struts to a modern Angular & Spring Boot based tech stack in alignment 
-        with GovTech modernization initiatives. <br /> As the systems are handled by multiple vendors, my role requires cross functional 
-        collaboration with Business Analyst, Database Administrators, IT Admins and Middleware personnel not just from my company 
-        but also from other vendors as I patch critical application issues, improving application reliability and user satisfaction.
+        based intranet platform used by a Singapore Government agency to serve multiple legal documents such as caveats,
+        private property instruments and land titles for secure storage and processing. <br />I also charted a
+        comprehensive migration plan for transitioning from the legacy Struts to a modern Angular & Spring Boot based
+        tech stack in alignment with GovTech modernization initiatives. <br /> As the systems are handled by multiple
+        vendors, my role requires cross functional collaboration with Business Analyst, Database Administrators, IT
+        Admins and Middleware personnel not just from my company but also from other vendors as I patch critical
+        application issues, improving application reliability and user satisfaction.
       </p>
     ),
   },
@@ -404,6 +408,14 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
+      name: 'Anil Arora, Delivery Head of Tata Consultancy Services APAC Public Services commending our team for the effort on an application revamp',
+      text: `I just wanted to take a moment to acknowledge and truly appreciate the outstanding work everyone has put into this (Government project). Completing such a challenging task, especially considering
+      the technical hurdles and timelines, is a testament to the team's dedication and collaboration.
+
+      Thank you all for your relentless drive and for consistently rising to the occasion. Your perserverance and expertise are what make these successes possible. Keep up the excellent work, it's inspiring to see what we can accomplish together.`,
+      image: 'https://res.cloudinary.com/dixfcmuuj/image/upload/v1778300754/Anil_Arora_Profile_Picture_ixsqey.jpg',
+    },
+    {
       name: 'Chan Woei Shyong, CEO of Qinet.AI',
       text: `Congrats Aadit and team on the excellent work. The effort, sacrifices, and determination you all brought to the project clearly showed in the quality of the analysis and insights.
 It was a meaningful way to wrap up 2025, ending the year with a strong achievement and a powerful new set of skills. Data, analytics, and the thoughtful use of AI tools are a potent mix, and your presentation demonstrated that well.
@@ -467,8 +479,26 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: FaGithub, href: 'https://github.com/aaditkamat'},
+  {label: 'GitHired Logo', Icon: FaGithub, href: 'https://www.githired.tech/developer/aaditkamat'},
   {label: 'Stack Overflow', Icon: FaStackOverflow, href: 'https://stackoverflow.com/users/10334485/aadit-kamat'},
   {label: 'LinkedIn', Icon: FaLinkedin, href: 'https://www.linkedin.com/in/aaditkamat/'},
-  {label: 'Bluesky', Icon: FaBluesky, href: 'https://bsky.app/profile/aaditkamat.bsky.social'},
+  {label: 'Substack', Icon: SiSubstack, href: 'https://aadit.substack.com/'},
+];
+
+/**
+ * LinkedIn Posts
+ */
+export const linkedInPosts: LinkedInPost[] = [
+  {
+    url: 'https://www.linkedin.com/embed/feed/update/urn:li:share:7193707854757806080',
+    title: 'Inaugural AIS Case Competition',
+  },
+  {
+    url: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7407957930207072256',
+    title: 'Rise 2.0 BCG Final Presentation',
+  },
+  {
+    url: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7304481996905349120',
+    title: 'LEAP Portal Presentation at the Student Sustainability Summit',
+  },
 ];
