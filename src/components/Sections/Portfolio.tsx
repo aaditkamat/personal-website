@@ -11,12 +11,12 @@ import Section from '../Layout/Section';
 
 const Portfolio: FC = memo(() => {
   return (
-    <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
+    <Section className="bg-neutral-100" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
-        <h1 className="self-center text-3xl font-bold text-white">
+        <h1 className="self-center text-3xl font-bold text-black">
           Here are some of the projects I've worked on in the past
         </h1>
-        <div className=" w-full columns-2 md:columns-3 lg:columns-4">
+        <div className="w-full columns-2 md:columns-3 lg:columns-4">
           {portfolioItems.map((item, index) => {
             const {title, image} = item;
             return (
