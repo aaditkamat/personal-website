@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import {FaGithub, FaLinkedin} from 'react-icons/fa6';
 import {SiLeetcode, SiSubstack} from 'react-icons/si';
+=======
+import {FaGithub, FaLinkedin, FaStackOverflow} from 'react-icons/fa6';
+import {SiSubstack} from 'react-icons/si';
+>>>>>>> 62034037f84ed4163a851599802053b9437b3b12
 import {HiAcademicCap, HiBuildingOffice2, HiCalendar, HiFlag, HiMap, HiSparkles} from 'react-icons/hi2';
 
 import heroImage from '../images/Bukit Batok.jpg';
