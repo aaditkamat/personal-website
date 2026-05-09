@@ -21,6 +21,7 @@ const LinkedInPosts: FC = memo(() => {
                     src={url}
                     title={title}
                     className="absolute inset-0 h-full w-full border-0"
+                    loading="lazy"
                     allowFullScreen
                   />
                 </div>
