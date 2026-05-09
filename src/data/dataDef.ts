@@ -145,3 +145,8 @@ export interface Social {
   Icon: IconType;
   href: string;
 }
+
+export interface LinkedInPost {
+  url: string;
+  title: string;
+}
