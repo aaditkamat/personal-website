@@ -77,7 +77,7 @@ const Testimonials: FC = memo(() => {
           parallaxEnabled && 'bg-fixed',
           {'bg-neutral-700': !imageSrc},
         )}
-        style={imageSrc ? {backgroundImage: `url(${resolveSrc}`} : undefined}>
+        style={imageSrc ? {backgroundImage: `url(${resolveSrc})`} : undefined}>
         <div className="z-10 w-full max-w-screen-md px-4 lg:px-0">
           <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/60 p-6 shadow-lg">
             <h2 className="self-center text-3xl font-bold text-white">Testimonials</h2>
