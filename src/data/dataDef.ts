@@ -1,5 +1,5 @@
 import {StaticImageData} from 'next/image';
-import {ForwardRefExoticComponent, ReactElement, SVGProps} from 'react';
+import {ForwardRefExoticComponent, ReactElement, ReactNode, SVGProps} from 'react';
 import {IconType} from 'react-icons';
 
 export interface HomepageMeta {
@@ -142,7 +142,7 @@ export interface ContactValue {
  */
 export interface Social {
   label: string;
-  Icon: IconType;
+  icon: ReactNode;
   href: string;
 }
 
