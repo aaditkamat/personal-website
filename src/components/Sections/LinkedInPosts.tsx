@@ -7,16 +7,13 @@ const LinkedInPosts: FC = memo(() => {
     <Section className="bg-neutral-800" sectionId={SectionId.LinkedInPosts}>
       <div className="flex flex-col gap-y-8">
         <h2 className="self-center text-3xl font-bold text-white">Featured LinkedIn posts</h2>
-        <div className="w-full columns-2 md:columns-3 lg:columns-4">
+        <div className="w-full columns-2 lg:columns-3">
           {linkedInPosts.map(post => {
             const {url, title} = post;
 
             return (
-              <div
-                key={url}
-                className="mb-4 overflow-hidden rounded-lg bg-black/20"
-              >
-                <div className="relative w-full aspect-[504/1114]">
+              <div key={url} className="overflow-hidden rounded-lg bg-black/20">
+                <div className="relative w-full aspect-[4/5]">
                   <iframe
                     src={url}
                     title={title}
