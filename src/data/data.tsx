@@ -412,7 +412,7 @@ export const testimonial: TestimonialSection = {
       text: `I just wanted to take a moment to acknowledge and truly appreciate the outstanding work everyone has put into this (Government project). Completing such a challenging task, especially considering
       the technical hurdles and timelines, is a testament to the team's dedication and collaboration.
 
-      Thank you all for your relentless drive and for consistently rising to the occasion. Your perserverance and expertise are what make these successes possible. Keep up the excellent work, it's inspiring to see what we can accomplish together.`,
+      Thank you all for your relentless drive and for consistently rising to the occasion. Your perseverance and expertise are what make these successes possible. Keep up the excellent work, it's inspiring to see what we can accomplish together.`,
       image: 'https://res.cloudinary.com/dixfcmuuj/image/upload/v1778300754/Anil_Arora_Profile_Picture_ixsqey.jpg',
     },
     {
