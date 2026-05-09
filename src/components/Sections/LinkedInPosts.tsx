@@ -10,7 +10,22 @@ const LinkedInPosts: FC = memo(() => {
         <div className="w-full columns-2 md:columns-3 lg:columns-4">
           {linkedInPosts.map(post => {
             const {url, title} = post;
-            return <iframe src={url} height="1114" width="504" frameBorder="0" allowFullScreen={true} title={title} />;
+
+            return (
+              <div
+                key={url}
+                className="mb-4 overflow-hidden rounded-lg bg-black/20"
+              >
+                <div className="relative w-full aspect-[504/1114]">
+                  <iframe
+                    src={url}
+                    title={title}
+                    className="absolute inset-0 h-full w-full border-0"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            );
           })}
         </div>
       </div>
