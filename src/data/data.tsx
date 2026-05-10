@@ -5,13 +5,13 @@ import {HiAcademicCap, HiBuildingOffice2, HiCalendar, HiFlag, HiMap, HiSparkles}
 import heroImage from '../images/Bukit Batok.jpg';
 import blueShieldConsulting from '../images/portfolio/BlueShield Consulting.jpg';
 import echoChat from '../images/portfolio/EchoChat.png';
-import marketResearchExternship from '../images/portfolio/Happy Sneeze Market Research Externship.jpg';
-import jeaTechnologyDashboard from '../images/portfolio/JEA Technology Dashboard.png';
-import leapDashboard from '../images/portfolio/Leap Dashboard.png';
+import marketResearchExternship from '../images/portfolio/HappySneeze Logo.png';
+import jeaTechnologyDashboard from '../images/portfolio/JEA Logo.png';
+import leapDashboard from '../images/portfolio/LEAP Logo.png';
 import legalLingo from '../images/portfolio/Legal Lingo.jpg';
-import rmsBAPracticuum from '../images/portfolio/RMS Business Analytics Practicuum.png';
-import weCareJaxAutomation from '../images/portfolio/WeCareJax Automation.png';
-import qinetChurnAnalysis from '../images/portfolio/QiNet Churn Analysis.png';
+import rmsBAPracticuum from '../images/portfolio/Revenue Management Solutions.png';
+import weCareJaxAutomation from '../images/portfolio/WeCareJax Logo.png';
+import qinetChurnAnalysis from '../images/portfolio/QiNet Logo.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.jpg';
 import {
