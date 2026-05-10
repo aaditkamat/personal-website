@@ -75,6 +75,7 @@ export const heroData: Hero = {
             500,
             'Application Enterprise Engineer',
           ]}
+          cursor={false}
           style={{fontWeight: 'bold', color: 'white'}}
         />{' '}
         based in Singapore, currently building scalable and efficient enterprise solutions through{' '}
