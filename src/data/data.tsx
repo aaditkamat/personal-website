@@ -1,6 +1,7 @@
 import {FaGithub, FaLinkedin} from 'react-icons/fa6';
 import {SiLeetcode, SiSubstack} from 'react-icons/si';
 import {HiAcademicCap, HiBuildingOffice2, HiCalendar, HiFlag, HiMap, HiSparkles} from 'react-icons/hi2';
+import {TypeAnimation} from 'react-type-animation';
 
 import heroImage from '../images/Bukit Batok.jpg';
 import blueShieldConsulting from '../images/portfolio/BlueShield Consulting.jpg';
@@ -62,7 +63,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> based in Singapore, currently
+        I'm a <TypeAnimation sequence={['Backend Engineer', 500, 'Frontend Engineer', 500, 'Full Stack Engineer', 500, 'Application Enterprise Engineer']} style={{ fontWeight: 'bold', color: 'white'}}} /> based in Singapore, currently
         building scalable and efficient enterprise solutions through{' '}
         <strong className="text-stone-100">Tata Consultancy Services</strong> on enterprise-level Java projects.
       </p>
