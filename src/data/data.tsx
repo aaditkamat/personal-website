@@ -80,6 +80,9 @@ export const heroData: Hero = {
 /**
  * About section
  */
+const birthDate = '1996-12-18';
+const YEARS_IN_MS = 365.25 * 24 * 60 * 60 * 1000;
+const ageInYears = Math.floor((Date.now() - Date.parse(birthDate)) / YEARS_IN_MS);
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Hey there! As a seasoned full-stack developer with over 2 years of experience, I've had the opportunity to work across various technical domains within the IT sector, including test automation, mobile and web application development, and data analytics. Currently, I'm working on enterprise-level Java projects for a Government Client at Tata Consultancy Services.
@@ -87,7 +90,7 @@ export const aboutData: About = {
   I feel fulfilled when I apply my technical expertise to address critical business problems: whether it's developing a mobile app for a Miami-based environmental non-profit to educate residents on recycling initiatives or creating a dashboard for a Virginia-based non-profit to showcase energy-saving KPIs to its stakeholders.`,
   aboutItems: [
     {label: 'Location', text: 'Bukit Batok, Singapore', Icon: HiMap},
-    {label: 'Age', text: '29', Icon: HiCalendar},
+    {label: 'Age', text: `${ageInYears}`, Icon: HiCalendar},
     {label: 'Nationality', text: 'Singaporean', Icon: HiFlag},
     {label: 'Interests', text: 'Effective Altruism, Spirituality, Podcasts, Music (Hindi/English)', Icon: HiSparkles},
     {label: 'Education', text: 'University of Florida, National University of Singapore', Icon: HiAcademicCap},
