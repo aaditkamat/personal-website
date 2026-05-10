@@ -272,7 +272,7 @@ export const experience: TimelineEntry[] = [
   {
     date: 'June 2025 - Present',
     location: 'Tata Consultancy Services',
-    title: 'Software Engineer',
+    title: 'Enterprise Application Engineer',
     content: (
       <p>
         I am overseeing the deployment and production support for an{' '}
