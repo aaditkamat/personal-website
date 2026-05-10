@@ -238,7 +238,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Happy Sneeze Market Research Externship',
     description:
       'I conducted market analysis for the urogynecology sector and demonstrated how Happy Sneeze could expand market reach by identifying potential partners and outlining a targeted outreach strategy.',
-    url: 'https://drive.google.com/file/d/1AJldMg0LWAQifHqeJUuyFWCU6q1zxbBF/view',
+    url: 'https://www.loom.com/share/25d66c093dde4b3591940f21416d9025?sid=bb9b3d11-8a2c-471f-a78b-45fa917e791d',
     image: marketResearchExternship,
   },
   {
