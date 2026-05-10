@@ -63,7 +63,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <TypeAnimation sequence={['Backend Engineer', 500, 'Frontend Engineer', 500, 'Full Stack Engineer', 500, 'Application Enterprise Engineer']} style={{ fontWeight: 'bold', color: 'white'}}} /> based in Singapore, currently
+        I'm a <TypeAnimation sequence={['Backend Engineer', 500, 'Frontend Engineer', 500, 'Full Stack Engineer', 500, 'Application Enterprise Engineer']} style={{ fontWeight: 'bold', color: 'white'}} /> based in Singapore, currently
         building scalable and efficient enterprise solutions through{' '}
         <strong className="text-stone-100">Tata Consultancy Services</strong> on enterprise-level Java projects.
       </p>
