@@ -142,7 +142,7 @@ export interface ContactValue {
  */
 export interface Social {
   label: string;
-  Icon: IconType;
+  icon: ReactElement;
   href: string;
 }
 
