@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import {FaGithub, FaLinkedin} from 'react-icons/fa6';
 import {SiLeetcode, SiSubstack} from 'react-icons/si';
-=======
-import {FaGithub, FaLinkedin, FaStackOverflow} from 'react-icons/fa6';
-import {SiSubstack} from 'react-icons/si';
->>>>>>> 62034037f84ed4163a851599802053b9437b3b12
 import {HiAcademicCap, HiBuildingOffice2, HiCalendar, HiFlag, HiMap, HiSparkles} from 'react-icons/hi2';
 
 import heroImage from '../images/Bukit Batok.jpg';
@@ -484,13 +479,17 @@ export const contact: ContactSection = {
  * Social items
  */
 const strataScratchIcon = (
-  <svg viewBox="0 0 38 20" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    viewBox="0 0 38 20"
+    className="h-5 w-5 align-baseline sm:h-6 sm:w-6"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
     <path
       d="m24.159 7.895.016.568v3.305l-.004.321c-.028 3.027-2.218 5.495-4.88 5.495-2.664 0-4.854-2.464-4.881-5.495l-.004-2.118-2.325.027.008 2.103c.036 4.355 3.266 7.895 7.201 7.895 3.935 0 7.166-3.54 7.2-7.895l-.01-4.194c.027-3.027 2.217-5.49 4.88-5.49s4.853 2.463 4.88 5.49l.024 2.091h2.304l-.008-2.103C38.53 3.54 35.3 0 31.36 0c-3.936 0-7.166 3.54-7.201 7.895Z"
-      fill="#00A699"></path>
+      fill="currentColor"></path>
     <path
       d="m12.077 7.895-.004.482h-.004v3.775c-.027 3.023-2.198 5.432-4.86 5.432-2.663 0-4.853-2.464-4.881-5.495l-.004-2.118L0 9.998l.004 2.103C.044 16.46 3.274 20 7.209 20s7.165-3.54 7.2-7.895l-.015-4.194c.031-3.028 2.221-5.49 4.88-5.49 2.663 0 4.853 2.462 4.88 5.49l.024 2.091h2.305l-.004-2.103C26.444 3.54 23.213 0 19.279 0c-3.936 0-7.166 3.54-7.202 7.895Z"
-      fill="#fff"></path>
+      fill="currentColor"></path>
   </svg>
 );
 export const socialLinks: Social[] = [
