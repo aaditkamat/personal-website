@@ -66,6 +66,7 @@ export const heroData: Hero = {
         I'm a{' '}
         <TypeAnimation
           sequence={[
+            4000,
             'Backend Engineer',
             500,
             'Frontend Engineer',
