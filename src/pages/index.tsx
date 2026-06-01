@@ -1,4 +1,3 @@
-import {Analytics} from '@vercel/analytics/next';
 import dynamic from 'next/dynamic';
 import {FC, memo} from 'react';
 
@@ -20,7 +19,6 @@ const Home: FC = memo(() => {
   const {title, description} = homePageMeta;
   return (
     <Page description={description} title={title}>
-      <Analytics />
       <Header />
       <Hero />
       <About />
