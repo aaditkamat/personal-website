@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   turbopack: {},
   compress: true,
   generateEtags: true,
-  pageExtensions: ['tsx', 'mdx', 'ts'],
+  pageExtensions: ['tsx', 'mdx', 'ts', 'jsx'],
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
   reactStrictMode: true,

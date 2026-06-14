@@ -19,6 +19,7 @@ const Header: FC = memo(() => {
       SectionId.Portfolio,
       SectionId.Testimonials,
       SectionId.Contact,
+      SectionId.Bookmarks
     ],
     [],
   );
@@ -27,7 +28,7 @@ const Header: FC = memo(() => {
     section && setCurrentSection(section);
   }, []);
 
-  useNavObserver(navSections.map(section => `#${section}`).join(','), intersectionHandler);
+  useNavObserver(navSections.map(section => section === "bookmarks" ? `${section}` : `#${section}`).join(','), intersectionHandler);
 
   return (
     <>
@@ -132,7 +133,7 @@ const NavItem: FC<{
   return (
     <Link
       className={classNames(current ? activeClass : inactiveClass)}
-      href={`/#${section}`}
+      href={section === "bookmarks" ? section : `/#${section}`}
       key={section}
       onClick={onClick}>
       {section}
