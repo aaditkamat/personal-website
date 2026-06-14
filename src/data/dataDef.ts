@@ -150,3 +150,13 @@ export interface LinkedInPost {
   url: string;
   title: string;
 }
+
+export interface Bookmark {
+  href: string;
+  title: string;
+}
+
+export interface BookmarkCategory {
+  name: string;
+  bookmarks: Bookmark[];
+}

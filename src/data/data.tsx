@@ -1,7 +1,7 @@
-import {FaGithub, FaLinkedin} from 'react-icons/fa6';
-import {SiLeetcode, SiSubstack} from 'react-icons/si';
-import {HiAcademicCap, HiBuildingOffice2, HiCalendar, HiFlag, HiMap, HiSparkles} from 'react-icons/hi2';
-import {TypeAnimation} from 'react-type-animation';
+import { FaGithub, FaLinkedin } from 'react-icons/fa6';
+import { SiLeetcode, SiSubstack } from 'react-icons/si';
+import { HiAcademicCap, HiBuildingOffice2, HiCalendar, HiFlag, HiMap, HiSparkles } from 'react-icons/hi2';
+import { TypeAnimation } from 'react-type-animation';
 
 import heroImage from '../images/Bukit Batok.jpg';
 import blueShieldConsulting from '../images/portfolio/BlueShield Consulting.jpg';
@@ -17,6 +17,7 @@ import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.jpg';
 import {
   About,
+  BookmarkCategory,
   ContactSection,
   ContactType,
   Hero,
@@ -50,6 +51,7 @@ export const SectionId = {
   Skills: 'skills',
   Stats: 'stats',
   Testimonials: 'testimonials',
+  Bookmarks: 'bookmarks',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -76,7 +78,7 @@ export const heroData: Hero = {
             'Application Enterprise Engineer',
           ]}
           cursor={false}
-          style={{fontWeight: 'bold', color: 'white'}}
+          style={{ fontWeight: 'bold', color: 'white' }}
         />{' '}
         based in Singapore, currently building scalable and efficient enterprise solutions through{' '}
         <strong className="text-stone-100">Tata Consultancy Services</strong> on enterprise-level Java projects.
@@ -104,12 +106,12 @@ export const aboutData: About = {
   Before starting my career afresh in Singapore, I earned a Master's in Information Systems from the University of Florida. My graduate studies equipped me with core competencies in data analytics and provided a comprehensive understanding of how businesses can leverage data and systems to drive success.
   I feel fulfilled when I apply my technical expertise to address critical business problems: whether it's developing a mobile app for a Miami-based environmental non-profit to educate residents on recycling initiatives or creating a dashboard for a Virginia-based non-profit to showcase energy-saving KPIs to its stakeholders.`,
   aboutItems: [
-    {label: 'Location', text: 'Bukit Batok, Singapore', Icon: HiMap},
-    {label: 'Age', text: `${ageInYears}`, Icon: HiCalendar},
-    {label: 'Nationality', text: 'Singaporean', Icon: HiFlag},
-    {label: 'Interests', text: 'Effective Altruism, Spirituality, Podcasts, Music (Hindi/English)', Icon: HiSparkles},
-    {label: 'Education', text: 'University of Florida, National University of Singapore', Icon: HiAcademicCap},
-    {label: 'Employment', text: 'Tata Consultancy Services', Icon: HiBuildingOffice2},
+    { label: 'Location', text: 'Bukit Batok, Singapore', Icon: HiMap },
+    { label: 'Age', text: `${ageInYears}`, Icon: HiCalendar },
+    { label: 'Nationality', text: 'Singaporean', Icon: HiFlag },
+    { label: 'Interests', text: 'Effective Altruism, Spirituality, Podcasts, Music (Hindi/English)', Icon: HiSparkles },
+    { label: 'Education', text: 'University of Florida, National University of Singapore', Icon: HiAcademicCap },
+    { label: 'Employment', text: 'Tata Consultancy Services', Icon: HiBuildingOffice2 },
   ],
 };
 
@@ -521,7 +523,7 @@ export const socialLinks: Social[] = [
     icon: <SiLeetcode className="h-5 w-5 align-baseline sm:h-6 sm:w-6" />,
     href: 'https://leetcode.com/u/aaditkamat/',
   },
-  {label: 'StrataScratch', icon: strataScratchIcon, href: 'https://platform.stratascratch.com/user/aaditkamat'},
+  { label: 'StrataScratch', icon: strataScratchIcon, href: 'https://platform.stratascratch.com/user/aaditkamat' },
   {
     label: 'LinkedIn',
     icon: <FaLinkedin className="h-5 w-5 align-baseline sm:h-6 sm:w-6" />,
@@ -550,4 +552,60 @@ export const linkedInPosts: LinkedInPost[] = [
     url: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7304481996905349120',
     title: 'LEAP Portal Presentation at the Student Sustainability Summit',
   },
+];
+
+/**
+ * Bookmarks
+ */
+export const bookmarks: BookmarkCategory[] = [
+  {
+    "name": "Learning & Research",
+    "bookmarks": [
+      { "href": "https://neetcode.io/", "title": "NeetCode.io" },
+      { "href": "https://www.fast.ai/", "title": "fast.ai" },
+      { "href": "https://brilliant.org/", "title": "Brilliant" },
+      { "href": "https://karpathy.ai/", "title": "Andrej Karpathy" },
+      { "href": "https://xiaofan-lab.github.io/", "title": "Fan Lab" }
+    ]
+  },
+  {
+    "name": "AI & Data",
+    "bookmarks": [
+      { "href": "https://playground.allenai.org/", "title": "Ai2 Playground" },
+      { "href": "https://chatbot-arena.web.app/", "title": "Chatbot Arena" },
+      { "href": "https://exa.ai/", "title": "Exa AI" },
+      { "href": "https://mammouth.ai/", "title": "Mammouth AI" },
+      { "href": "https://commoncrawl.org/", "title": "Common Crawl" }
+    ]
+  },
+  {
+    "name": "News & Reading",
+    "bookmarks": [
+      { "href": "https://www.scientificamerican.com/", "title": "Scientific American" },
+      { "href": "https://www.quantamagazine.org/", "title": "Quanta Magazine" },
+      { "href": "https://www.themarginalian.org/", "title": "The Marginalian" },
+      { "href": "https://thebetterindia.com/", "title": "The Better India" },
+      { "href": "https://ground.news/", "title": "Ground News" }
+    ]
+  },
+  {
+    "name": "Career & Skills",
+    "bookmarks": [
+      { "href": "https://www.theforage.com/", "title": "Forage" },
+      { "href": "https://www.stratascratch.com/", "title": "StrataScratch" },
+      { "href": "https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming", "title": "Topcoder" },
+      { "href": "https://iq.opengenus.org/", "title": "OpenGenus IQ" },
+      { "href": "https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/", "title": "Microsoft Fabric Analytics Engineer" }
+    ]
+  },
+  {
+    "name": "Singapore & Business",
+    "bookmarks": [
+      { "href": "https://opengovsg.com/", "title": "OpenGovSG" },
+      { "href": "https://www.sgpbusiness.com/", "title": "Singapore Business Directory" },
+      { "href": "https://www.companies.sg/", "title": "Companies.sg" },
+      { "href": "https://opentrolley.com.sg/", "title": "OpenTrolley Bookstore" },
+      { "href": "https://myappexp.tcsapps.com/", "title": "TCS MyAppExp" }
+    ]
+  }
 ];
