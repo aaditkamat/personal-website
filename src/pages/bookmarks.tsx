@@ -1,14 +1,12 @@
-import dynamic from 'next/dynamic';
 import {FC, memo} from 'react';
 
 import Page from '../components/Layout/Page';
 
 import { bookmarks } from '../data/data';
 
-const Bookmarks = memo(() => {
-  const categories = bookmarks.map((category) => category.name);
+const Bookmarks: FC = memo(() => {
   return (
-    <Page className="bg-white" description="Bookmarks to reference important sites" title="Bookmarks">
+    <Page description="Bookmarks to reference important sites" title="Bookmarks">
       <div className="container mx-auto py-8">
          <h1 className="text-3xl font-bold mb-4 font-[Raleway]">Bookmarks</h1>
          {
