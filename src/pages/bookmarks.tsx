@@ -4,6 +4,16 @@ import { Tree } from 'react-arborist';
 import Page from '../components/Layout/Page';
 import {bookmarks} from '../data/data';
 
+const Node: FC  = ({ node, style }) => {
+  return (
+    <div style={style}>
+      <a href={node.data.url} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+        {node.data.name}
+      </a>
+    </div>
+  );
+};
+
 const Bookmarks: FC = memo(() => {
   return (
     <Page description="Bookmarks to reference important sites" title="Bookmarks">
@@ -20,7 +30,9 @@ const Bookmarks: FC = memo(() => {
           paddingTop={30}
           paddingBottom={10}
           padding={25}
-        />
+        >
+          {Node}
+        </Tree>
         <span className="py-10 text-black font-bold">
           Rendered with{' '}
           <a className="text-blue-500 hover:text-blue-700" href="https://github.com/jameskerr/react-arborist" target="_blank" rel="noopener noreferrer">
