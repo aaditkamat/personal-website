@@ -1,11 +1,11 @@
 import {FC, memo} from 'react';
-import {Tree} from 'react-arborist';
+import {Tree, NodeRendererProps } from 'react-arborist';
 import {FaFolder,FaTree} from 'react-icons/fa6';
 
 import Page from '../components/Layout/Page';
 import {bookmarks} from '../data/data';
 
-const LinkNode: FC = ({node}) => (
+const LinkNode: FC<{node: any}> = ({node}) => (
   <div className="flex items-center space-x-4">
     <FaTree />
     <a className="text-blue-500 hover:text-blue-700" href={node.data.url} rel="noopener noreferrer" target="_blank">
@@ -14,14 +14,14 @@ const LinkNode: FC = ({node}) => (
   </div>
 );
 
-const FolderNode: FC = ({node}) => (
+const FolderNode: FC<{node: any}> = ({node}) => (
   <div className="flex items-center space-x-4">
     <FaFolder />
     <span>{node.data.name}</span>
   </div>
 );
 
-const Node: FC = ({node, style, dragHandle}) => (
+const Node: FC<NodeRendererProps<any>> = ({node, style, dragHandle}) => (
   <div onClick={() => node.toggle()} ref={dragHandle} style={style}>
     {node.isLeaf ? <LinkNode node={node} /> : <FolderNode node={node} />}
   </div>
