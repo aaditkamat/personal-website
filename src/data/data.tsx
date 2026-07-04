@@ -557,7 +557,7 @@ export const linkedInPosts: LinkedInPost[] = [
 /**
  * Bookmarks
  */
-export const bookmarks: Bookmark[] = [
+export const rawBookmarks: Bookmark[] = [
   {
     id: '1',
     name: 'discode',
@@ -3537,3 +3537,103 @@ export const bookmarks: Bookmark[] = [
     url: 'https://hbsp.harvard.edu/coursepacks?cid=email%7Cwebsite%7Cstudent-cp-purchase-conf-email%7Cnone%7Cstudent-purchase%7Cstudents%7Cvarious%7Congoing',
   },
 ];
+
+/**
+ * Auto-categorize top-level bookmark entries into existing folders.
+ *
+ * Strategy:
+ * - Keep the original array as `rawBookmarks`.
+ * - Build `bookmarks` by moving any top-level leaf nodes (those with a `url`)
+ *   into the most appropriate existing folder using simple keyword heuristics.
+ * - If no suitable folder is found, the item is placed under a new
+ *   top-level folder named `Uncategorized`.
+ */
+function findFolderByName(nodes: Bookmark[] | undefined, targetName: string): Bookmark | null {
+  if (!nodes) return null;
+  for (const node of nodes) {
+    if (node.children && node.name === targetName) return node;
+    if (node.children) {
+      const found = findFolderByName(node.children, targetName);
+      if (found) return found;
+    }
+  }
+  return null;
+}
+
+const keywordToFolder: {[keywords: string]: string} = {
+  'tech,developer,github,python,javascript,react,node,programming,dev,software,ai,openai,chatgpt,model,generator,kali,security': 'Technology',
+  'learn,course,university,study,education,learn,gre,study,online,coursepack': 'Education',
+  'job,career,work,internship,resume,interview,hiring,faang,scholars,workology': 'Work',
+  'finance,money,invest,investing,bank,stashaway,moneysmart': 'Finance',
+  'travel,trip,booking,visa,airlines,expedia,tripadvisor,lonelyplanet': 'Travel',
+  'food,recipe,restaurant,cafe,tasteatlas,asianfood': 'Food',
+  'health,wellness,workout,fitness,meditation,moh,coronavirus,covid': 'Health',
+  'write,writing,essay,blog,ship30,quillbot,paraphrase': 'Writing',
+  'book,books,press,storygraph,perlego': 'Books',
+  'research,scholar,arxiv,dblp,semantic,acm,cite,proxy': 'Research',
+  'shop,shopping,retail,yelp,herman,perch,tonito': 'Shopping',
+  'movie,film,mubi,tubi,criterion,tmdb': 'Entertainment',
+  'news,media,print,vox,wired,theverge,techcrunch': 'News',
+  'spiritual,gita,ra,law of one,lion': 'Spirituality',
+};
+
+function categorize(raw: Bookmark[]): Bookmark[] {
+  // deep copy so we don't mutate the original rawBookmarks
+  const copy = JSON.parse(JSON.stringify(raw)) as Bookmark[];
+
+  // separate folders (nodes without url) and loose leaves (nodes with url)
+  const folders: Bookmark[] = copy.filter((n) => !n.url) as Bookmark[];
+  const leaves: Bookmark[] = copy.filter((n) => !!n.url) as Bookmark[];
+
+  for (const leaf of leaves) {
+    const text = ((leaf.name || '') + ' ' + (leaf.url || '')).toLowerCase();
+    let placed = false;
+
+    // try keyword-based folder mapping
+    for (const key of Object.keys(keywordToFolder)) {
+      const kws = key.split(',');
+      if (kws.some((kw) => kw && text.includes(kw))) {
+        const folderName = keywordToFolder[key];
+        const folder = findFolderByName(folders, folderName);
+        if (folder) {
+          folder.children = folder.children || [];
+          folder.children.push(leaf);
+          placed = true;
+          break;
+        }
+      }
+    }
+
+    if (placed) continue;
+
+    // fallback: try to match by presence of known folder names in title/url
+    const fallbackNames = ['Technology','Education','Work','Career','Finance','Travel','Food','Health','Writing','Books','Research','Entertainment','Shopping','Social','Spirituality','Sports','Productivity','News','Life'];
+    for (const fn of fallbackNames) {
+      if (text.includes(fn.toLowerCase())) {
+        const folder = findFolderByName(folders, fn);
+        if (folder) {
+          folder.children = folder.children || [];
+          folder.children.push(leaf);
+          placed = true;
+          break;
+        }
+      }
+    }
+
+    // final fallback: add to (or create) 'Uncategorized'
+    if (!placed) {
+      let unc = folders.find((f) => f.name === 'Uncategorized');
+      if (!unc) {
+        unc = {id: 'uncategorized', name: 'Uncategorized', children: []};
+        folders.push(unc);
+      }
+      unc.children = unc.children || [];
+      unc.children.push(leaf);
+    }
+  }
+
+  return folders;
+}
+
+export const bookmarks: Bookmark[] = categorize(rawBookmarks);
+
