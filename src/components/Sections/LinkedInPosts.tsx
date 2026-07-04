@@ -1,4 +1,5 @@
 import {FC, memo} from 'react';
+
 import {linkedInPosts, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 
@@ -12,16 +13,16 @@ const LinkedInPosts: FC = memo(() => {
             const {url, title} = post;
 
             return (
-              <div key={url} className="overflow-hidden rounded-lg bg-black/20">
+              <div className="overflow-hidden rounded-lg bg-black/20" key={url}>
                 <div className="relative w-full aspect-[4/5]">
                   <iframe
-                    src={url}
-                    title={title}
+                    allowFullScreen
                     className="absolute inset-0 h-full w-full border-0"
                     loading="lazy"
-                    sandbox="allow-scripts allow-same-origin allow-popups"
                     referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
+                    sandbox="allow-scripts allow-same-origin allow-popups"
+                    src={url}
+                    title={title}
                   />
                 </div>
               </div>

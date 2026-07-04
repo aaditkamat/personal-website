@@ -152,11 +152,8 @@ export interface LinkedInPost {
 }
 
 export interface Bookmark {
-  href: string;
-  title: string;
-}
-
-export interface BookmarkCategory {
+  id: string;
   name: string;
-  bookmarks: Bookmark[];
+  url?: string | null;
+  children?: Bookmark[] | null;
 }
