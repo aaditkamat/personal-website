@@ -157,3 +157,7 @@ export interface Bookmark {
   url?: string | null;
   children?: Bookmark[] | null;
 }
+
+export interface BookmarkNode {
+
+}
