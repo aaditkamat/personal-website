@@ -3233,11 +3233,6 @@ export const bookmarks: Bookmark[] = [
     ],
   },
   {
-    id: '528',
-    name: 'I Drive Safely – Existing Student Login Page – Student Sign In',
-    url: 'https://www.idrivesafely.com/login/',
-  },
-  {
     id: '529',
     name: 'Chapter 1 | Gita For Daily Living',
     url: 'https://neilbhatt.podbean.com/category/chapter-1',
