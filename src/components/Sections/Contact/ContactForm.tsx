@@ -3,7 +3,6 @@ import {FC, memo, useCallback, useMemo, useState} from 'react';
 import {contact} from '../../../data/data';
 
 interface FormData {
-  name: string;
   subject: string;
   message: string;
 }
@@ -47,9 +46,16 @@ const ContactForm: FC = memo(() => {
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
 
   return (
-    <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
-      <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
-      <input className={inputClasses} name="subject" onChange={onChange} placeholder="Subject" required />
+    <form className="grid min-h-[200px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
+      <input
+        autoComplete="email"
+        className={inputClasses}
+        name="email"
+        onChange={onChange}
+        placeholder="Email"
+        required
+        type="email"
+      />
       <textarea
         className={inputClasses}
         maxLength={250}
