@@ -102,7 +102,7 @@ const YEARS_IN_MS = 365.25 * 24 * 60 * 60 * 1000;
 const ageInYears = Math.floor((Date.now() - Date.parse(birthDate)) / YEARS_IN_MS);
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hey there! As a seasoned full-stack developer with over 2 years of experience, I've had the opportunity to work across various technical domains within the IT sector, including test automation, mobile and web application development, and data analytics. Currently, I'm working on enterprise-level Java projects for a Government Client at Tata Consultancy Services.
+  description: `Hey there! As a seasoned full-stack developer with over 3 years of experience, I've had the opportunity to work across various technical domains within the IT sector, including test automation, mobile and web application development, and data analytics. Currently, I'm working on enterprise-level Java projects for a Government Client at Tata Consultancy Services.
   Before starting my career afresh in Singapore, I earned a Master's in Information Systems from the University of Florida. My graduate studies equipped me with core competencies in data analytics and provided a comprehensive understanding of how businesses can leverage data and systems to drive success.
   I feel fulfilled when I apply my technical expertise to address critical business problems: whether it's developing a mobile app for a Miami-based environmental non-profit to educate residents on recycling initiatives or creating a dashboard for a Virginia-based non-profit to showcase energy-saving KPIs to its stakeholders.`,
   aboutItems: [
