@@ -1,8 +1,9 @@
 import {FC, memo, useCallback, useMemo, useState} from 'react';
+import { contact } from '../../../data/data';
 
 interface FormData {
   name: string;
-  email: string;
+  subject: string;
   message: string;
 }
 
@@ -10,7 +11,7 @@ const ContactForm: FC = memo(() => {
   const defaultData = useMemo(
     () => ({
       name: '',
-      email: '',
+      subject: '',
       message: '',
     }),
     [],
@@ -32,10 +33,8 @@ const ContactForm: FC = memo(() => {
   const handleSendMessage = useCallback(
     async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
-      console.log('Data to send: ', data);
+      // open default mail client to email in contact form without opening a new tab
+      window.open(`mailto:${contact.items[0].text}?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(data.message)}`, '_self');
     },
     [data],
   );
@@ -47,13 +46,11 @@ const ContactForm: FC = memo(() => {
     <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
       <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
       <input
-        autoComplete="email"
         className={inputClasses}
-        name="email"
+        name="subject"
         onChange={onChange}
-        placeholder="Email"
+        placeholder="Subject"
         required
-        type="email"
       />
       <textarea
         className={inputClasses}
