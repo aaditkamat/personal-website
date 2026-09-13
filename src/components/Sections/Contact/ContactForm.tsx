@@ -1,5 +1,6 @@
 import {FC, memo, useCallback, useMemo, useState} from 'react';
-import { contact } from '../../../data/data';
+
+import {contact} from '../../../data/data';
 
 interface FormData {
   name: string;
@@ -34,7 +35,10 @@ const ContactForm: FC = memo(() => {
     async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
       // open default mail client to email in contact form without opening a new tab
-      window.open(`mailto:${contact.items[0].text}?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(data.message)}`, '_self');
+      window.open(
+        `mailto:${contact.items[0].text}?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(data.message)}`,
+        '_self',
+      );
     },
     [data],
   );
@@ -45,13 +49,7 @@ const ContactForm: FC = memo(() => {
   return (
     <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
       <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
-      <input
-        className={inputClasses}
-        name="subject"
-        onChange={onChange}
-        placeholder="Subject"
-        required
-      />
+      <input className={inputClasses} name="subject" onChange={onChange} placeholder="Subject" required />
       <textarea
         className={inputClasses}
         maxLength={250}

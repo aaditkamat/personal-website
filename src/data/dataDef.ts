@@ -158,6 +158,4 @@ export interface Bookmark {
   children?: Bookmark[] | null;
 }
 
-export interface BookmarkNode {
-
-}
+export interface BookmarkNode {}
