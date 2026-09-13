@@ -428,8 +428,31 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Anil Arora, Delivery Head of Tata Consultancy Services APAC Public Services commending our team for the effort on an application revamp',
-      text: `I just wanted to take a moment to acknowledge and truly appreciate the outstanding work everyone has put into this (Government project). Completing such a challenging task, especially considering
+      name: 'Zhao Jin, Senior Lecturer at National University of Singapore',
+
+      text: `Dear Aadit Rahul Kamat,
+      On behalf of the organizing team, I would like to thank you for volunteering to support NUS
+      Orbital 26 (a.k.a. CP2106: Independent Software Development Project) as a mentor for three
+      of the top-level project teams and a judge for the Judge’s Choice Award. You have
+      played an important role in nurturing the next generation of software engineers.
+
+      Together with fellow mentors, you have inspired Orbital students throughout the programme.
+      Your engagement with the participants, especially the feedback and encouragement that you
+      have given, was vital to their learning experiences.
+
+      Together with fellow judges, you have helped to recognize the outstanding achievements of the
+      Orbital students. This is not only a strong encouragement for the winners but also a strong
+      motivator for the others to further improve themselves.
+
+      I hope that you will continue to share your valuable knowledge and expertise with aspiring student
+      software engineers in future iterations of Orbital.
+
+      Thank you.`,
+      image: 'https://res.cloudinary.com/dixfcmuuj/image/upload/v1789304881/1756365034762_scnaub.jpg',
+    },
+    {
+      name: 'Anil Arora, Delivery Head of Tata Consultancy Services APAC Public Services',
+      text: `I just wanted to take a moment to acknowledge and truly appreciate the outstanding work everyone has put into the application modernization project. Completing such a challenging task, especially considering
       the technical hurdles and timelines, is a testament to the team's dedication and collaboration.
 
       Thank you all for your relentless drive and for consistently rising to the occasion. Your perseverance and expertise are what make these successes possible. Keep up the excellent work, it's inspiring to see what we can accomplish together.`,
