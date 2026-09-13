@@ -11,6 +11,6 @@ jobs:
         uses: treosh/lighthouse-ci-action@v12
         with:
           urls: |
-            https://www.aaditkamat.dev
+            https://aaditkamat.com
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: false # keep lighthouse report private; do not upload to public temporary storage
