@@ -48,13 +48,11 @@ const ContactForm: FC = memo(() => {
   return (
     <form className="grid min-h-[200px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
       <input
-        autoComplete="email"
         className={inputClasses}
-        name="email"
+        name="subject"
         onChange={onChange}
-        placeholder="Email"
+        placeholder="Subject"
         required
-        type="email"
       />
       <textarea
         className={inputClasses}
