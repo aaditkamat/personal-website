@@ -541,17 +541,17 @@ export const socialLinks: Social[] = [
  */
 export const linkedInPosts: LinkedInPost[] = [
   {
-    url: 'https://www.linkedin.com/embed/feed/update/urn:li:share:7193707854757806080',
-    title: 'Inaugural AIS Case Competition',
+    url: 'https://www.linkedin.com/embed/feed/update/urn:li:activity:7486416878949556224',
+    title: 'TCS AI Immersion event in collaboration with Yayasan Mendaki',
   },
   {
-    url: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7407957930207072256',
-    title: 'Rise 2.0 BCG Final Presentation',
+    url: 'https://www.linkedin.com/embed/feed/update/urn:li:activity:7499853555600719872',
+    title: 'Mentorship for NUS Orbital 2026 Programme',
   },
   {
-    url: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7304481996905349120',
-    title: 'LEAP Portal Presentation at the Student Sustainability Summit',
-  },
+    url: 'https://www.linkedin.com/embed/feed/update/urn:li:activity:7501239180820393984',
+    title: 'Networking Session as NYC Mentor',
+  }
 ];
 
 /**
