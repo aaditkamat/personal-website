@@ -502,8 +502,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'aaditkmt@gmail.com',
-      href: 'mailto:aaditkmt@gmail.com',
+      text: 'playful_gambit0f@icloud.com',
+      href: 'mailto:playful_gambit0f@icloud.com',
     },
     {
       type: ContactType.Location,
