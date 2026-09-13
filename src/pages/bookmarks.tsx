@@ -1,6 +1,6 @@
 import {FC, memo} from 'react';
-import {Tree, NodeRendererProps } from 'react-arborist';
-import {FaFolder,FaTree} from 'react-icons/fa6';
+import {NodeRendererProps,Tree} from 'react-arborist';
+import {FaFolder, FaTree} from 'react-icons/fa6';
 
 import Page from '../components/Layout/Page';
 import {bookmarks} from '../data/data';

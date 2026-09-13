@@ -574,7 +574,7 @@ export const linkedInPosts: LinkedInPost[] = [
   {
     url: 'https://www.linkedin.com/embed/feed/update/urn:li:activity:7501239180820393984',
     title: 'Networking Session as NYC Mentor',
-  }
+  },
 ];
 
 /**
@@ -3584,7 +3584,8 @@ function findFolderByName(nodes: Bookmark[] | undefined, targetName: string): Bo
 }
 
 const keywordToFolder: {[keywords: string]: string} = {
-  'tech,developer,github,python,javascript,react,node,programming,dev,software,ai,openai,chatgpt,model,generator,kali,security': 'Technology',
+  'tech,developer,github,python,javascript,react,node,programming,dev,software,ai,openai,chatgpt,model,generator,kali,security':
+    'Technology',
   'learn,course,university,study,education,learn,gre,study,online,coursepack': 'Education',
   'job,career,work,internship,resume,interview,hiring,faang,scholars,workology': 'Work',
   'finance,money,invest,investing,bank,stashaway,moneysmart': 'Finance',
@@ -3605,8 +3606,8 @@ function categorize(raw: Bookmark[]): Bookmark[] {
   const copy = JSON.parse(JSON.stringify(raw)) as Bookmark[];
 
   // separate folders (nodes without url) and loose leaves (nodes with url)
-  const folders: Bookmark[] = copy.filter((n) => !n.url) as Bookmark[];
-  const leaves: Bookmark[] = copy.filter((n) => !!n.url) as Bookmark[];
+  const folders: Bookmark[] = copy.filter(n => !n.url) as Bookmark[];
+  const leaves: Bookmark[] = copy.filter(n => !!n.url) as Bookmark[];
 
   for (const leaf of leaves) {
     const text = ((leaf.name || '') + ' ' + (leaf.url || '')).toLowerCase();
@@ -3615,7 +3616,7 @@ function categorize(raw: Bookmark[]): Bookmark[] {
     // try keyword-based folder mapping
     for (const key of Object.keys(keywordToFolder)) {
       const kws = key.split(',');
-      if (kws.some((kw) => kw && text.includes(kw))) {
+      if (kws.some(kw => kw && text.includes(kw))) {
         const folderName = keywordToFolder[key];
         const folder = findFolderByName(folders, folderName);
         if (folder) {
@@ -3630,7 +3631,27 @@ function categorize(raw: Bookmark[]): Bookmark[] {
     if (placed) continue;
 
     // fallback: try to match by presence of known folder names in title/url
-    const fallbackNames = ['Technology','Education','Work','Career','Finance','Travel','Food','Health','Writing','Books','Research','Entertainment','Shopping','Social','Spirituality','Sports','Productivity','News','Life'];
+    const fallbackNames = [
+      'Technology',
+      'Education',
+      'Work',
+      'Career',
+      'Finance',
+      'Travel',
+      'Food',
+      'Health',
+      'Writing',
+      'Books',
+      'Research',
+      'Entertainment',
+      'Shopping',
+      'Social',
+      'Spirituality',
+      'Sports',
+      'Productivity',
+      'News',
+      'Life',
+    ];
     for (const fn of fallbackNames) {
       if (text.includes(fn.toLowerCase())) {
         const folder = findFolderByName(folders, fn);
@@ -3645,7 +3666,7 @@ function categorize(raw: Bookmark[]): Bookmark[] {
 
     // final fallback: add to (or create) 'Uncategorized'
     if (!placed) {
-      let unc = folders.find((f) => f.name === 'Uncategorized');
+      let unc = folders.find(f => f.name === 'Uncategorized');
       if (!unc) {
         unc = {id: 'uncategorized', name: 'Uncategorized', children: []};
         folders.push(unc);
@@ -3659,4 +3680,3 @@ function categorize(raw: Bookmark[]): Bookmark[] {
 }
 
 export const bookmarks: Bookmark[] = categorize(rawBookmarks);
-
